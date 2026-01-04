@@ -1,0 +1,132 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+.virtualenv
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Data files (large datasets)
+data/sample/**/*.csv
+data/clean/**/*.csv
+*.csv
+
+# Keep directory structure but ignore CSV files
+!data/sample/.gitkeep
+!data/clean/.gitkeep
+
+# Generated outputs
+figures/*.pdf
+figures/*.png
+tables/*.xlsx
+*.png
+*.pdf
+*.xlsx
+
+# Keep directories
+!figures/.gitkeep
+!tables/.gitkeep
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Model files
+*.pkl
+*.pickle
+*.h5
+*.model
+*.joblib
+
+# Logs
+*.log
+logs/
+*.out
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Airflow
+airflow.cfg
+airflow.db
+airflow-webserver.pid
+logs/
+*.log
+
+# Project specific
+model_results.txt
+feature_importance.png
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.cache
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# Distribution / packaging
+.Python
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/

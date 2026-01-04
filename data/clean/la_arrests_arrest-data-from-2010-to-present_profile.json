@@ -1,0 +1,94 @@
+{
+  "n_rows": 1270905,
+  "n_cols": 22,
+  "columns": {
+    "incident_id": {
+      "dtype": "object",
+      "null_pct": 0.0
+    },
+    "case_number": {
+      "dtype": "object",
+      "null_pct": 0.0
+    },
+    "incident_datetime": {
+      "dtype": "datetime64[ns]",
+      "null_pct": 0.0
+    },
+    "updated_on": {
+      "dtype": "datetime64[ns]",
+      "null_pct": 0.0
+    },
+    "block_address": {
+      "dtype": "object",
+      "null_pct": 0.0
+    },
+    "crime_category": {
+      "dtype": "object",
+      "null_pct": 6.67
+    },
+    "crime_subtype": {
+      "dtype": "object",
+      "null_pct": 6.63
+    },
+    "arrest_made": {
+      "dtype": "bool",
+      "null_pct": 0.0
+    },
+    "district": {
+      "dtype": "Int64",
+      "null_pct": 0.0
+    },
+    "iucr_code": {
+      "dtype": "object",
+      "null_pct": 0.0
+    },
+    "location_type": {
+      "dtype": "object",
+      "null_pct": 0.0
+    },
+    "domestic_flag": {
+      "dtype": "object",
+      "null_pct": 100.0
+    },
+    "beat": {
+      "dtype": "Int64",
+      "null_pct": 100.0
+    },
+    "ward": {
+      "dtype": "Int64",
+      "null_pct": 100.0
+    },
+    "community_area": {
+      "dtype": "Int64",
+      "null_pct": 100.0
+    },
+    "fbi_code": {
+      "dtype": "object",
+      "null_pct": 0.0
+    },
+    "x_coord": {
+      "dtype": "float64",
+      "null_pct": 100.0
+    },
+    "y_coord": {
+      "dtype": "float64",
+      "null_pct": 100.0
+    },
+    "year": {
+      "dtype": "Int64",
+      "null_pct": 0.0
+    },
+    "latitude": {
+      "dtype": "float64",
+      "null_pct": 100.0
+    },
+    "longitude": {
+      "dtype": "float64",
+      "null_pct": 100.0
+    },
+    "location_point": {
+      "dtype": "object",
+      "null_pct": 0.0
+    }
+  }
+}

@@ -1,0 +1,352 @@
+{
+  "radio_codes": [
+    {
+      "code": "10-25",
+      "description": "RESPOND AS BACKUP"
+    },
+    {
+      "code": "400",
+      "description": "Demonstration/Pickets"
+    },
+    {
+      "code": "588",
+      "description": "Driveway Violation"
+    },
+    {
+      "code": "913",
+      "description": "Unknown type of complaint (M=tied event)"
+    },
+    {
+      "code": "404",
+      "description": "Riot"
+    },
+    {
+      "code": "594",
+      "description": "Malicious Mischief/Vandalism"
+    },
+    {
+      "code": "914",
+      "description": "Person down"
+    },
+    {
+      "code": "10-28",
+      "description": "Vehicle registration information"
+    },
+    {
+      "code": "405",
+      "description": "Citizen holding a prisoner"
+    },
+    {
+      "code": "595",
+      "description": "Malicious Mischief/Graffiti"
+    },
+    {
+      "code": "915",
+      "description": "Homeless  related call for service"
+    },
+    {
+      "code": "10-29",
+      "description": "Warrant/Record/Vehicle Check"
+    },
+    {
+      "code": "406",
+      "description": "OFFICER NEEDS EMERGENCY HELP"
+    },
+    {
+      "code": "596",
+      "description": "Abandoned Vehicle"
+    },
+    {
+      "code": "916",
+      "description": "Suspicious person in a vehicle"
+    },
+    {
+      "code": "10-30",
+      "description": "Stolen Vehicle/Wanted Person"
+    },
+    {
+      "code": "407",
+      "description": "Prisoner Transportation"
+    },
+    {
+      "code": "600",
+      "description": "Roadblock"
+    },
+    {
+      "code": "917",
+      "description": "Suspicious person"
+    },
+    {
+      "code": "10-31",
+      "description": "Person has an arrest record"
+    },
+    {
+      "code": "408",
+      "description": "Ambulance"
+    },
+    {
+      "code": "601",
+      "description": "Trespasser"
+    },
+    {
+      "code": "918",
+      "description": "Person yelling/screaming for help"
+    },
+    {
+      "code": "10-32",
+      "description": "Person or vehicle is not wanted"
+    },
+    {
+      "code": "409",
+      "description": "Tow Truck"
+    },
+    {
+      "code": "602",
+      "description": "Person breaking in"
+    },
+    {
+      "code": "919",
+      "description": "Sitting or Lying on Public Sidewalks"
+    },
+    {
+      "code": "10-34",
+      "description": "Confidential information follows"
+    },
+    {
+      "code": "410",
+      "description": "Requested assistance responding"
+    },
+    {
+      "code": "603",
+      "description": "Prowler"
+    },
+    {
+      "code": "920",
+      "description": "Aggressive Solicting"
+    },
+    {
+      "code": "10-35",
+      "description": "Person must consent to search"
+    },
+    {
+      "code": "415",
+      "description": "Noise Complaint/Disturbing the Peace"
+    },
+    {
+      "code": "646",
+      "description": "Stalking"
+    },
+    {
+      "code": "1000",
+      "description": "Escape from JJC"
+    },
+    {
+      "code": "10-36",
+      "description": "Emergency notification"
+    },
+    {
+      "code": "416",
+      "description": "Citizen Standby"
+    },
+    {
+      "code": "647B",
+      "description": "Prostitute"
+    },
+    {
+      "code": "CODE 3",
+      "description": "EMERGENCY RESPONSE"
+    },
+    {
+      "code": "10-43",
+      "description": "Of interest to Special Investigations"
+    },
+    {
+      "code": "417",
+      "description": "Person ringing doorbells"
+    },
+    {
+      "code": "650",
+      "description": "Threats"
+    }
+  ],
+  "dispositions": [
+    {
+      "code": "ABA",
+      "description": "Abated"
+    },
+    {
+      "code": "ADM",
+      "description": "Admonished"
+    },
+    {
+      "code": "ADV",
+      "description": "Advised"
+    },
+    {
+      "code": "ARR",
+      "description": "Arrest"
+    },
+    {
+      "code": "CAN",
+      "description": "Cancel"
+    },
+    {
+      "code": "CSA",
+      "description": "CPSA assignment"
+    },
+    {
+      "code": "CIT",
+      "description": "Cited"
+    },
+    {
+      "code": "CRM",
+      "description": "Criminal Activation"
+    },
+    {
+      "code": "GOA",
+      "description": "Gone on Arrival"
+    },
+    {
+      "code": "HAN",
+      "description": "Handled"
+    },
+    {
+      "code": "NCR",
+      "description": "Non-Criminal"
+    },
+    {
+      "code": "ND",
+      "description": "No Disposition"
+    },
+    {
+      "code": "NOM",
+      "description": "No Merit"
+    },
+    {
+      "code": "PAS",
+      "description": "Premises Appears Secure"
+    },
+    {
+      "code": "REP",
+      "description": "Report"
+    },
+    {
+      "code": "SFD",
+      "description": "SFFD Medical Staff Engaged"
+    },
+    {
+      "code": "UTL",
+      "description": "Unable to Locate"
+    },
+    {
+      "code": "VAS",
+      "description": "Vehicle Appears Secure"
+    }
+  ],
+  "modifiers": [
+    {
+      "modifier": "RED",
+      "meaning": "Felony want or record"
+    },
+    {
+      "modifier": "A",
+      "meaning": "Audible"
+    },
+    {
+      "modifier": "J",
+      "meaning": "Juvenile"
+    },
+    {
+      "modifier": "L",
+      "meaning": "Logged/Advised Call"
+    },
+    {
+      "modifier": "S",
+      "meaning": "Silent or Shot Spotter"
+    },
+    {
+      "modifier": "X",
+      "meaning": "Female"
+    },
+    {
+      "modifier": "CA",
+      "meaning": "Child Abuse"
+    },
+    {
+      "modifier": "DV",
+      "meaning": "Domestic Violence"
+    },
+    {
+      "modifier": "EA",
+      "meaning": "Elder Abuse"
+    },
+    {
+      "modifier": "CR",
+      "meaning": "Crisis Intervention Team Response"
+    }
+  ],
+  "priorities": [
+    {
+      "priority": "A",
+      "meaning": "Crimes In Progress-Code 3"
+    },
+    {
+      "priority": "B",
+      "meaning": "Crimes that Just Occurred-Code 2"
+    },
+    {
+      "priority": "C",
+      "meaning": "Crimes that are Cold-@ Convenience"
+    },
+    {
+      "priority": "I",
+      "meaning": "Informational Calls-Not Dispatched"
+    }
+  ],
+  "sheriff_codes": [
+    {
+      "code": "10-6C",
+      "description": "Home Check"
+    },
+    {
+      "code": "10-6E",
+      "description": "EOD/EDD (Explosive Detection Dog)"
+    },
+    {
+      "code": "10-6F",
+      "description": "Financial Institutions"
+    },
+    {
+      "code": "10-6H",
+      "description": "Detailed to Hospital"
+    },
+    {
+      "code": "10-6K",
+      "description": "Keepers"
+    },
+    {
+      "code": "10-6M",
+      "description": "Miscellaneous Civil Processes"
+    },
+    {
+      "code": "10-6N",
+      "description": "Narcotics"
+    },
+    {
+      "code": "10-6P",
+      "description": "Postings"
+    },
+    {
+      "code": "10-6T",
+      "description": "TRO (Temporary Restraining Orders)"
+    },
+    {
+      "code": "10-6V",
+      "description": "Evictions"
+    },
+    {
+      "code": "10-6W",
+      "description": "Warrants"
+    }
+  ]
+}
