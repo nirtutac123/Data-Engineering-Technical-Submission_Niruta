@@ -130,3 +130,7 @@ sdist/
 var/
 wheels/
 share/python-wheels/
+# Exclude very large datasets (GitHub >100MB limit)
+data/raw_external/Chicago_Crimes_2012_to_2017.csv
+data/raw_external/crime-data-from-2010-to-present.csv
+data/raw_external/police-department-incidents.csv

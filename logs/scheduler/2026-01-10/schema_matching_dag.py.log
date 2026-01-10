@@ -3910,3 +3910,101 @@
 [2026-01-10T17:48:24.680+0000] {logging_mixin.py:188} INFO - [2026-01-10T17:48:24.680+0000] {dag.py:3033} INFO - Sync 1 DAGs
 [2026-01-10T17:48:24.707+0000] {logging_mixin.py:188} INFO - [2026-01-10T17:48:24.707+0000] {dag.py:3820} INFO - Setting next_dagrun for schema_matching_pipeline to None, run_after=None
 [2026-01-10T17:48:24.749+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/schema_matching_dag.py took 0.280 seconds
+[2026-01-10T17:50:27.230+0000] {processor.py:161} INFO - Started process (PID=1447) to work on /opt/airflow/dags/schema_matching_dag.py
+[2026-01-10T17:50:27.232+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/schema_matching_dag.py for tasks to queue
+[2026-01-10T17:50:27.234+0000] {logging_mixin.py:188} INFO - [2026-01-10T17:50:27.234+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/schema_matching_dag.py
+[2026-01-10T17:50:27.285+0000] {processor.py:840} INFO - DAG(s) 'schema_matching_pipeline' retrieved from /opt/airflow/dags/schema_matching_dag.py
+[2026-01-10T17:50:27.360+0000] {logging_mixin.py:188} INFO - [2026-01-10T17:50:27.359+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-10T17:50:27.390+0000] {logging_mixin.py:188} INFO - [2026-01-10T17:50:27.390+0000] {dag.py:3820} INFO - Setting next_dagrun for schema_matching_pipeline to None, run_after=None
+[2026-01-10T17:50:27.446+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/schema_matching_dag.py took 0.224 seconds
+[2026-01-10T17:50:57.756+0000] {processor.py:161} INFO - Started process (PID=1458) to work on /opt/airflow/dags/schema_matching_dag.py
+[2026-01-10T17:50:57.759+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/schema_matching_dag.py for tasks to queue
+[2026-01-10T17:50:57.761+0000] {logging_mixin.py:188} INFO - [2026-01-10T17:50:57.760+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/schema_matching_dag.py
+[2026-01-10T17:50:57.819+0000] {processor.py:840} INFO - DAG(s) 'schema_matching_pipeline' retrieved from /opt/airflow/dags/schema_matching_dag.py
+[2026-01-10T17:50:57.904+0000] {logging_mixin.py:188} INFO - [2026-01-10T17:50:57.904+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-10T17:50:57.932+0000] {logging_mixin.py:188} INFO - [2026-01-10T17:50:57.932+0000] {dag.py:3820} INFO - Setting next_dagrun for schema_matching_pipeline to None, run_after=None
+[2026-01-10T17:50:57.978+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/schema_matching_dag.py took 0.229 seconds
+[2026-01-10T17:51:28.938+0000] {processor.py:161} INFO - Started process (PID=1469) to work on /opt/airflow/dags/schema_matching_dag.py
+[2026-01-10T17:51:28.941+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/schema_matching_dag.py for tasks to queue
+[2026-01-10T17:51:28.945+0000] {logging_mixin.py:188} INFO - [2026-01-10T17:51:28.943+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/schema_matching_dag.py
+[2026-01-10T17:51:29.043+0000] {processor.py:840} INFO - DAG(s) 'schema_matching_pipeline' retrieved from /opt/airflow/dags/schema_matching_dag.py
+[2026-01-10T17:51:29.178+0000] {logging_mixin.py:188} INFO - [2026-01-10T17:51:29.177+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-10T17:51:29.221+0000] {logging_mixin.py:188} INFO - [2026-01-10T17:51:29.221+0000] {dag.py:3820} INFO - Setting next_dagrun for schema_matching_pipeline to None, run_after=None
+[2026-01-10T17:51:29.264+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/schema_matching_dag.py took 0.338 seconds
+[2026-01-10T17:51:59.796+0000] {processor.py:161} INFO - Started process (PID=1486) to work on /opt/airflow/dags/schema_matching_dag.py
+[2026-01-10T17:51:59.799+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/schema_matching_dag.py for tasks to queue
+[2026-01-10T17:51:59.801+0000] {logging_mixin.py:188} INFO - [2026-01-10T17:51:59.800+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/schema_matching_dag.py
+[2026-01-10T17:51:59.857+0000] {processor.py:840} INFO - DAG(s) 'schema_matching_pipeline' retrieved from /opt/airflow/dags/schema_matching_dag.py
+[2026-01-10T17:51:59.926+0000] {logging_mixin.py:188} INFO - [2026-01-10T17:51:59.925+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-10T17:51:59.948+0000] {logging_mixin.py:188} INFO - [2026-01-10T17:51:59.948+0000] {dag.py:3820} INFO - Setting next_dagrun for schema_matching_pipeline to None, run_after=None
+[2026-01-10T17:51:59.987+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/schema_matching_dag.py took 0.201 seconds
+[2026-01-10T17:52:30.531+0000] {processor.py:161} INFO - Started process (PID=1497) to work on /opt/airflow/dags/schema_matching_dag.py
+[2026-01-10T17:52:30.533+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/schema_matching_dag.py for tasks to queue
+[2026-01-10T17:52:30.535+0000] {logging_mixin.py:188} INFO - [2026-01-10T17:52:30.535+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/schema_matching_dag.py
+[2026-01-10T17:52:30.592+0000] {processor.py:840} INFO - DAG(s) 'schema_matching_pipeline' retrieved from /opt/airflow/dags/schema_matching_dag.py
+[2026-01-10T17:52:30.657+0000] {logging_mixin.py:188} INFO - [2026-01-10T17:52:30.657+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-10T17:52:30.687+0000] {logging_mixin.py:188} INFO - [2026-01-10T17:52:30.687+0000] {dag.py:3820} INFO - Setting next_dagrun for schema_matching_pipeline to None, run_after=None
+[2026-01-10T17:52:30.726+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/schema_matching_dag.py took 0.215 seconds
+[2026-01-10T17:53:00.892+0000] {processor.py:161} INFO - Started process (PID=1508) to work on /opt/airflow/dags/schema_matching_dag.py
+[2026-01-10T17:53:00.895+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/schema_matching_dag.py for tasks to queue
+[2026-01-10T17:53:00.897+0000] {logging_mixin.py:188} INFO - [2026-01-10T17:53:00.896+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/schema_matching_dag.py
+[2026-01-10T17:53:00.970+0000] {processor.py:840} INFO - DAG(s) 'schema_matching_pipeline' retrieved from /opt/airflow/dags/schema_matching_dag.py
+[2026-01-10T17:53:01.054+0000] {logging_mixin.py:188} INFO - [2026-01-10T17:53:01.053+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-10T17:53:01.091+0000] {logging_mixin.py:188} INFO - [2026-01-10T17:53:01.090+0000] {dag.py:3820} INFO - Setting next_dagrun for schema_matching_pipeline to None, run_after=None
+[2026-01-10T17:53:01.150+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/schema_matching_dag.py took 0.265 seconds
+[2026-01-10T17:53:32.314+0000] {processor.py:161} INFO - Started process (PID=1524) to work on /opt/airflow/dags/schema_matching_dag.py
+[2026-01-10T17:53:32.316+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/schema_matching_dag.py for tasks to queue
+[2026-01-10T17:53:32.319+0000] {logging_mixin.py:188} INFO - [2026-01-10T17:53:32.318+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/schema_matching_dag.py
+[2026-01-10T17:53:32.426+0000] {processor.py:840} INFO - DAG(s) 'schema_matching_pipeline' retrieved from /opt/airflow/dags/schema_matching_dag.py
+[2026-01-10T17:53:32.561+0000] {logging_mixin.py:188} INFO - [2026-01-10T17:53:32.560+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-10T17:53:32.592+0000] {logging_mixin.py:188} INFO - [2026-01-10T17:53:32.591+0000] {dag.py:3820} INFO - Setting next_dagrun for schema_matching_pipeline to None, run_after=None
+[2026-01-10T17:53:32.636+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/schema_matching_dag.py took 0.337 seconds
+[2026-01-10T17:54:03.393+0000] {processor.py:161} INFO - Started process (PID=1540) to work on /opt/airflow/dags/schema_matching_dag.py
+[2026-01-10T17:54:03.396+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/schema_matching_dag.py for tasks to queue
+[2026-01-10T17:54:03.399+0000] {logging_mixin.py:188} INFO - [2026-01-10T17:54:03.398+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/schema_matching_dag.py
+[2026-01-10T17:54:03.460+0000] {processor.py:840} INFO - DAG(s) 'schema_matching_pipeline' retrieved from /opt/airflow/dags/schema_matching_dag.py
+[2026-01-10T17:54:03.531+0000] {logging_mixin.py:188} INFO - [2026-01-10T17:54:03.531+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-10T17:54:03.563+0000] {logging_mixin.py:188} INFO - [2026-01-10T17:54:03.562+0000] {dag.py:3820} INFO - Setting next_dagrun for schema_matching_pipeline to None, run_after=None
+[2026-01-10T17:54:03.615+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/schema_matching_dag.py took 0.245 seconds
+[2026-01-10T17:54:34.019+0000] {processor.py:161} INFO - Started process (PID=1556) to work on /opt/airflow/dags/schema_matching_dag.py
+[2026-01-10T17:54:34.024+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/schema_matching_dag.py for tasks to queue
+[2026-01-10T17:54:34.028+0000] {logging_mixin.py:188} INFO - [2026-01-10T17:54:34.026+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/schema_matching_dag.py
+[2026-01-10T17:54:31.549+0000] {processor.py:840} INFO - DAG(s) 'schema_matching_pipeline' retrieved from /opt/airflow/dags/schema_matching_dag.py
+[2026-01-10T17:54:31.668+0000] {logging_mixin.py:188} INFO - [2026-01-10T17:54:31.667+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-10T17:54:31.720+0000] {logging_mixin.py:188} INFO - [2026-01-10T17:54:31.719+0000] {dag.py:3820} INFO - Setting next_dagrun for schema_matching_pipeline to None, run_after=None
+[2026-01-10T17:54:31.781+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/schema_matching_dag.py took 0.472 seconds
+[2026-01-10T17:55:02.793+0000] {processor.py:161} INFO - Started process (PID=1572) to work on /opt/airflow/dags/schema_matching_dag.py
+[2026-01-10T17:55:02.796+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/schema_matching_dag.py for tasks to queue
+[2026-01-10T17:55:02.798+0000] {logging_mixin.py:188} INFO - [2026-01-10T17:55:02.797+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/schema_matching_dag.py
+[2026-01-10T17:55:02.871+0000] {processor.py:840} INFO - DAG(s) 'schema_matching_pipeline' retrieved from /opt/airflow/dags/schema_matching_dag.py
+[2026-01-10T17:55:02.942+0000] {logging_mixin.py:188} INFO - [2026-01-10T17:55:02.942+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-10T17:55:02.974+0000] {logging_mixin.py:188} INFO - [2026-01-10T17:55:02.974+0000] {dag.py:3820} INFO - Setting next_dagrun for schema_matching_pipeline to None, run_after=None
+[2026-01-10T17:55:03.013+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/schema_matching_dag.py took 0.227 seconds
+[2026-01-10T17:55:33.232+0000] {processor.py:161} INFO - Started process (PID=1589) to work on /opt/airflow/dags/schema_matching_dag.py
+[2026-01-10T17:55:33.234+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/schema_matching_dag.py for tasks to queue
+[2026-01-10T17:55:33.236+0000] {logging_mixin.py:188} INFO - [2026-01-10T17:55:33.236+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/schema_matching_dag.py
+[2026-01-10T17:55:33.311+0000] {processor.py:840} INFO - DAG(s) 'schema_matching_pipeline' retrieved from /opt/airflow/dags/schema_matching_dag.py
+[2026-01-10T17:55:33.365+0000] {logging_mixin.py:188} INFO - [2026-01-10T17:55:33.365+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-10T17:55:33.386+0000] {logging_mixin.py:188} INFO - [2026-01-10T17:55:33.386+0000] {dag.py:3820} INFO - Setting next_dagrun for schema_matching_pipeline to None, run_after=None
+[2026-01-10T17:55:33.429+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/schema_matching_dag.py took 0.203 seconds
+[2026-01-10T17:56:03.603+0000] {processor.py:161} INFO - Started process (PID=1605) to work on /opt/airflow/dags/schema_matching_dag.py
+[2026-01-10T17:56:03.606+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/schema_matching_dag.py for tasks to queue
+[2026-01-10T17:56:03.608+0000] {logging_mixin.py:188} INFO - [2026-01-10T17:56:03.607+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/schema_matching_dag.py
+[2026-01-10T17:56:03.664+0000] {processor.py:840} INFO - DAG(s) 'schema_matching_pipeline' retrieved from /opt/airflow/dags/schema_matching_dag.py
+[2026-01-10T17:56:03.728+0000] {logging_mixin.py:188} INFO - [2026-01-10T17:56:03.728+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-10T17:56:03.751+0000] {logging_mixin.py:188} INFO - [2026-01-10T17:56:03.751+0000] {dag.py:3820} INFO - Setting next_dagrun for schema_matching_pipeline to None, run_after=None
+[2026-01-10T17:56:03.797+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/schema_matching_dag.py took 0.200 seconds
+[2026-01-10T17:56:34.299+0000] {processor.py:161} INFO - Started process (PID=1627) to work on /opt/airflow/dags/schema_matching_dag.py
+[2026-01-10T17:56:34.301+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/schema_matching_dag.py for tasks to queue
+[2026-01-10T17:56:34.304+0000] {logging_mixin.py:188} INFO - [2026-01-10T17:56:34.303+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/schema_matching_dag.py
+[2026-01-10T17:56:34.348+0000] {processor.py:840} INFO - DAG(s) 'schema_matching_pipeline' retrieved from /opt/airflow/dags/schema_matching_dag.py
+[2026-01-10T17:56:34.401+0000] {logging_mixin.py:188} INFO - [2026-01-10T17:56:34.401+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-10T17:56:34.427+0000] {logging_mixin.py:188} INFO - [2026-01-10T17:56:34.426+0000] {dag.py:3820} INFO - Setting next_dagrun for schema_matching_pipeline to None, run_after=None
+[2026-01-10T17:56:34.470+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/schema_matching_dag.py took 0.182 seconds
+[2026-01-10T17:57:05.556+0000] {processor.py:161} INFO - Started process (PID=1644) to work on /opt/airflow/dags/schema_matching_dag.py
+[2026-01-10T17:57:05.562+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/schema_matching_dag.py for tasks to queue
+[2026-01-10T17:57:05.565+0000] {logging_mixin.py:188} INFO - [2026-01-10T17:57:05.563+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/schema_matching_dag.py
+[2026-01-10T17:57:05.639+0000] {processor.py:840} INFO - DAG(s) 'schema_matching_pipeline' retrieved from /opt/airflow/dags/schema_matching_dag.py
+[2026-01-10T17:57:05.764+0000] {logging_mixin.py:188} INFO - [2026-01-10T17:57:05.764+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-10T17:57:05.809+0000] {logging_mixin.py:188} INFO - [2026-01-10T17:57:05.809+0000] {dag.py:3820} INFO - Setting next_dagrun for schema_matching_pipeline to None, run_after=None
+[2026-01-10T17:57:05.869+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/schema_matching_dag.py took 0.325 seconds
