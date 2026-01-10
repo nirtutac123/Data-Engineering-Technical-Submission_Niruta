@@ -1,0 +1,23 @@
+[2026-01-10T10:11:46.729+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: schema_matching_pipeline.expand_abbreviations manual__2026-01-10T10:09:52+00:00 [queued]>
+[2026-01-10T10:11:46.742+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: schema_matching_pipeline.expand_abbreviations manual__2026-01-10T10:09:52+00:00 [queued]>
+[2026-01-10T10:11:46.743+0000] {taskinstance.py:2171} INFO - Starting attempt 1 of 2
+[2026-01-10T10:11:46.765+0000] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): expand_abbreviations> on 2026-01-10 10:09:52+00:00
+[2026-01-10T10:11:46.773+0000] {standard_task_runner.py:60} INFO - Started process 1140 to run task
+[2026-01-10T10:11:46.781+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'schema_matching_pipeline', 'expand_abbreviations', 'manual__2026-01-10T10:09:52+00:00', '--job-id', '62', '--raw', '--subdir', 'DAGS_FOLDER/schema_matching_dag.py', '--cfg-path', '/tmp/tmp_7w47qb1']
+[2026-01-10T10:11:46.789+0000] {standard_task_runner.py:88} INFO - Job 62: Subtask expand_abbreviations
+[2026-01-10T10:11:46.931+0000] {task_command.py:423} INFO - Running <TaskInstance: schema_matching_pipeline.expand_abbreviations manual__2026-01-10T10:09:52+00:00 [running]> on host 205f0f24a8e9
+[2026-01-10T10:11:47.164+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-engineer' AIRFLOW_CTX_DAG_ID='schema_matching_pipeline' AIRFLOW_CTX_TASK_ID='expand_abbreviations' AIRFLOW_CTX_EXECUTION_DATE='2026-01-10T10:09:52+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-01-10T10:09:52+00:00'
+[2026-01-10T10:11:47.168+0000] {logging_mixin.py:188} INFO - Expanding abbreviations for chicago...
+[2026-01-10T10:11:48.260+0000] {logging_mixin.py:188} INFO - [OK] Abbreviation-expanded schema saved: data/sample/chicago_schema_expanded.csv
+[INFO] Columns expanded: 3
+[2026-01-10T10:11:48.261+0000] {logging_mixin.py:188} INFO - Expanding abbreviations for sf...
+[2026-01-10T10:11:49.417+0000] {logging_mixin.py:188} INFO - [OK] Abbreviation-expanded schema saved: data/sample/sf_schema_expanded.csv
+[INFO] Columns expanded: 1
+[2026-01-10T10:11:49.418+0000] {logging_mixin.py:188} INFO - Expanding abbreviations for la...
+[2026-01-10T10:11:50.496+0000] {logging_mixin.py:188} INFO - [OK] Abbreviation-expanded schema saved: data/sample/la_schema_expanded.csv
+[INFO] Columns expanded: 0
+[2026-01-10T10:11:50.498+0000] {logging_mixin.py:188} INFO - ✓ Abbreviations expanded in all schemas
+[2026-01-10T10:11:50.499+0000] {python.py:201} INFO - Done. Returned value was: None
+[2026-01-10T10:11:50.515+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=schema_matching_pipeline, task_id=expand_abbreviations, execution_date=20260110T100952, start_date=20260110T101146, end_date=20260110T101150
+[2026-01-10T10:11:50.553+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-01-10T10:11:50.604+0000] {taskinstance.py:3281} INFO - 1 downstream tasks scheduled from follow-on schedule check

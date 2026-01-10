@@ -1,0 +1,53 @@
+[2026-01-10T17:15:28.297+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: schema_matching_pipeline.generate_rq4_figures manual__2026-01-10T17:13:23.822404+00:00 [queued]>
+[2026-01-10T17:15:28.329+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: schema_matching_pipeline.generate_rq4_figures manual__2026-01-10T17:13:23.822404+00:00 [queued]>
+[2026-01-10T17:15:28.332+0000] {taskinstance.py:2171} INFO - Starting attempt 1 of 2
+[2026-01-10T17:15:28.405+0000] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): generate_rq4_figures> on 2026-01-10 17:13:23.822404+00:00
+[2026-01-10T17:15:28.426+0000] {standard_task_runner.py:60} INFO - Started process 490 to run task
+[2026-01-10T17:15:28.439+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'schema_matching_pipeline', 'generate_rq4_figures', 'manual__2026-01-10T17:13:23.822404+00:00', '--job-id', '144', '--raw', '--subdir', 'DAGS_FOLDER/schema_matching_dag.py', '--cfg-path', '/tmp/tmp40mbgv5w']
+[2026-01-10T17:15:28.451+0000] {standard_task_runner.py:88} INFO - Job 144: Subtask generate_rq4_figures
+[2026-01-10T17:15:28.650+0000] {task_command.py:423} INFO - Running <TaskInstance: schema_matching_pipeline.generate_rq4_figures manual__2026-01-10T17:13:23.822404+00:00 [running]> on host 3d5bf5b10dcc
+[2026-01-10T17:15:28.844+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-engineer' AIRFLOW_CTX_DAG_ID='schema_matching_pipeline' AIRFLOW_CTX_TASK_ID='generate_rq4_figures' AIRFLOW_CTX_EXECUTION_DATE='2026-01-10T17:13:23.822404+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-01-10T17:13:23.822404+00:00'
+[2026-01-10T17:15:35.331+0000] {logging_mixin.py:188} INFO - Error running src.evaluation.plot_rq4_fig1:
+[2026-01-10T17:15:35.331+0000] {logging_mixin.py:188} INFO - Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/opt/***/src/evaluation/plot_rq4_fig1.py", line 61, in <module>
+    main()
+  File "/opt/***/src/evaluation/plot_rq4_fig1.py", line 33, in main
+    df = pd.read_csv(input_path)
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/***/.local/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 948, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/***/.local/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 611, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/***/.local/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1448, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/***/.local/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1723, in _make_engine
+    return mapping[engine](f, **self.options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/***/.local/lib/python3.11/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 93, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "parsers.pyx", line 586, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+[2026-01-10T17:15:35.341+0000] {taskinstance.py:2699} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/schema_matching_dag.py", line 623, in generate_rq4_figures
+    raise RuntimeError(f"Figure generation failed for {script}")
+RuntimeError: Figure generation failed for src.evaluation.plot_rq4_fig1
+[2026-01-10T17:15:35.438+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=schema_matching_pipeline, task_id=generate_rq4_figures, execution_date=20260110T171323, start_date=20260110T171528, end_date=20260110T171535
+[2026-01-10T17:15:35.493+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 144 for task generate_rq4_figures (Figure generation failed for src.evaluation.plot_rq4_fig1; 490)
+[2026-01-10T17:15:35.554+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2026-01-10T17:15:35.603+0000] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check

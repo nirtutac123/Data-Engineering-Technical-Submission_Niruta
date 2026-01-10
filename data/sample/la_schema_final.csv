@@ -1,0 +1,32 @@
+dataset_key,city,original_column_name,normalized_column_name,expanded_column_name,inferred_dtype,has_metadata_description,metadata_description,flag_ambiguous_or_abbrev,abbreviation_rules_applied
+la,Los Angeles,DR Number,dr_number,dr_number,int64,False,,False,no_change
+la,Los Angeles,Date Reported,date_reported,date_reported,object,False,,False,no_change
+la,Los Angeles,Date Occurred,date_occurred,date_occurred,object,False,,False,no_change
+la,Los Angeles,Time Occurred,time_occurred,time_occurred,int64,False,,False,no_change
+la,Los Angeles,Area ID,area_id,area_id,int64,True,The LAPD has 21 Community Police Stations referred to as Geographic Areas within the department. These Geographic Areas are sequentially numbered from 1-21.,False,no_change
+la,Los Angeles,Area Name,area_name,area_name,object,True,"The 21 Geographic Areas or Patrol Divisions are also given a name designation that references a landmark or the surrounding community that it is responsible for. For example 77th Street Division is located at the intersection of South Broadway and 77th Street, serving neighborhoods in South Los Angeles.",False,no_change
+la,Los Angeles,Reporting District,reporting_district,reporting_district,int64,False,,False,no_change
+la,Los Angeles,Crime Code,crime_code,crime_code,int64,False,,False,no_change
+la,Los Angeles,Crime Code Description,crime_code_description,crime_code_description,object,False,,False,no_change
+la,Los Angeles,MO Codes,mo_codes,mo_codes,object,True,"Modus Operandi: Activities associated with the suspect in commission of the crime.
+See attached PDF for list of MO Codes in numerical order. 
+
+
+
+https://data.lacity.org/api/views/y8tr-7khq/files/3a967fbd-f210-4857-bc52-60230efe256c?download=true&filename=MO%20CODES%20(numerical%20order).pdf",False,no_change
+la,Los Angeles,Victim Age,victim_age,victim_age,int64,False,,False,no_change
+la,Los Angeles,Victim Sex,victim_sex,victim_sex,object,False,,False,no_change
+la,Los Angeles,Victim Descent,victim_descent,victim_descent,object,False,,False,no_change
+la,Los Angeles,Premise Code,premise_code,premise_code,float64,False,,False,no_change
+la,Los Angeles,Premise Description,premise_description,premise_description,object,False,,False,no_change
+la,Los Angeles,Weapon Used Code,weapon_used_code,weapon_used_code,float64,False,,False,no_change
+la,Los Angeles,Weapon Description,weapon_description,weapon_description,object,False,,False,no_change
+la,Los Angeles,Status Code,status_code,status_code,object,False,,False,no_change
+la,Los Angeles,Status Description,status_description,status_description,object,False,,False,no_change
+la,Los Angeles,Crime Code 1,crime_code_1,crime_code_1,int64,False,,True,no_change
+la,Los Angeles,Crime Code 2,crime_code_2,crime_code_2,float64,False,,True,no_change
+la,Los Angeles,Crime Code 3,crime_code_3,crime_code_3,float64,False,,True,no_change
+la,Los Angeles,Crime Code 4,crime_code_4,crime_code_4,float64,False,,True,no_change
+la,Los Angeles,Address,address,address,object,False,,False,no_change
+la,Los Angeles,Cross Street,cross_street,cross_street,object,True,Cross Street of rounded Address.,False,no_change
+la,Los Angeles,Location ,location,location,object,True,Street address of crime incident rounded to the nearest hundred block to maintain anonymity.,False,no_change

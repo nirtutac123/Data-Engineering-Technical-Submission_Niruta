@@ -1,0 +1,4 @@
+method,threshold,precision,recall,f1,tp,fp,fn
+lexical_jaccard,0.5,0.0,0.0,0.0,0,16,0
+embedding_header_only,0.6,0.0,0.0,0.0,0,5,0
+embedding_header_context,0.6,0.0,0.0,0.0,0,4,0

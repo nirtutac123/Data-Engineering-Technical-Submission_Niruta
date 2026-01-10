@@ -1,0 +1,16 @@
+[2026-01-10T17:15:20.871+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: schema_matching_pipeline.create_true_match_column_types manual__2026-01-10T17:13:23.822404+00:00 [queued]>
+[2026-01-10T17:15:20.882+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: schema_matching_pipeline.create_true_match_column_types manual__2026-01-10T17:13:23.822404+00:00 [queued]>
+[2026-01-10T17:15:20.884+0000] {taskinstance.py:2171} INFO - Starting attempt 1 of 2
+[2026-01-10T17:15:20.904+0000] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): create_true_match_column_types> on 2026-01-10 17:13:23.822404+00:00
+[2026-01-10T17:15:20.918+0000] {standard_task_runner.py:60} INFO - Started process 450 to run task
+[2026-01-10T17:15:20.925+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'schema_matching_pipeline', 'create_true_match_column_types', 'manual__2026-01-10T17:13:23.822404+00:00', '--job-id', '138', '--raw', '--subdir', 'DAGS_FOLDER/schema_matching_dag.py', '--cfg-path', '/tmp/tmpaxwm3h30']
+[2026-01-10T17:15:20.930+0000] {standard_task_runner.py:88} INFO - Job 138: Subtask create_true_match_column_types
+[2026-01-10T17:15:21.032+0000] {task_command.py:423} INFO - Running <TaskInstance: schema_matching_pipeline.create_true_match_column_types manual__2026-01-10T17:13:23.822404+00:00 [running]> on host 3d5bf5b10dcc
+[2026-01-10T17:15:21.148+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-engineer' AIRFLOW_CTX_DAG_ID='schema_matching_pipeline' AIRFLOW_CTX_TASK_ID='create_true_match_column_types' AIRFLOW_CTX_EXECUTION_DATE='2026-01-10T17:13:23.822404+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-01-10T17:13:23.822404+00:00'
+[2026-01-10T17:15:21.989+0000] {logging_mixin.py:188} INFO - [OK] Saved: tables/true_match_column_types.csv
+No true matches found - empty output file created
+[2026-01-10T17:15:21.990+0000] {logging_mixin.py:188} INFO - ✓ True match column types analyzed
+[2026-01-10T17:15:21.991+0000] {python.py:201} INFO - Done. Returned value was: None
+[2026-01-10T17:15:22.004+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=schema_matching_pipeline, task_id=create_true_match_column_types, execution_date=20260110T171323, start_date=20260110T171520, end_date=20260110T171522
+[2026-01-10T17:15:22.066+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-01-10T17:15:22.109+0000] {taskinstance.py:3281} INFO - 1 downstream tasks scheduled from follow-on schedule check

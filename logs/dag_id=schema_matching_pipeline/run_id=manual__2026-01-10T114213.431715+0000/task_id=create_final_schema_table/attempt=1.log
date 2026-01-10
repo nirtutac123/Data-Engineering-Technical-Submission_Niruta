@@ -1,0 +1,23 @@
+[2026-01-10T11:44:36.869+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: schema_matching_pipeline.create_final_schema_table manual__2026-01-10T11:42:13.431715+00:00 [queued]>
+[2026-01-10T11:44:36.902+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: schema_matching_pipeline.create_final_schema_table manual__2026-01-10T11:42:13.431715+00:00 [queued]>
+[2026-01-10T11:44:36.903+0000] {taskinstance.py:2171} INFO - Starting attempt 1 of 2
+[2026-01-10T11:44:36.946+0000] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): create_final_schema_table> on 2026-01-10 11:42:13.431715+00:00
+[2026-01-10T11:44:36.960+0000] {standard_task_runner.py:60} INFO - Started process 499 to run task
+[2026-01-10T11:44:36.971+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'schema_matching_pipeline', 'create_final_schema_table', 'manual__2026-01-10T11:42:13.431715+00:00', '--job-id', '93', '--raw', '--subdir', 'DAGS_FOLDER/schema_matching_dag.py', '--cfg-path', '/tmp/tmpvkchau0l']
+[2026-01-10T11:44:36.978+0000] {standard_task_runner.py:88} INFO - Job 93: Subtask create_final_schema_table
+[2026-01-10T11:44:37.141+0000] {task_command.py:423} INFO - Running <TaskInstance: schema_matching_pipeline.create_final_schema_table manual__2026-01-10T11:42:13.431715+00:00 [running]> on host 205f0f24a8e9
+[2026-01-10T11:44:37.372+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-engineer' AIRFLOW_CTX_DAG_ID='schema_matching_pipeline' AIRFLOW_CTX_TASK_ID='create_final_schema_table' AIRFLOW_CTX_EXECUTION_DATE='2026-01-10T11:42:13.431715+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-01-10T11:42:13.431715+00:00'
+[2026-01-10T11:44:37.374+0000] {logging_mixin.py:188} INFO - Creating final schema table for chicago...
+[2026-01-10T11:44:38.666+0000] {logging_mixin.py:188} INFO - [OK] Final cleaned schema saved: data/sample/chicago_schema_final.csv
+[INFO] Columns in final schema: 23
+[2026-01-10T11:44:38.667+0000] {logging_mixin.py:188} INFO - Creating final schema table for sf...
+[2026-01-10T11:44:40.092+0000] {logging_mixin.py:188} INFO - [OK] Final cleaned schema saved: data/sample/sf_schema_final.csv
+[INFO] Columns in final schema: 35
+[2026-01-10T11:44:40.094+0000] {logging_mixin.py:188} INFO - Creating final schema table for la...
+[2026-01-10T11:44:42.085+0000] {logging_mixin.py:188} INFO - [OK] Final cleaned schema saved: data/sample/la_schema_final.csv
+[INFO] Columns in final schema: 26
+[2026-01-10T11:44:42.085+0000] {logging_mixin.py:188} INFO - ✓ Final schema table created
+[2026-01-10T11:44:42.086+0000] {python.py:201} INFO - Done. Returned value was: None
+[2026-01-10T11:44:42.120+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=schema_matching_pipeline, task_id=create_final_schema_table, execution_date=20260110T114213, start_date=20260110T114436, end_date=20260110T114442
+[2026-01-10T11:44:42.281+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-01-10T11:44:42.382+0000] {taskinstance.py:3281} INFO - 1 downstream tasks scheduled from follow-on schedule check

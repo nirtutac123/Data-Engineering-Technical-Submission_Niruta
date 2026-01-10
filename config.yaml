@@ -1,0 +1,35 @@
+project:
+  root: "."
+
+paths:
+  raw_external_dir: "data/raw_external"
+  sample_dir: "data/sample"
+  tables_dir: "tables"
+  figures_dir: "figures"
+
+datasets:
+  chicago:
+    city: "Chicago"
+    csv: "Chicago_Crimes_2012_to_2017.csv"
+    metadata_json: null
+
+  sf:
+    city: "San Francisco"
+    csv: "police-department-incidents.csv"
+    metadata_json: "socrata_metadata_police-department-incidents.json"
+
+  la:
+    city: "Los Angeles"
+    csv: "crime-data-from-2010-to-present.csv"
+    metadata_json: "socrata_metadata_crime-data-from-2010-to-present.json"
+
+sampling:
+  max_unique_values_per_column: 20
+  chunksize: 200000
+  max_chunks: 5
+  min_values_to_stop_early: 10
+
+output:
+  chicago_schema: "chicago_schema_sample.csv"
+  sf_schema: "sf_schema_sample.csv"
+  la_schema: "la_schema_sample.csv"

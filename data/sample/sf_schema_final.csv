@@ -1,0 +1,36 @@
+dataset_key,city,original_column_name,normalized_column_name,expanded_column_name,inferred_dtype,has_metadata_description,metadata_description,flag_ambiguous_or_abbrev,abbreviation_rules_applied
+sf,San Francisco,PdId,pdid,police_department_incident_id,int64,True,Unique Identifier for use in update and insert operations,False,pdid
+sf,San Francisco,IncidntNum,incidntnum,incidntnum,int64,False,,False,no_change
+sf,San Francisco,Incident Code,incident_code,incident_code,int64,False,,False,no_change
+sf,San Francisco,Category,category,category,object,False,,False,no_change
+sf,San Francisco,Descript,descript,descript,object,False,,False,no_change
+sf,San Francisco,DayOfWeek,dayofweek,dayofweek,object,False,,False,no_change
+sf,San Francisco,Date,date,date,object,False,,False,no_change
+sf,San Francisco,Time,time,time,object,False,,False,no_change
+sf,San Francisco,PdDistrict,pddistrict,pddistrict,object,True,Historical PD District Effective Through 7-18-2015,False,no_change
+sf,San Francisco,Resolution,resolution,resolution,object,False,,False,no_change
+sf,San Francisco,Address,address,address,object,False,,False,no_change
+sf,San Francisco,X,x,x,float64,False,,True,no_change
+sf,San Francisco,Y,y,y,float64,False,,True,no_change
+sf,San Francisco,location,location,location,object,False,,False,no_change
+sf,San Francisco,SF Find Neighborhoods 2 2,sf_find_neighborhoods_2_2,sf_find_neighborhoods_2_2,float64,False,,True,no_change
+sf,San Francisco,Current Police Districts 2 2,current_police_districts_2_2,current_police_districts_2_2,float64,False,,True,no_change
+sf,San Francisco,Current Supervisor Districts 2 2,current_supervisor_districts_2_2,current_supervisor_districts_2_2,float64,False,,True,no_change
+sf,San Francisco,Analysis Neighborhoods 2 2,analysis_neighborhoods_2_2,analysis_neighborhoods_2_2,float64,False,,True,no_change
+sf,San Francisco,DELETE - Fire Prevention Districts 2 2,delete_fire_prevention_districts_2_2,delete_fire_prevention_districts_2_2,float64,False,,True,no_change
+sf,San Francisco,DELETE - Police Districts 2 2,delete_police_districts_2_2,delete_police_districts_2_2,float64,False,,True,no_change
+sf,San Francisco,DELETE - Supervisor Districts 2 2,delete_supervisor_districts_2_2,delete_supervisor_districts_2_2,float64,False,,True,no_change
+sf,San Francisco,DELETE - Zip Codes 2 2,delete_zip_codes_2_2,delete_zip_codes_2_2,float64,False,,True,no_change
+sf,San Francisco,DELETE - Neighborhoods 2 2,delete_neighborhoods_2_2,delete_neighborhoods_2_2,float64,False,,True,no_change
+sf,San Francisco,DELETE - 2017 Fix It Zones 2 2,delete_2017_fix_it_zones_2_2,delete_2017_fix_it_zones_2_2,float64,False,,True,no_change
+sf,San Francisco,Civic Center Harm Reduction Project Boundary 2 2,civic_center_harm_reduction_project_boundary_2_2,civic_center_harm_reduction_project_boundary_2_2,float64,False,,True,no_change
+sf,San Francisco,Fix It Zones as of 2017-11-06  2 2,fix_it_zones_as_of_2017_11_06_2_2,fix_it_zones_as_of_2017_11_06_2_2,float64,False,,True,no_change
+sf,San Francisco,DELETE - HSOC Zones 2 2,delete_hsoc_zones_2_2,delete_hsoc_zones_2_2,float64,False,,True,no_change
+sf,San Francisco,Fix It Zones as of 2018-02-07 2 2,fix_it_zones_as_of_2018_02_07_2_2,fix_it_zones_as_of_2018_02_07_2_2,float64,False,,True,no_change
+sf,San Francisco,"CBD, BID and GBD Boundaries as of 2017 2 2",cbd_bid_and_gbd_boundaries_as_of_2017_2_2,cbd_bid_and_gbd_boundaries_as_of_2017_2_2,float64,False,,True,no_change
+sf,San Francisco,"Areas of Vulnerability, 2016 2 2",areas_of_vulnerability_2016_2_2,areas_of_vulnerability_2016_2_2,float64,False,,True,no_change
+sf,San Francisco,Central Market/Tenderloin Boundary 2 2,central_market_tenderloin_boundary_2_2,central_market_tenderloin_boundary_2_2,float64,False,,True,no_change
+sf,San Francisco,Central Market/Tenderloin Boundary Polygon - Updated 2 2,central_market_tenderloin_boundary_polygon_updated_2_2,central_market_tenderloin_boundary_polygon_updated_2_2,float64,False,,True,no_change
+sf,San Francisco,HSOC Zones as of 2018-06-05 2 2,hsoc_zones_as_of_2018_06_05_2_2,hsoc_zones_as_of_2018_06_05_2_2,float64,False,,True,no_change
+sf,San Francisco,OWED Public Spaces 2 2,owed_public_spaces_2_2,owed_public_spaces_2_2,float64,False,,True,no_change
+sf,San Francisco,Neighborhoods 2,neighborhoods_2,neighborhoods_2,float64,False,,True,no_change

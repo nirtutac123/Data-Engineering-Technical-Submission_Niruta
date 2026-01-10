@@ -1,0 +1,34 @@
+[2026-01-10T10:17:12.054+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: schema_matching_pipeline.compute_embedding_similarity manual__2026-01-10T10:09:52+00:00 [queued]>
+[2026-01-10T10:17:12.072+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: schema_matching_pipeline.compute_embedding_similarity manual__2026-01-10T10:09:52+00:00 [queued]>
+[2026-01-10T10:17:12.073+0000] {taskinstance.py:2171} INFO - Starting attempt 2 of 2
+[2026-01-10T10:17:12.096+0000] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): compute_embedding_similarity> on 2026-01-10 10:09:52+00:00
+[2026-01-10T10:17:12.105+0000] {standard_task_runner.py:60} INFO - Started process 1519 to run task
+[2026-01-10T10:17:12.114+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'schema_matching_pipeline', 'compute_embedding_similarity', 'manual__2026-01-10T10:09:52+00:00', '--job-id', '77', '--raw', '--subdir', 'DAGS_FOLDER/schema_matching_dag.py', '--cfg-path', '/tmp/tmp2gqqhmm0']
+[2026-01-10T10:17:12.121+0000] {standard_task_runner.py:88} INFO - Job 77: Subtask compute_embedding_similarity
+[2026-01-10T10:17:12.243+0000] {task_command.py:423} INFO - Running <TaskInstance: schema_matching_pipeline.compute_embedding_similarity manual__2026-01-10T10:09:52+00:00 [running]> on host 205f0f24a8e9
+[2026-01-10T10:17:12.402+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-engineer' AIRFLOW_CTX_DAG_ID='schema_matching_pipeline' AIRFLOW_CTX_TASK_ID='compute_embedding_similarity' AIRFLOW_CTX_EXECUTION_DATE='2026-01-10T10:09:52+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-01-10T10:09:52+00:00'
+[2026-01-10T10:17:13.419+0000] {logging_mixin.py:188} INFO - Error computing embedding similarity:
+[2026-01-10T10:17:13.420+0000] {logging_mixin.py:188} INFO - Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/opt/***/src/schema_matching/embedding_similarity.py", line 14, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2026-01-10T10:17:13.421+0000] {taskinstance.py:2699} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/schema_matching_dag.py", line 314, in compute_embedding_similarity
+    raise RuntimeError("Embedding similarity computation failed")
+RuntimeError: Embedding similarity computation failed
+[2026-01-10T10:17:13.459+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=schema_matching_pipeline, task_id=compute_embedding_similarity, execution_date=20260110T100952, start_date=20260110T101712, end_date=20260110T101713
+[2026-01-10T10:17:13.484+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 77 for task compute_embedding_similarity (Embedding similarity computation failed; 1519)
+[2026-01-10T10:17:13.530+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2026-01-10T10:17:13.572+0000] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check

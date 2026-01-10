@@ -1,0 +1,16 @@
+[2026-01-10T09:47:30.938+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: schema_matching_pipeline.generate_schema_pairs manual__2026-01-10T09:45:07.471641+00:00 [queued]>
+[2026-01-10T09:47:30.952+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: schema_matching_pipeline.generate_schema_pairs manual__2026-01-10T09:45:07.471641+00:00 [queued]>
+[2026-01-10T09:47:30.953+0000] {taskinstance.py:2171} INFO - Starting attempt 1 of 2
+[2026-01-10T09:47:30.976+0000] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): generate_schema_pairs> on 2026-01-10 09:45:07.471641+00:00
+[2026-01-10T09:47:30.985+0000] {standard_task_runner.py:60} INFO - Started process 295 to run task
+[2026-01-10T09:47:30.991+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'schema_matching_pipeline', 'generate_schema_pairs', 'manual__2026-01-10T09:45:07.471641+00:00', '--job-id', '41', '--raw', '--subdir', 'DAGS_FOLDER/schema_matching_dag.py', '--cfg-path', '/tmp/tmp00fr1qi0']
+[2026-01-10T09:47:30.997+0000] {standard_task_runner.py:88} INFO - Job 41: Subtask generate_schema_pairs
+[2026-01-10T09:47:31.123+0000] {task_command.py:423} INFO - Running <TaskInstance: schema_matching_pipeline.generate_schema_pairs manual__2026-01-10T09:45:07.471641+00:00 [running]> on host 205f0f24a8e9
+[2026-01-10T09:47:31.279+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-engineer' AIRFLOW_CTX_DAG_ID='schema_matching_pipeline' AIRFLOW_CTX_TASK_ID='generate_schema_pairs' AIRFLOW_CTX_EXECUTION_DATE='2026-01-10T09:45:07.471641+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-01-10T09:45:07.471641+00:00'
+[2026-01-10T09:47:32.612+0000] {logging_mixin.py:188} INFO - [OK] Schema pairs generated: tables/schema_pairs.csv
+[INFO] Total candidate pairs: 2313
+[2026-01-10T09:47:32.613+0000] {logging_mixin.py:188} INFO - ✓ Schema pairs generated
+[2026-01-10T09:47:32.614+0000] {python.py:201} INFO - Done. Returned value was: None
+[2026-01-10T09:47:32.632+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=schema_matching_pipeline, task_id=generate_schema_pairs, execution_date=20260110T094507, start_date=20260110T094730, end_date=20260110T094732
+[2026-01-10T09:47:32.676+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-01-10T09:47:32.740+0000] {taskinstance.py:3281} INFO - 1 downstream tasks scheduled from follow-on schedule check

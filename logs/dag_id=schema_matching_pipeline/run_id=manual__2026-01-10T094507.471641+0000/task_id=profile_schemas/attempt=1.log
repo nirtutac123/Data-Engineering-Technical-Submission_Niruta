@@ -1,0 +1,26 @@
+[2026-01-10T09:45:13.746+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: schema_matching_pipeline.profile_schemas manual__2026-01-10T09:45:07.471641+00:00 [queued]>
+[2026-01-10T09:45:13.762+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: schema_matching_pipeline.profile_schemas manual__2026-01-10T09:45:07.471641+00:00 [queued]>
+[2026-01-10T09:45:13.763+0000] {taskinstance.py:2171} INFO - Starting attempt 1 of 2
+[2026-01-10T09:45:13.788+0000] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): profile_schemas> on 2026-01-10 09:45:07.471641+00:00
+[2026-01-10T09:45:13.798+0000] {standard_task_runner.py:60} INFO - Started process 1817 to run task
+[2026-01-10T09:45:13.805+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'schema_matching_pipeline', 'profile_schemas', 'manual__2026-01-10T09:45:07.471641+00:00', '--job-id', '35', '--raw', '--subdir', 'DAGS_FOLDER/schema_matching_dag.py', '--cfg-path', '/tmp/tmpc3b61ref']
+[2026-01-10T09:45:13.813+0000] {standard_task_runner.py:88} INFO - Job 35: Subtask profile_schemas
+[2026-01-10T09:45:13.940+0000] {task_command.py:423} INFO - Running <TaskInstance: schema_matching_pipeline.profile_schemas manual__2026-01-10T09:45:07.471641+00:00 [running]> on host 205f0f24a8e9
+[2026-01-10T09:45:14.078+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-engineer' AIRFLOW_CTX_DAG_ID='schema_matching_pipeline' AIRFLOW_CTX_TASK_ID='profile_schemas' AIRFLOW_CTX_EXECUTION_DATE='2026-01-10T09:45:07.471641+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-01-10T09:45:07.471641+00:00'
+[2026-01-10T09:45:14.081+0000] {logging_mixin.py:188} INFO - Profiling schemas for chicago...
+[2026-01-10T09:45:35.199+0000] {logging_mixin.py:188} INFO - [OK] Saved schema profile: data/sample/chicago_schema_sample.csv
+[INFO] Columns profiled: 23
+[INFO] Metadata attached: 0 columns
+[2026-01-10T09:45:35.202+0000] {logging_mixin.py:188} INFO - Profiling schemas for sf...
+[2026-01-10T09:46:09.123+0000] {logging_mixin.py:188} INFO - [OK] Saved schema profile: data/sample/sf_schema_sample.csv
+[INFO] Columns profiled: 35
+[INFO] Metadata attached: 2 columns
+[2026-01-10T09:46:09.125+0000] {logging_mixin.py:188} INFO - Profiling schemas for la...
+[2026-01-10T09:46:32.452+0000] {logging_mixin.py:188} INFO - [OK] Saved schema profile: data/sample/la_schema_sample.csv
+[INFO] Columns profiled: 26
+[INFO] Metadata attached: 5 columns
+[2026-01-10T09:46:32.453+0000] {logging_mixin.py:188} INFO - ✓ Schema profiling completed for all datasets
+[2026-01-10T09:46:32.454+0000] {python.py:201} INFO - Done. Returned value was: None
+[2026-01-10T09:46:32.502+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=schema_matching_pipeline, task_id=profile_schemas, execution_date=20260110T094507, start_date=20260110T094513, end_date=20260110T094632
+[2026-01-10T09:46:32.581+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-01-10T09:46:32.661+0000] {taskinstance.py:3281} INFO - 1 downstream tasks scheduled from follow-on schedule check

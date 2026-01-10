@@ -1,8 +1,7 @@
-FROM apache/airflow:2.8.0
+FROM apache/airflow:2.8.0-python3.11
 
-# Copy requirements and install
+# Copy requirements file
 COPY requirements.txt /requirements.txt
-RUN pip install --no-cache-dir -r /requirements.txt
 
-# Set user back to airflow
-USER airflow
+# Install Python dependencies
+RUN pip install --no-cache-dir -r /requirements.txt

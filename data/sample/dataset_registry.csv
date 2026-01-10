@@ -1,0 +1,4 @@
+dataset_key,city,csv_file,file_exists,file_size_mb,num_columns,has_metadata_json
+chicago,Chicago,Chicago_Crimes_2012_to_2017.csv,True,349.81,23,False
+sf,San Francisco,police-department-incidents.csv,True,626.09,35,True
+la,Los Angeles,crime-data-from-2010-to-present.csv,True,733.58,26,True

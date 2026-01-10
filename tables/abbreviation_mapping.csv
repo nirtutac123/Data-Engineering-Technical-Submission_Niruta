@@ -1,0 +1,6 @@
+source_pattern,expanded_form,description
+iucr,illinois_uniform_crime_reporting_code,Chicago crime classification code
+fbi,federal_bureau_of_investigation_code,FBI crime category
+dr_no,department_report_number,Los Angeles police report identifier
+pdid,police_department_incident_id,San Francisco incident identifier
+beat,police_beat_area,Geographic patrol area

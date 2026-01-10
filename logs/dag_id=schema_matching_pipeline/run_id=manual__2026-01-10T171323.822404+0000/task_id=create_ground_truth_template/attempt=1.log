@@ -1,0 +1,17 @@
+[2026-01-10T17:15:19.119+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: schema_matching_pipeline.create_ground_truth_template manual__2026-01-10T17:13:23.822404+00:00 [queued]>
+[2026-01-10T17:15:19.131+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: schema_matching_pipeline.create_ground_truth_template manual__2026-01-10T17:13:23.822404+00:00 [queued]>
+[2026-01-10T17:15:19.132+0000] {taskinstance.py:2171} INFO - Starting attempt 1 of 2
+[2026-01-10T17:15:19.150+0000] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): create_ground_truth_template> on 2026-01-10 17:13:23.822404+00:00
+[2026-01-10T17:15:19.159+0000] {standard_task_runner.py:60} INFO - Started process 439 to run task
+[2026-01-10T17:15:19.166+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'schema_matching_pipeline', 'create_ground_truth_template', 'manual__2026-01-10T17:13:23.822404+00:00', '--job-id', '137', '--raw', '--subdir', 'DAGS_FOLDER/schema_matching_dag.py', '--cfg-path', '/tmp/tmp1v5ok9gz']
+[2026-01-10T17:15:19.170+0000] {standard_task_runner.py:88} INFO - Job 137: Subtask create_ground_truth_template
+[2026-01-10T17:15:19.268+0000] {task_command.py:423} INFO - Running <TaskInstance: schema_matching_pipeline.create_ground_truth_template manual__2026-01-10T17:13:23.822404+00:00 [running]> on host 3d5bf5b10dcc
+[2026-01-10T17:15:19.379+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-engineer' AIRFLOW_CTX_DAG_ID='schema_matching_pipeline' AIRFLOW_CTX_TASK_ID='create_ground_truth_template' AIRFLOW_CTX_EXECUTION_DATE='2026-01-10T17:13:23.822404+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-01-10T17:13:23.822404+00:00'
+[2026-01-10T17:15:20.187+0000] {logging_mixin.py:188} INFO - [OK] Ground truth template saved: tables/ground_truth_template.csv
+[INFO] Rows in template: 900
+[INFO] Fill 'is_match' with 1 (match) or 0 (non-match). Leave notes if needed.
+[2026-01-10T17:15:20.188+0000] {logging_mixin.py:188} INFO - ✓ Ground truth template created
+[2026-01-10T17:15:20.188+0000] {python.py:201} INFO - Done. Returned value was: None
+[2026-01-10T17:15:20.202+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=schema_matching_pipeline, task_id=create_ground_truth_template, execution_date=20260110T171323, start_date=20260110T171519, end_date=20260110T171520
+[2026-01-10T17:15:20.249+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-01-10T17:15:20.304+0000] {taskinstance.py:3281} INFO - 1 downstream tasks scheduled from follow-on schedule check

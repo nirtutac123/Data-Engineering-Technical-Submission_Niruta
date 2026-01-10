@@ -1,0 +1,29 @@
+[2026-01-10T12:14:36.614+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: schema_matching_pipeline.normalize_schemas manual__2026-01-10T12:12:32.957283+00:00 [queued]>
+[2026-01-10T12:14:36.628+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: schema_matching_pipeline.normalize_schemas manual__2026-01-10T12:12:32.957283+00:00 [queued]>
+[2026-01-10T12:14:36.629+0000] {taskinstance.py:2171} INFO - Starting attempt 1 of 2
+[2026-01-10T12:14:36.653+0000] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): normalize_schemas> on 2026-01-10 12:12:32.957283+00:00
+[2026-01-10T12:14:36.667+0000] {standard_task_runner.py:60} INFO - Started process 387 to run task
+[2026-01-10T12:14:36.675+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'schema_matching_pipeline', 'normalize_schemas', 'manual__2026-01-10T12:12:32.957283+00:00', '--job-id', '104', '--raw', '--subdir', 'DAGS_FOLDER/schema_matching_dag.py', '--cfg-path', '/tmp/tmp367sozbh']
+[2026-01-10T12:14:36.684+0000] {standard_task_runner.py:88} INFO - Job 104: Subtask normalize_schemas
+[2026-01-10T12:14:36.809+0000] {task_command.py:423} INFO - Running <TaskInstance: schema_matching_pipeline.normalize_schemas manual__2026-01-10T12:12:32.957283+00:00 [running]> on host 66d0fe2fcb06
+[2026-01-10T12:14:37.043+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-engineer' AIRFLOW_CTX_DAG_ID='schema_matching_pipeline' AIRFLOW_CTX_TASK_ID='normalize_schemas' AIRFLOW_CTX_EXECUTION_DATE='2026-01-10T12:12:32.957283+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-01-10T12:12:32.957283+00:00'
+[2026-01-10T12:14:37.046+0000] {logging_mixin.py:188} INFO - Normalizing schemas for chicago...
+[2026-01-10T12:14:38.096+0000] {logging_mixin.py:188} INFO - [OK] Normalized schema saved: data/sample/chicago_schema_normalized.csv
+[INFO] Rows: 23
+[INFO] Empty normalized names: 0
+[INFO] Duplicate normalized names: 0
+[2026-01-10T12:14:38.097+0000] {logging_mixin.py:188} INFO - Normalizing schemas for sf...
+[2026-01-10T12:14:39.065+0000] {logging_mixin.py:188} INFO - [OK] Normalized schema saved: data/sample/sf_schema_normalized.csv
+[INFO] Rows: 35
+[INFO] Empty normalized names: 0
+[INFO] Duplicate normalized names: 0
+[2026-01-10T12:14:39.066+0000] {logging_mixin.py:188} INFO - Normalizing schemas for la...
+[2026-01-10T12:14:40.098+0000] {logging_mixin.py:188} INFO - [OK] Normalized schema saved: data/sample/la_schema_normalized.csv
+[INFO] Rows: 26
+[INFO] Empty normalized names: 0
+[INFO] Duplicate normalized names: 0
+[2026-01-10T12:14:40.099+0000] {logging_mixin.py:188} INFO - ✓ Schemas normalized for all datasets
+[2026-01-10T12:14:40.100+0000] {python.py:201} INFO - Done. Returned value was: None
+[2026-01-10T12:14:40.118+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=schema_matching_pipeline, task_id=normalize_schemas, execution_date=20260110T121232, start_date=20260110T121436, end_date=20260110T121440
+[2026-01-10T12:14:40.152+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-01-10T12:14:40.202+0000] {taskinstance.py:3281} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,16 @@
+[2026-01-10T09:48:32.575+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: schema_matching_pipeline.create_pair_representations manual__2026-01-10T09:41:35.704387+00:00 [queued]>
+[2026-01-10T09:48:32.585+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: schema_matching_pipeline.create_pair_representations manual__2026-01-10T09:41:35.704387+00:00 [queued]>
+[2026-01-10T09:48:32.585+0000] {taskinstance.py:2171} INFO - Starting attempt 1 of 2
+[2026-01-10T09:48:32.604+0000] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): create_pair_representations> on 2026-01-10 09:41:35.704387+00:00
+[2026-01-10T09:48:32.612+0000] {standard_task_runner.py:60} INFO - Started process 372 to run task
+[2026-01-10T09:48:32.618+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'schema_matching_pipeline', 'create_pair_representations', 'manual__2026-01-10T09:41:35.704387+00:00', '--job-id', '46', '--raw', '--subdir', 'DAGS_FOLDER/schema_matching_dag.py', '--cfg-path', '/tmp/tmp66u4e3wx']
+[2026-01-10T09:48:32.623+0000] {standard_task_runner.py:88} INFO - Job 46: Subtask create_pair_representations
+[2026-01-10T09:48:32.722+0000] {task_command.py:423} INFO - Running <TaskInstance: schema_matching_pipeline.create_pair_representations manual__2026-01-10T09:41:35.704387+00:00 [running]> on host 205f0f24a8e9
+[2026-01-10T09:48:32.844+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-engineer' AIRFLOW_CTX_DAG_ID='schema_matching_pipeline' AIRFLOW_CTX_TASK_ID='create_pair_representations' AIRFLOW_CTX_EXECUTION_DATE='2026-01-10T09:41:35.704387+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-01-10T09:41:35.704387+00:00'
+[2026-01-10T09:48:33.827+0000] {logging_mixin.py:188} INFO - [OK] Schema pair representations saved: tables/schema_pairs_repr.csv
+[INFO] Total rows: 2313
+[2026-01-10T09:48:33.828+0000] {logging_mixin.py:188} INFO - ✓ Schema pair representations created
+[2026-01-10T09:48:33.829+0000] {python.py:201} INFO - Done. Returned value was: None
+[2026-01-10T09:48:33.841+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=schema_matching_pipeline, task_id=create_pair_representations, execution_date=20260110T094135, start_date=20260110T094832, end_date=20260110T094833
+[2026-01-10T09:48:33.876+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-01-10T09:48:33.913+0000] {taskinstance.py:3281} INFO - 2 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,2314 @@
+left_city,right_city,left_column_original,left_column_final,right_column_original,right_column_final
+chicago,sf,Unnamed: 0,unnamed_0,PdId,police_department_incident_id
+chicago,sf,Unnamed: 0,unnamed_0,IncidntNum,incidntnum
+chicago,sf,Unnamed: 0,unnamed_0,Incident Code,incident_code
+chicago,sf,Unnamed: 0,unnamed_0,Category,category
+chicago,sf,Unnamed: 0,unnamed_0,Descript,descript
+chicago,sf,Unnamed: 0,unnamed_0,DayOfWeek,dayofweek
+chicago,sf,Unnamed: 0,unnamed_0,Date,date
+chicago,sf,Unnamed: 0,unnamed_0,Time,time
+chicago,sf,Unnamed: 0,unnamed_0,PdDistrict,pddistrict
+chicago,sf,Unnamed: 0,unnamed_0,Resolution,resolution
+chicago,sf,Unnamed: 0,unnamed_0,Address,address
+chicago,sf,Unnamed: 0,unnamed_0,X,x
+chicago,sf,Unnamed: 0,unnamed_0,Y,y
+chicago,sf,Unnamed: 0,unnamed_0,location,location
+chicago,sf,Unnamed: 0,unnamed_0,SF Find Neighborhoods 2 2,sf_find_neighborhoods_2_2
+chicago,sf,Unnamed: 0,unnamed_0,Current Police Districts 2 2,current_police_districts_2_2
+chicago,sf,Unnamed: 0,unnamed_0,Current Supervisor Districts 2 2,current_supervisor_districts_2_2
+chicago,sf,Unnamed: 0,unnamed_0,Analysis Neighborhoods 2 2,analysis_neighborhoods_2_2
+chicago,sf,Unnamed: 0,unnamed_0,DELETE - Fire Prevention Districts 2 2,delete_fire_prevention_districts_2_2
+chicago,sf,Unnamed: 0,unnamed_0,DELETE - Police Districts 2 2,delete_police_districts_2_2
+chicago,sf,Unnamed: 0,unnamed_0,DELETE - Supervisor Districts 2 2,delete_supervisor_districts_2_2
+chicago,sf,Unnamed: 0,unnamed_0,DELETE - Zip Codes 2 2,delete_zip_codes_2_2
+chicago,sf,Unnamed: 0,unnamed_0,DELETE - Neighborhoods 2 2,delete_neighborhoods_2_2
+chicago,sf,Unnamed: 0,unnamed_0,DELETE - 2017 Fix It Zones 2 2,delete_2017_fix_it_zones_2_2
+chicago,sf,Unnamed: 0,unnamed_0,Civic Center Harm Reduction Project Boundary 2 2,civic_center_harm_reduction_project_boundary_2_2
+chicago,sf,Unnamed: 0,unnamed_0,Fix It Zones as of 2017-11-06  2 2,fix_it_zones_as_of_2017_11_06_2_2
+chicago,sf,Unnamed: 0,unnamed_0,DELETE - HSOC Zones 2 2,delete_hsoc_zones_2_2
+chicago,sf,Unnamed: 0,unnamed_0,Fix It Zones as of 2018-02-07 2 2,fix_it_zones_as_of_2018_02_07_2_2
+chicago,sf,Unnamed: 0,unnamed_0,"CBD, BID and GBD Boundaries as of 2017 2 2",cbd_bid_and_gbd_boundaries_as_of_2017_2_2
+chicago,sf,Unnamed: 0,unnamed_0,"Areas of Vulnerability, 2016 2 2",areas_of_vulnerability_2016_2_2
+chicago,sf,Unnamed: 0,unnamed_0,Central Market/Tenderloin Boundary 2 2,central_market_tenderloin_boundary_2_2
+chicago,sf,Unnamed: 0,unnamed_0,Central Market/Tenderloin Boundary Polygon - Updated 2 2,central_market_tenderloin_boundary_polygon_updated_2_2
+chicago,sf,Unnamed: 0,unnamed_0,HSOC Zones as of 2018-06-05 2 2,hsoc_zones_as_of_2018_06_05_2_2
+chicago,sf,Unnamed: 0,unnamed_0,OWED Public Spaces 2 2,owed_public_spaces_2_2
+chicago,sf,Unnamed: 0,unnamed_0,Neighborhoods 2,neighborhoods_2
+chicago,sf,ID,id,PdId,police_department_incident_id
+chicago,sf,ID,id,IncidntNum,incidntnum
+chicago,sf,ID,id,Incident Code,incident_code
+chicago,sf,ID,id,Category,category
+chicago,sf,ID,id,Descript,descript
+chicago,sf,ID,id,DayOfWeek,dayofweek
+chicago,sf,ID,id,Date,date
+chicago,sf,ID,id,Time,time
+chicago,sf,ID,id,PdDistrict,pddistrict
+chicago,sf,ID,id,Resolution,resolution
+chicago,sf,ID,id,Address,address
+chicago,sf,ID,id,X,x
+chicago,sf,ID,id,Y,y
+chicago,sf,ID,id,location,location
+chicago,sf,ID,id,SF Find Neighborhoods 2 2,sf_find_neighborhoods_2_2
+chicago,sf,ID,id,Current Police Districts 2 2,current_police_districts_2_2
+chicago,sf,ID,id,Current Supervisor Districts 2 2,current_supervisor_districts_2_2
+chicago,sf,ID,id,Analysis Neighborhoods 2 2,analysis_neighborhoods_2_2
+chicago,sf,ID,id,DELETE - Fire Prevention Districts 2 2,delete_fire_prevention_districts_2_2
+chicago,sf,ID,id,DELETE - Police Districts 2 2,delete_police_districts_2_2
+chicago,sf,ID,id,DELETE - Supervisor Districts 2 2,delete_supervisor_districts_2_2
+chicago,sf,ID,id,DELETE - Zip Codes 2 2,delete_zip_codes_2_2
+chicago,sf,ID,id,DELETE - Neighborhoods 2 2,delete_neighborhoods_2_2
+chicago,sf,ID,id,DELETE - 2017 Fix It Zones 2 2,delete_2017_fix_it_zones_2_2
+chicago,sf,ID,id,Civic Center Harm Reduction Project Boundary 2 2,civic_center_harm_reduction_project_boundary_2_2
+chicago,sf,ID,id,Fix It Zones as of 2017-11-06  2 2,fix_it_zones_as_of_2017_11_06_2_2
+chicago,sf,ID,id,DELETE - HSOC Zones 2 2,delete_hsoc_zones_2_2
+chicago,sf,ID,id,Fix It Zones as of 2018-02-07 2 2,fix_it_zones_as_of_2018_02_07_2_2
+chicago,sf,ID,id,"CBD, BID and GBD Boundaries as of 2017 2 2",cbd_bid_and_gbd_boundaries_as_of_2017_2_2
+chicago,sf,ID,id,"Areas of Vulnerability, 2016 2 2",areas_of_vulnerability_2016_2_2
+chicago,sf,ID,id,Central Market/Tenderloin Boundary 2 2,central_market_tenderloin_boundary_2_2
+chicago,sf,ID,id,Central Market/Tenderloin Boundary Polygon - Updated 2 2,central_market_tenderloin_boundary_polygon_updated_2_2
+chicago,sf,ID,id,HSOC Zones as of 2018-06-05 2 2,hsoc_zones_as_of_2018_06_05_2_2
+chicago,sf,ID,id,OWED Public Spaces 2 2,owed_public_spaces_2_2
+chicago,sf,ID,id,Neighborhoods 2,neighborhoods_2
+chicago,sf,Case Number,case_number,PdId,police_department_incident_id
+chicago,sf,Case Number,case_number,IncidntNum,incidntnum
+chicago,sf,Case Number,case_number,Incident Code,incident_code
+chicago,sf,Case Number,case_number,Category,category
+chicago,sf,Case Number,case_number,Descript,descript
+chicago,sf,Case Number,case_number,DayOfWeek,dayofweek
+chicago,sf,Case Number,case_number,Date,date
+chicago,sf,Case Number,case_number,Time,time
+chicago,sf,Case Number,case_number,PdDistrict,pddistrict
+chicago,sf,Case Number,case_number,Resolution,resolution
+chicago,sf,Case Number,case_number,Address,address
+chicago,sf,Case Number,case_number,X,x
+chicago,sf,Case Number,case_number,Y,y
+chicago,sf,Case Number,case_number,location,location
+chicago,sf,Case Number,case_number,SF Find Neighborhoods 2 2,sf_find_neighborhoods_2_2
+chicago,sf,Case Number,case_number,Current Police Districts 2 2,current_police_districts_2_2
+chicago,sf,Case Number,case_number,Current Supervisor Districts 2 2,current_supervisor_districts_2_2
+chicago,sf,Case Number,case_number,Analysis Neighborhoods 2 2,analysis_neighborhoods_2_2
+chicago,sf,Case Number,case_number,DELETE - Fire Prevention Districts 2 2,delete_fire_prevention_districts_2_2
+chicago,sf,Case Number,case_number,DELETE - Police Districts 2 2,delete_police_districts_2_2
+chicago,sf,Case Number,case_number,DELETE - Supervisor Districts 2 2,delete_supervisor_districts_2_2
+chicago,sf,Case Number,case_number,DELETE - Zip Codes 2 2,delete_zip_codes_2_2
+chicago,sf,Case Number,case_number,DELETE - Neighborhoods 2 2,delete_neighborhoods_2_2
+chicago,sf,Case Number,case_number,DELETE - 2017 Fix It Zones 2 2,delete_2017_fix_it_zones_2_2
+chicago,sf,Case Number,case_number,Civic Center Harm Reduction Project Boundary 2 2,civic_center_harm_reduction_project_boundary_2_2
+chicago,sf,Case Number,case_number,Fix It Zones as of 2017-11-06  2 2,fix_it_zones_as_of_2017_11_06_2_2
+chicago,sf,Case Number,case_number,DELETE - HSOC Zones 2 2,delete_hsoc_zones_2_2
+chicago,sf,Case Number,case_number,Fix It Zones as of 2018-02-07 2 2,fix_it_zones_as_of_2018_02_07_2_2
+chicago,sf,Case Number,case_number,"CBD, BID and GBD Boundaries as of 2017 2 2",cbd_bid_and_gbd_boundaries_as_of_2017_2_2
+chicago,sf,Case Number,case_number,"Areas of Vulnerability, 2016 2 2",areas_of_vulnerability_2016_2_2
+chicago,sf,Case Number,case_number,Central Market/Tenderloin Boundary 2 2,central_market_tenderloin_boundary_2_2
+chicago,sf,Case Number,case_number,Central Market/Tenderloin Boundary Polygon - Updated 2 2,central_market_tenderloin_boundary_polygon_updated_2_2
+chicago,sf,Case Number,case_number,HSOC Zones as of 2018-06-05 2 2,hsoc_zones_as_of_2018_06_05_2_2
+chicago,sf,Case Number,case_number,OWED Public Spaces 2 2,owed_public_spaces_2_2
+chicago,sf,Case Number,case_number,Neighborhoods 2,neighborhoods_2
+chicago,sf,Date,date,PdId,police_department_incident_id
+chicago,sf,Date,date,IncidntNum,incidntnum
+chicago,sf,Date,date,Incident Code,incident_code
+chicago,sf,Date,date,Category,category
+chicago,sf,Date,date,Descript,descript
+chicago,sf,Date,date,DayOfWeek,dayofweek
+chicago,sf,Date,date,Date,date
+chicago,sf,Date,date,Time,time
+chicago,sf,Date,date,PdDistrict,pddistrict
+chicago,sf,Date,date,Resolution,resolution
+chicago,sf,Date,date,Address,address
+chicago,sf,Date,date,X,x
+chicago,sf,Date,date,Y,y
+chicago,sf,Date,date,location,location
+chicago,sf,Date,date,SF Find Neighborhoods 2 2,sf_find_neighborhoods_2_2
+chicago,sf,Date,date,Current Police Districts 2 2,current_police_districts_2_2
+chicago,sf,Date,date,Current Supervisor Districts 2 2,current_supervisor_districts_2_2
+chicago,sf,Date,date,Analysis Neighborhoods 2 2,analysis_neighborhoods_2_2
+chicago,sf,Date,date,DELETE - Fire Prevention Districts 2 2,delete_fire_prevention_districts_2_2
+chicago,sf,Date,date,DELETE - Police Districts 2 2,delete_police_districts_2_2
+chicago,sf,Date,date,DELETE - Supervisor Districts 2 2,delete_supervisor_districts_2_2
+chicago,sf,Date,date,DELETE - Zip Codes 2 2,delete_zip_codes_2_2
+chicago,sf,Date,date,DELETE - Neighborhoods 2 2,delete_neighborhoods_2_2
+chicago,sf,Date,date,DELETE - 2017 Fix It Zones 2 2,delete_2017_fix_it_zones_2_2
+chicago,sf,Date,date,Civic Center Harm Reduction Project Boundary 2 2,civic_center_harm_reduction_project_boundary_2_2
+chicago,sf,Date,date,Fix It Zones as of 2017-11-06  2 2,fix_it_zones_as_of_2017_11_06_2_2
+chicago,sf,Date,date,DELETE - HSOC Zones 2 2,delete_hsoc_zones_2_2
+chicago,sf,Date,date,Fix It Zones as of 2018-02-07 2 2,fix_it_zones_as_of_2018_02_07_2_2
+chicago,sf,Date,date,"CBD, BID and GBD Boundaries as of 2017 2 2",cbd_bid_and_gbd_boundaries_as_of_2017_2_2
+chicago,sf,Date,date,"Areas of Vulnerability, 2016 2 2",areas_of_vulnerability_2016_2_2
+chicago,sf,Date,date,Central Market/Tenderloin Boundary 2 2,central_market_tenderloin_boundary_2_2
+chicago,sf,Date,date,Central Market/Tenderloin Boundary Polygon - Updated 2 2,central_market_tenderloin_boundary_polygon_updated_2_2
+chicago,sf,Date,date,HSOC Zones as of 2018-06-05 2 2,hsoc_zones_as_of_2018_06_05_2_2
+chicago,sf,Date,date,OWED Public Spaces 2 2,owed_public_spaces_2_2
+chicago,sf,Date,date,Neighborhoods 2,neighborhoods_2
+chicago,sf,Block,block,PdId,police_department_incident_id
+chicago,sf,Block,block,IncidntNum,incidntnum
+chicago,sf,Block,block,Incident Code,incident_code
+chicago,sf,Block,block,Category,category
+chicago,sf,Block,block,Descript,descript
+chicago,sf,Block,block,DayOfWeek,dayofweek
+chicago,sf,Block,block,Date,date
+chicago,sf,Block,block,Time,time
+chicago,sf,Block,block,PdDistrict,pddistrict
+chicago,sf,Block,block,Resolution,resolution
+chicago,sf,Block,block,Address,address
+chicago,sf,Block,block,X,x
+chicago,sf,Block,block,Y,y
+chicago,sf,Block,block,location,location
+chicago,sf,Block,block,SF Find Neighborhoods 2 2,sf_find_neighborhoods_2_2
+chicago,sf,Block,block,Current Police Districts 2 2,current_police_districts_2_2
+chicago,sf,Block,block,Current Supervisor Districts 2 2,current_supervisor_districts_2_2
+chicago,sf,Block,block,Analysis Neighborhoods 2 2,analysis_neighborhoods_2_2
+chicago,sf,Block,block,DELETE - Fire Prevention Districts 2 2,delete_fire_prevention_districts_2_2
+chicago,sf,Block,block,DELETE - Police Districts 2 2,delete_police_districts_2_2
+chicago,sf,Block,block,DELETE - Supervisor Districts 2 2,delete_supervisor_districts_2_2
+chicago,sf,Block,block,DELETE - Zip Codes 2 2,delete_zip_codes_2_2
+chicago,sf,Block,block,DELETE - Neighborhoods 2 2,delete_neighborhoods_2_2
+chicago,sf,Block,block,DELETE - 2017 Fix It Zones 2 2,delete_2017_fix_it_zones_2_2
+chicago,sf,Block,block,Civic Center Harm Reduction Project Boundary 2 2,civic_center_harm_reduction_project_boundary_2_2
+chicago,sf,Block,block,Fix It Zones as of 2017-11-06  2 2,fix_it_zones_as_of_2017_11_06_2_2
+chicago,sf,Block,block,DELETE - HSOC Zones 2 2,delete_hsoc_zones_2_2
+chicago,sf,Block,block,Fix It Zones as of 2018-02-07 2 2,fix_it_zones_as_of_2018_02_07_2_2
+chicago,sf,Block,block,"CBD, BID and GBD Boundaries as of 2017 2 2",cbd_bid_and_gbd_boundaries_as_of_2017_2_2
+chicago,sf,Block,block,"Areas of Vulnerability, 2016 2 2",areas_of_vulnerability_2016_2_2
+chicago,sf,Block,block,Central Market/Tenderloin Boundary 2 2,central_market_tenderloin_boundary_2_2
+chicago,sf,Block,block,Central Market/Tenderloin Boundary Polygon - Updated 2 2,central_market_tenderloin_boundary_polygon_updated_2_2
+chicago,sf,Block,block,HSOC Zones as of 2018-06-05 2 2,hsoc_zones_as_of_2018_06_05_2_2
+chicago,sf,Block,block,OWED Public Spaces 2 2,owed_public_spaces_2_2
+chicago,sf,Block,block,Neighborhoods 2,neighborhoods_2
+chicago,sf,IUCR,illinois_uniform_crime_reporting_code,PdId,police_department_incident_id
+chicago,sf,IUCR,illinois_uniform_crime_reporting_code,IncidntNum,incidntnum
+chicago,sf,IUCR,illinois_uniform_crime_reporting_code,Incident Code,incident_code
+chicago,sf,IUCR,illinois_uniform_crime_reporting_code,Category,category
+chicago,sf,IUCR,illinois_uniform_crime_reporting_code,Descript,descript
+chicago,sf,IUCR,illinois_uniform_crime_reporting_code,DayOfWeek,dayofweek
+chicago,sf,IUCR,illinois_uniform_crime_reporting_code,Date,date
+chicago,sf,IUCR,illinois_uniform_crime_reporting_code,Time,time
+chicago,sf,IUCR,illinois_uniform_crime_reporting_code,PdDistrict,pddistrict
+chicago,sf,IUCR,illinois_uniform_crime_reporting_code,Resolution,resolution
+chicago,sf,IUCR,illinois_uniform_crime_reporting_code,Address,address
+chicago,sf,IUCR,illinois_uniform_crime_reporting_code,X,x
+chicago,sf,IUCR,illinois_uniform_crime_reporting_code,Y,y
+chicago,sf,IUCR,illinois_uniform_crime_reporting_code,location,location
+chicago,sf,IUCR,illinois_uniform_crime_reporting_code,SF Find Neighborhoods 2 2,sf_find_neighborhoods_2_2
+chicago,sf,IUCR,illinois_uniform_crime_reporting_code,Current Police Districts 2 2,current_police_districts_2_2
+chicago,sf,IUCR,illinois_uniform_crime_reporting_code,Current Supervisor Districts 2 2,current_supervisor_districts_2_2
+chicago,sf,IUCR,illinois_uniform_crime_reporting_code,Analysis Neighborhoods 2 2,analysis_neighborhoods_2_2
+chicago,sf,IUCR,illinois_uniform_crime_reporting_code,DELETE - Fire Prevention Districts 2 2,delete_fire_prevention_districts_2_2
+chicago,sf,IUCR,illinois_uniform_crime_reporting_code,DELETE - Police Districts 2 2,delete_police_districts_2_2
+chicago,sf,IUCR,illinois_uniform_crime_reporting_code,DELETE - Supervisor Districts 2 2,delete_supervisor_districts_2_2
+chicago,sf,IUCR,illinois_uniform_crime_reporting_code,DELETE - Zip Codes 2 2,delete_zip_codes_2_2
+chicago,sf,IUCR,illinois_uniform_crime_reporting_code,DELETE - Neighborhoods 2 2,delete_neighborhoods_2_2
+chicago,sf,IUCR,illinois_uniform_crime_reporting_code,DELETE - 2017 Fix It Zones 2 2,delete_2017_fix_it_zones_2_2
+chicago,sf,IUCR,illinois_uniform_crime_reporting_code,Civic Center Harm Reduction Project Boundary 2 2,civic_center_harm_reduction_project_boundary_2_2
+chicago,sf,IUCR,illinois_uniform_crime_reporting_code,Fix It Zones as of 2017-11-06  2 2,fix_it_zones_as_of_2017_11_06_2_2
+chicago,sf,IUCR,illinois_uniform_crime_reporting_code,DELETE - HSOC Zones 2 2,delete_hsoc_zones_2_2
+chicago,sf,IUCR,illinois_uniform_crime_reporting_code,Fix It Zones as of 2018-02-07 2 2,fix_it_zones_as_of_2018_02_07_2_2
+chicago,sf,IUCR,illinois_uniform_crime_reporting_code,"CBD, BID and GBD Boundaries as of 2017 2 2",cbd_bid_and_gbd_boundaries_as_of_2017_2_2
+chicago,sf,IUCR,illinois_uniform_crime_reporting_code,"Areas of Vulnerability, 2016 2 2",areas_of_vulnerability_2016_2_2
+chicago,sf,IUCR,illinois_uniform_crime_reporting_code,Central Market/Tenderloin Boundary 2 2,central_market_tenderloin_boundary_2_2
+chicago,sf,IUCR,illinois_uniform_crime_reporting_code,Central Market/Tenderloin Boundary Polygon - Updated 2 2,central_market_tenderloin_boundary_polygon_updated_2_2
+chicago,sf,IUCR,illinois_uniform_crime_reporting_code,HSOC Zones as of 2018-06-05 2 2,hsoc_zones_as_of_2018_06_05_2_2
+chicago,sf,IUCR,illinois_uniform_crime_reporting_code,OWED Public Spaces 2 2,owed_public_spaces_2_2
+chicago,sf,IUCR,illinois_uniform_crime_reporting_code,Neighborhoods 2,neighborhoods_2
+chicago,sf,Primary Type,primary_type,PdId,police_department_incident_id
+chicago,sf,Primary Type,primary_type,IncidntNum,incidntnum
+chicago,sf,Primary Type,primary_type,Incident Code,incident_code
+chicago,sf,Primary Type,primary_type,Category,category
+chicago,sf,Primary Type,primary_type,Descript,descript
+chicago,sf,Primary Type,primary_type,DayOfWeek,dayofweek
+chicago,sf,Primary Type,primary_type,Date,date
+chicago,sf,Primary Type,primary_type,Time,time
+chicago,sf,Primary Type,primary_type,PdDistrict,pddistrict
+chicago,sf,Primary Type,primary_type,Resolution,resolution
+chicago,sf,Primary Type,primary_type,Address,address
+chicago,sf,Primary Type,primary_type,X,x
+chicago,sf,Primary Type,primary_type,Y,y
+chicago,sf,Primary Type,primary_type,location,location
+chicago,sf,Primary Type,primary_type,SF Find Neighborhoods 2 2,sf_find_neighborhoods_2_2
+chicago,sf,Primary Type,primary_type,Current Police Districts 2 2,current_police_districts_2_2
+chicago,sf,Primary Type,primary_type,Current Supervisor Districts 2 2,current_supervisor_districts_2_2
+chicago,sf,Primary Type,primary_type,Analysis Neighborhoods 2 2,analysis_neighborhoods_2_2
+chicago,sf,Primary Type,primary_type,DELETE - Fire Prevention Districts 2 2,delete_fire_prevention_districts_2_2
+chicago,sf,Primary Type,primary_type,DELETE - Police Districts 2 2,delete_police_districts_2_2
+chicago,sf,Primary Type,primary_type,DELETE - Supervisor Districts 2 2,delete_supervisor_districts_2_2
+chicago,sf,Primary Type,primary_type,DELETE - Zip Codes 2 2,delete_zip_codes_2_2
+chicago,sf,Primary Type,primary_type,DELETE - Neighborhoods 2 2,delete_neighborhoods_2_2
+chicago,sf,Primary Type,primary_type,DELETE - 2017 Fix It Zones 2 2,delete_2017_fix_it_zones_2_2
+chicago,sf,Primary Type,primary_type,Civic Center Harm Reduction Project Boundary 2 2,civic_center_harm_reduction_project_boundary_2_2
+chicago,sf,Primary Type,primary_type,Fix It Zones as of 2017-11-06  2 2,fix_it_zones_as_of_2017_11_06_2_2
+chicago,sf,Primary Type,primary_type,DELETE - HSOC Zones 2 2,delete_hsoc_zones_2_2
+chicago,sf,Primary Type,primary_type,Fix It Zones as of 2018-02-07 2 2,fix_it_zones_as_of_2018_02_07_2_2
+chicago,sf,Primary Type,primary_type,"CBD, BID and GBD Boundaries as of 2017 2 2",cbd_bid_and_gbd_boundaries_as_of_2017_2_2
+chicago,sf,Primary Type,primary_type,"Areas of Vulnerability, 2016 2 2",areas_of_vulnerability_2016_2_2
+chicago,sf,Primary Type,primary_type,Central Market/Tenderloin Boundary 2 2,central_market_tenderloin_boundary_2_2
+chicago,sf,Primary Type,primary_type,Central Market/Tenderloin Boundary Polygon - Updated 2 2,central_market_tenderloin_boundary_polygon_updated_2_2
+chicago,sf,Primary Type,primary_type,HSOC Zones as of 2018-06-05 2 2,hsoc_zones_as_of_2018_06_05_2_2
+chicago,sf,Primary Type,primary_type,OWED Public Spaces 2 2,owed_public_spaces_2_2
+chicago,sf,Primary Type,primary_type,Neighborhoods 2,neighborhoods_2
+chicago,sf,Description,description,PdId,police_department_incident_id
+chicago,sf,Description,description,IncidntNum,incidntnum
+chicago,sf,Description,description,Incident Code,incident_code
+chicago,sf,Description,description,Category,category
+chicago,sf,Description,description,Descript,descript
+chicago,sf,Description,description,DayOfWeek,dayofweek
+chicago,sf,Description,description,Date,date
+chicago,sf,Description,description,Time,time
+chicago,sf,Description,description,PdDistrict,pddistrict
+chicago,sf,Description,description,Resolution,resolution
+chicago,sf,Description,description,Address,address
+chicago,sf,Description,description,X,x
+chicago,sf,Description,description,Y,y
+chicago,sf,Description,description,location,location
+chicago,sf,Description,description,SF Find Neighborhoods 2 2,sf_find_neighborhoods_2_2
+chicago,sf,Description,description,Current Police Districts 2 2,current_police_districts_2_2
+chicago,sf,Description,description,Current Supervisor Districts 2 2,current_supervisor_districts_2_2
+chicago,sf,Description,description,Analysis Neighborhoods 2 2,analysis_neighborhoods_2_2
+chicago,sf,Description,description,DELETE - Fire Prevention Districts 2 2,delete_fire_prevention_districts_2_2
+chicago,sf,Description,description,DELETE - Police Districts 2 2,delete_police_districts_2_2
+chicago,sf,Description,description,DELETE - Supervisor Districts 2 2,delete_supervisor_districts_2_2
+chicago,sf,Description,description,DELETE - Zip Codes 2 2,delete_zip_codes_2_2
+chicago,sf,Description,description,DELETE - Neighborhoods 2 2,delete_neighborhoods_2_2
+chicago,sf,Description,description,DELETE - 2017 Fix It Zones 2 2,delete_2017_fix_it_zones_2_2
+chicago,sf,Description,description,Civic Center Harm Reduction Project Boundary 2 2,civic_center_harm_reduction_project_boundary_2_2
+chicago,sf,Description,description,Fix It Zones as of 2017-11-06  2 2,fix_it_zones_as_of_2017_11_06_2_2
+chicago,sf,Description,description,DELETE - HSOC Zones 2 2,delete_hsoc_zones_2_2
+chicago,sf,Description,description,Fix It Zones as of 2018-02-07 2 2,fix_it_zones_as_of_2018_02_07_2_2
+chicago,sf,Description,description,"CBD, BID and GBD Boundaries as of 2017 2 2",cbd_bid_and_gbd_boundaries_as_of_2017_2_2
+chicago,sf,Description,description,"Areas of Vulnerability, 2016 2 2",areas_of_vulnerability_2016_2_2
+chicago,sf,Description,description,Central Market/Tenderloin Boundary 2 2,central_market_tenderloin_boundary_2_2
+chicago,sf,Description,description,Central Market/Tenderloin Boundary Polygon - Updated 2 2,central_market_tenderloin_boundary_polygon_updated_2_2
+chicago,sf,Description,description,HSOC Zones as of 2018-06-05 2 2,hsoc_zones_as_of_2018_06_05_2_2
+chicago,sf,Description,description,OWED Public Spaces 2 2,owed_public_spaces_2_2
+chicago,sf,Description,description,Neighborhoods 2,neighborhoods_2
+chicago,sf,Location Description,location_description,PdId,police_department_incident_id
+chicago,sf,Location Description,location_description,IncidntNum,incidntnum
+chicago,sf,Location Description,location_description,Incident Code,incident_code
+chicago,sf,Location Description,location_description,Category,category
+chicago,sf,Location Description,location_description,Descript,descript
+chicago,sf,Location Description,location_description,DayOfWeek,dayofweek
+chicago,sf,Location Description,location_description,Date,date
+chicago,sf,Location Description,location_description,Time,time
+chicago,sf,Location Description,location_description,PdDistrict,pddistrict
+chicago,sf,Location Description,location_description,Resolution,resolution
+chicago,sf,Location Description,location_description,Address,address
+chicago,sf,Location Description,location_description,X,x
+chicago,sf,Location Description,location_description,Y,y
+chicago,sf,Location Description,location_description,location,location
+chicago,sf,Location Description,location_description,SF Find Neighborhoods 2 2,sf_find_neighborhoods_2_2
+chicago,sf,Location Description,location_description,Current Police Districts 2 2,current_police_districts_2_2
+chicago,sf,Location Description,location_description,Current Supervisor Districts 2 2,current_supervisor_districts_2_2
+chicago,sf,Location Description,location_description,Analysis Neighborhoods 2 2,analysis_neighborhoods_2_2
+chicago,sf,Location Description,location_description,DELETE - Fire Prevention Districts 2 2,delete_fire_prevention_districts_2_2
+chicago,sf,Location Description,location_description,DELETE - Police Districts 2 2,delete_police_districts_2_2
+chicago,sf,Location Description,location_description,DELETE - Supervisor Districts 2 2,delete_supervisor_districts_2_2
+chicago,sf,Location Description,location_description,DELETE - Zip Codes 2 2,delete_zip_codes_2_2
+chicago,sf,Location Description,location_description,DELETE - Neighborhoods 2 2,delete_neighborhoods_2_2
+chicago,sf,Location Description,location_description,DELETE - 2017 Fix It Zones 2 2,delete_2017_fix_it_zones_2_2
+chicago,sf,Location Description,location_description,Civic Center Harm Reduction Project Boundary 2 2,civic_center_harm_reduction_project_boundary_2_2
+chicago,sf,Location Description,location_description,Fix It Zones as of 2017-11-06  2 2,fix_it_zones_as_of_2017_11_06_2_2
+chicago,sf,Location Description,location_description,DELETE - HSOC Zones 2 2,delete_hsoc_zones_2_2
+chicago,sf,Location Description,location_description,Fix It Zones as of 2018-02-07 2 2,fix_it_zones_as_of_2018_02_07_2_2
+chicago,sf,Location Description,location_description,"CBD, BID and GBD Boundaries as of 2017 2 2",cbd_bid_and_gbd_boundaries_as_of_2017_2_2
+chicago,sf,Location Description,location_description,"Areas of Vulnerability, 2016 2 2",areas_of_vulnerability_2016_2_2
+chicago,sf,Location Description,location_description,Central Market/Tenderloin Boundary 2 2,central_market_tenderloin_boundary_2_2
+chicago,sf,Location Description,location_description,Central Market/Tenderloin Boundary Polygon - Updated 2 2,central_market_tenderloin_boundary_polygon_updated_2_2
+chicago,sf,Location Description,location_description,HSOC Zones as of 2018-06-05 2 2,hsoc_zones_as_of_2018_06_05_2_2
+chicago,sf,Location Description,location_description,OWED Public Spaces 2 2,owed_public_spaces_2_2
+chicago,sf,Location Description,location_description,Neighborhoods 2,neighborhoods_2
+chicago,sf,Arrest,arrest,PdId,police_department_incident_id
+chicago,sf,Arrest,arrest,IncidntNum,incidntnum
+chicago,sf,Arrest,arrest,Incident Code,incident_code
+chicago,sf,Arrest,arrest,Category,category
+chicago,sf,Arrest,arrest,Descript,descript
+chicago,sf,Arrest,arrest,DayOfWeek,dayofweek
+chicago,sf,Arrest,arrest,Date,date
+chicago,sf,Arrest,arrest,Time,time
+chicago,sf,Arrest,arrest,PdDistrict,pddistrict
+chicago,sf,Arrest,arrest,Resolution,resolution
+chicago,sf,Arrest,arrest,Address,address
+chicago,sf,Arrest,arrest,X,x
+chicago,sf,Arrest,arrest,Y,y
+chicago,sf,Arrest,arrest,location,location
+chicago,sf,Arrest,arrest,SF Find Neighborhoods 2 2,sf_find_neighborhoods_2_2
+chicago,sf,Arrest,arrest,Current Police Districts 2 2,current_police_districts_2_2
+chicago,sf,Arrest,arrest,Current Supervisor Districts 2 2,current_supervisor_districts_2_2
+chicago,sf,Arrest,arrest,Analysis Neighborhoods 2 2,analysis_neighborhoods_2_2
+chicago,sf,Arrest,arrest,DELETE - Fire Prevention Districts 2 2,delete_fire_prevention_districts_2_2
+chicago,sf,Arrest,arrest,DELETE - Police Districts 2 2,delete_police_districts_2_2
+chicago,sf,Arrest,arrest,DELETE - Supervisor Districts 2 2,delete_supervisor_districts_2_2
+chicago,sf,Arrest,arrest,DELETE - Zip Codes 2 2,delete_zip_codes_2_2
+chicago,sf,Arrest,arrest,DELETE - Neighborhoods 2 2,delete_neighborhoods_2_2
+chicago,sf,Arrest,arrest,DELETE - 2017 Fix It Zones 2 2,delete_2017_fix_it_zones_2_2
+chicago,sf,Arrest,arrest,Civic Center Harm Reduction Project Boundary 2 2,civic_center_harm_reduction_project_boundary_2_2
+chicago,sf,Arrest,arrest,Fix It Zones as of 2017-11-06  2 2,fix_it_zones_as_of_2017_11_06_2_2
+chicago,sf,Arrest,arrest,DELETE - HSOC Zones 2 2,delete_hsoc_zones_2_2
+chicago,sf,Arrest,arrest,Fix It Zones as of 2018-02-07 2 2,fix_it_zones_as_of_2018_02_07_2_2
+chicago,sf,Arrest,arrest,"CBD, BID and GBD Boundaries as of 2017 2 2",cbd_bid_and_gbd_boundaries_as_of_2017_2_2
+chicago,sf,Arrest,arrest,"Areas of Vulnerability, 2016 2 2",areas_of_vulnerability_2016_2_2
+chicago,sf,Arrest,arrest,Central Market/Tenderloin Boundary 2 2,central_market_tenderloin_boundary_2_2
+chicago,sf,Arrest,arrest,Central Market/Tenderloin Boundary Polygon - Updated 2 2,central_market_tenderloin_boundary_polygon_updated_2_2
+chicago,sf,Arrest,arrest,HSOC Zones as of 2018-06-05 2 2,hsoc_zones_as_of_2018_06_05_2_2
+chicago,sf,Arrest,arrest,OWED Public Spaces 2 2,owed_public_spaces_2_2
+chicago,sf,Arrest,arrest,Neighborhoods 2,neighborhoods_2
+chicago,sf,Domestic,domestic,PdId,police_department_incident_id
+chicago,sf,Domestic,domestic,IncidntNum,incidntnum
+chicago,sf,Domestic,domestic,Incident Code,incident_code
+chicago,sf,Domestic,domestic,Category,category
+chicago,sf,Domestic,domestic,Descript,descript
+chicago,sf,Domestic,domestic,DayOfWeek,dayofweek
+chicago,sf,Domestic,domestic,Date,date
+chicago,sf,Domestic,domestic,Time,time
+chicago,sf,Domestic,domestic,PdDistrict,pddistrict
+chicago,sf,Domestic,domestic,Resolution,resolution
+chicago,sf,Domestic,domestic,Address,address
+chicago,sf,Domestic,domestic,X,x
+chicago,sf,Domestic,domestic,Y,y
+chicago,sf,Domestic,domestic,location,location
+chicago,sf,Domestic,domestic,SF Find Neighborhoods 2 2,sf_find_neighborhoods_2_2
+chicago,sf,Domestic,domestic,Current Police Districts 2 2,current_police_districts_2_2
+chicago,sf,Domestic,domestic,Current Supervisor Districts 2 2,current_supervisor_districts_2_2
+chicago,sf,Domestic,domestic,Analysis Neighborhoods 2 2,analysis_neighborhoods_2_2
+chicago,sf,Domestic,domestic,DELETE - Fire Prevention Districts 2 2,delete_fire_prevention_districts_2_2
+chicago,sf,Domestic,domestic,DELETE - Police Districts 2 2,delete_police_districts_2_2
+chicago,sf,Domestic,domestic,DELETE - Supervisor Districts 2 2,delete_supervisor_districts_2_2
+chicago,sf,Domestic,domestic,DELETE - Zip Codes 2 2,delete_zip_codes_2_2
+chicago,sf,Domestic,domestic,DELETE - Neighborhoods 2 2,delete_neighborhoods_2_2
+chicago,sf,Domestic,domestic,DELETE - 2017 Fix It Zones 2 2,delete_2017_fix_it_zones_2_2
+chicago,sf,Domestic,domestic,Civic Center Harm Reduction Project Boundary 2 2,civic_center_harm_reduction_project_boundary_2_2
+chicago,sf,Domestic,domestic,Fix It Zones as of 2017-11-06  2 2,fix_it_zones_as_of_2017_11_06_2_2
+chicago,sf,Domestic,domestic,DELETE - HSOC Zones 2 2,delete_hsoc_zones_2_2
+chicago,sf,Domestic,domestic,Fix It Zones as of 2018-02-07 2 2,fix_it_zones_as_of_2018_02_07_2_2
+chicago,sf,Domestic,domestic,"CBD, BID and GBD Boundaries as of 2017 2 2",cbd_bid_and_gbd_boundaries_as_of_2017_2_2
+chicago,sf,Domestic,domestic,"Areas of Vulnerability, 2016 2 2",areas_of_vulnerability_2016_2_2
+chicago,sf,Domestic,domestic,Central Market/Tenderloin Boundary 2 2,central_market_tenderloin_boundary_2_2
+chicago,sf,Domestic,domestic,Central Market/Tenderloin Boundary Polygon - Updated 2 2,central_market_tenderloin_boundary_polygon_updated_2_2
+chicago,sf,Domestic,domestic,HSOC Zones as of 2018-06-05 2 2,hsoc_zones_as_of_2018_06_05_2_2
+chicago,sf,Domestic,domestic,OWED Public Spaces 2 2,owed_public_spaces_2_2
+chicago,sf,Domestic,domestic,Neighborhoods 2,neighborhoods_2
+chicago,sf,Beat,police_beat_area,PdId,police_department_incident_id
+chicago,sf,Beat,police_beat_area,IncidntNum,incidntnum
+chicago,sf,Beat,police_beat_area,Incident Code,incident_code
+chicago,sf,Beat,police_beat_area,Category,category
+chicago,sf,Beat,police_beat_area,Descript,descript
+chicago,sf,Beat,police_beat_area,DayOfWeek,dayofweek
+chicago,sf,Beat,police_beat_area,Date,date
+chicago,sf,Beat,police_beat_area,Time,time
+chicago,sf,Beat,police_beat_area,PdDistrict,pddistrict
+chicago,sf,Beat,police_beat_area,Resolution,resolution
+chicago,sf,Beat,police_beat_area,Address,address
+chicago,sf,Beat,police_beat_area,X,x
+chicago,sf,Beat,police_beat_area,Y,y
+chicago,sf,Beat,police_beat_area,location,location
+chicago,sf,Beat,police_beat_area,SF Find Neighborhoods 2 2,sf_find_neighborhoods_2_2
+chicago,sf,Beat,police_beat_area,Current Police Districts 2 2,current_police_districts_2_2
+chicago,sf,Beat,police_beat_area,Current Supervisor Districts 2 2,current_supervisor_districts_2_2
+chicago,sf,Beat,police_beat_area,Analysis Neighborhoods 2 2,analysis_neighborhoods_2_2
+chicago,sf,Beat,police_beat_area,DELETE - Fire Prevention Districts 2 2,delete_fire_prevention_districts_2_2
+chicago,sf,Beat,police_beat_area,DELETE - Police Districts 2 2,delete_police_districts_2_2
+chicago,sf,Beat,police_beat_area,DELETE - Supervisor Districts 2 2,delete_supervisor_districts_2_2
+chicago,sf,Beat,police_beat_area,DELETE - Zip Codes 2 2,delete_zip_codes_2_2
+chicago,sf,Beat,police_beat_area,DELETE - Neighborhoods 2 2,delete_neighborhoods_2_2
+chicago,sf,Beat,police_beat_area,DELETE - 2017 Fix It Zones 2 2,delete_2017_fix_it_zones_2_2
+chicago,sf,Beat,police_beat_area,Civic Center Harm Reduction Project Boundary 2 2,civic_center_harm_reduction_project_boundary_2_2
+chicago,sf,Beat,police_beat_area,Fix It Zones as of 2017-11-06  2 2,fix_it_zones_as_of_2017_11_06_2_2
+chicago,sf,Beat,police_beat_area,DELETE - HSOC Zones 2 2,delete_hsoc_zones_2_2
+chicago,sf,Beat,police_beat_area,Fix It Zones as of 2018-02-07 2 2,fix_it_zones_as_of_2018_02_07_2_2
+chicago,sf,Beat,police_beat_area,"CBD, BID and GBD Boundaries as of 2017 2 2",cbd_bid_and_gbd_boundaries_as_of_2017_2_2
+chicago,sf,Beat,police_beat_area,"Areas of Vulnerability, 2016 2 2",areas_of_vulnerability_2016_2_2
+chicago,sf,Beat,police_beat_area,Central Market/Tenderloin Boundary 2 2,central_market_tenderloin_boundary_2_2
+chicago,sf,Beat,police_beat_area,Central Market/Tenderloin Boundary Polygon - Updated 2 2,central_market_tenderloin_boundary_polygon_updated_2_2
+chicago,sf,Beat,police_beat_area,HSOC Zones as of 2018-06-05 2 2,hsoc_zones_as_of_2018_06_05_2_2
+chicago,sf,Beat,police_beat_area,OWED Public Spaces 2 2,owed_public_spaces_2_2
+chicago,sf,Beat,police_beat_area,Neighborhoods 2,neighborhoods_2
+chicago,sf,District,district,PdId,police_department_incident_id
+chicago,sf,District,district,IncidntNum,incidntnum
+chicago,sf,District,district,Incident Code,incident_code
+chicago,sf,District,district,Category,category
+chicago,sf,District,district,Descript,descript
+chicago,sf,District,district,DayOfWeek,dayofweek
+chicago,sf,District,district,Date,date
+chicago,sf,District,district,Time,time
+chicago,sf,District,district,PdDistrict,pddistrict
+chicago,sf,District,district,Resolution,resolution
+chicago,sf,District,district,Address,address
+chicago,sf,District,district,X,x
+chicago,sf,District,district,Y,y
+chicago,sf,District,district,location,location
+chicago,sf,District,district,SF Find Neighborhoods 2 2,sf_find_neighborhoods_2_2
+chicago,sf,District,district,Current Police Districts 2 2,current_police_districts_2_2
+chicago,sf,District,district,Current Supervisor Districts 2 2,current_supervisor_districts_2_2
+chicago,sf,District,district,Analysis Neighborhoods 2 2,analysis_neighborhoods_2_2
+chicago,sf,District,district,DELETE - Fire Prevention Districts 2 2,delete_fire_prevention_districts_2_2
+chicago,sf,District,district,DELETE - Police Districts 2 2,delete_police_districts_2_2
+chicago,sf,District,district,DELETE - Supervisor Districts 2 2,delete_supervisor_districts_2_2
+chicago,sf,District,district,DELETE - Zip Codes 2 2,delete_zip_codes_2_2
+chicago,sf,District,district,DELETE - Neighborhoods 2 2,delete_neighborhoods_2_2
+chicago,sf,District,district,DELETE - 2017 Fix It Zones 2 2,delete_2017_fix_it_zones_2_2
+chicago,sf,District,district,Civic Center Harm Reduction Project Boundary 2 2,civic_center_harm_reduction_project_boundary_2_2
+chicago,sf,District,district,Fix It Zones as of 2017-11-06  2 2,fix_it_zones_as_of_2017_11_06_2_2
+chicago,sf,District,district,DELETE - HSOC Zones 2 2,delete_hsoc_zones_2_2
+chicago,sf,District,district,Fix It Zones as of 2018-02-07 2 2,fix_it_zones_as_of_2018_02_07_2_2
+chicago,sf,District,district,"CBD, BID and GBD Boundaries as of 2017 2 2",cbd_bid_and_gbd_boundaries_as_of_2017_2_2
+chicago,sf,District,district,"Areas of Vulnerability, 2016 2 2",areas_of_vulnerability_2016_2_2
+chicago,sf,District,district,Central Market/Tenderloin Boundary 2 2,central_market_tenderloin_boundary_2_2
+chicago,sf,District,district,Central Market/Tenderloin Boundary Polygon - Updated 2 2,central_market_tenderloin_boundary_polygon_updated_2_2
+chicago,sf,District,district,HSOC Zones as of 2018-06-05 2 2,hsoc_zones_as_of_2018_06_05_2_2
+chicago,sf,District,district,OWED Public Spaces 2 2,owed_public_spaces_2_2
+chicago,sf,District,district,Neighborhoods 2,neighborhoods_2
+chicago,sf,Ward,ward,PdId,police_department_incident_id
+chicago,sf,Ward,ward,IncidntNum,incidntnum
+chicago,sf,Ward,ward,Incident Code,incident_code
+chicago,sf,Ward,ward,Category,category
+chicago,sf,Ward,ward,Descript,descript
+chicago,sf,Ward,ward,DayOfWeek,dayofweek
+chicago,sf,Ward,ward,Date,date
+chicago,sf,Ward,ward,Time,time
+chicago,sf,Ward,ward,PdDistrict,pddistrict
+chicago,sf,Ward,ward,Resolution,resolution
+chicago,sf,Ward,ward,Address,address
+chicago,sf,Ward,ward,X,x
+chicago,sf,Ward,ward,Y,y
+chicago,sf,Ward,ward,location,location
+chicago,sf,Ward,ward,SF Find Neighborhoods 2 2,sf_find_neighborhoods_2_2
+chicago,sf,Ward,ward,Current Police Districts 2 2,current_police_districts_2_2
+chicago,sf,Ward,ward,Current Supervisor Districts 2 2,current_supervisor_districts_2_2
+chicago,sf,Ward,ward,Analysis Neighborhoods 2 2,analysis_neighborhoods_2_2
+chicago,sf,Ward,ward,DELETE - Fire Prevention Districts 2 2,delete_fire_prevention_districts_2_2
+chicago,sf,Ward,ward,DELETE - Police Districts 2 2,delete_police_districts_2_2
+chicago,sf,Ward,ward,DELETE - Supervisor Districts 2 2,delete_supervisor_districts_2_2
+chicago,sf,Ward,ward,DELETE - Zip Codes 2 2,delete_zip_codes_2_2
+chicago,sf,Ward,ward,DELETE - Neighborhoods 2 2,delete_neighborhoods_2_2
+chicago,sf,Ward,ward,DELETE - 2017 Fix It Zones 2 2,delete_2017_fix_it_zones_2_2
+chicago,sf,Ward,ward,Civic Center Harm Reduction Project Boundary 2 2,civic_center_harm_reduction_project_boundary_2_2
+chicago,sf,Ward,ward,Fix It Zones as of 2017-11-06  2 2,fix_it_zones_as_of_2017_11_06_2_2
+chicago,sf,Ward,ward,DELETE - HSOC Zones 2 2,delete_hsoc_zones_2_2
+chicago,sf,Ward,ward,Fix It Zones as of 2018-02-07 2 2,fix_it_zones_as_of_2018_02_07_2_2
+chicago,sf,Ward,ward,"CBD, BID and GBD Boundaries as of 2017 2 2",cbd_bid_and_gbd_boundaries_as_of_2017_2_2
+chicago,sf,Ward,ward,"Areas of Vulnerability, 2016 2 2",areas_of_vulnerability_2016_2_2
+chicago,sf,Ward,ward,Central Market/Tenderloin Boundary 2 2,central_market_tenderloin_boundary_2_2
+chicago,sf,Ward,ward,Central Market/Tenderloin Boundary Polygon - Updated 2 2,central_market_tenderloin_boundary_polygon_updated_2_2
+chicago,sf,Ward,ward,HSOC Zones as of 2018-06-05 2 2,hsoc_zones_as_of_2018_06_05_2_2
+chicago,sf,Ward,ward,OWED Public Spaces 2 2,owed_public_spaces_2_2
+chicago,sf,Ward,ward,Neighborhoods 2,neighborhoods_2
+chicago,sf,Community Area,community_area,PdId,police_department_incident_id
+chicago,sf,Community Area,community_area,IncidntNum,incidntnum
+chicago,sf,Community Area,community_area,Incident Code,incident_code
+chicago,sf,Community Area,community_area,Category,category
+chicago,sf,Community Area,community_area,Descript,descript
+chicago,sf,Community Area,community_area,DayOfWeek,dayofweek
+chicago,sf,Community Area,community_area,Date,date
+chicago,sf,Community Area,community_area,Time,time
+chicago,sf,Community Area,community_area,PdDistrict,pddistrict
+chicago,sf,Community Area,community_area,Resolution,resolution
+chicago,sf,Community Area,community_area,Address,address
+chicago,sf,Community Area,community_area,X,x
+chicago,sf,Community Area,community_area,Y,y
+chicago,sf,Community Area,community_area,location,location
+chicago,sf,Community Area,community_area,SF Find Neighborhoods 2 2,sf_find_neighborhoods_2_2
+chicago,sf,Community Area,community_area,Current Police Districts 2 2,current_police_districts_2_2
+chicago,sf,Community Area,community_area,Current Supervisor Districts 2 2,current_supervisor_districts_2_2
+chicago,sf,Community Area,community_area,Analysis Neighborhoods 2 2,analysis_neighborhoods_2_2
+chicago,sf,Community Area,community_area,DELETE - Fire Prevention Districts 2 2,delete_fire_prevention_districts_2_2
+chicago,sf,Community Area,community_area,DELETE - Police Districts 2 2,delete_police_districts_2_2
+chicago,sf,Community Area,community_area,DELETE - Supervisor Districts 2 2,delete_supervisor_districts_2_2
+chicago,sf,Community Area,community_area,DELETE - Zip Codes 2 2,delete_zip_codes_2_2
+chicago,sf,Community Area,community_area,DELETE - Neighborhoods 2 2,delete_neighborhoods_2_2
+chicago,sf,Community Area,community_area,DELETE - 2017 Fix It Zones 2 2,delete_2017_fix_it_zones_2_2
+chicago,sf,Community Area,community_area,Civic Center Harm Reduction Project Boundary 2 2,civic_center_harm_reduction_project_boundary_2_2
+chicago,sf,Community Area,community_area,Fix It Zones as of 2017-11-06  2 2,fix_it_zones_as_of_2017_11_06_2_2
+chicago,sf,Community Area,community_area,DELETE - HSOC Zones 2 2,delete_hsoc_zones_2_2
+chicago,sf,Community Area,community_area,Fix It Zones as of 2018-02-07 2 2,fix_it_zones_as_of_2018_02_07_2_2
+chicago,sf,Community Area,community_area,"CBD, BID and GBD Boundaries as of 2017 2 2",cbd_bid_and_gbd_boundaries_as_of_2017_2_2
+chicago,sf,Community Area,community_area,"Areas of Vulnerability, 2016 2 2",areas_of_vulnerability_2016_2_2
+chicago,sf,Community Area,community_area,Central Market/Tenderloin Boundary 2 2,central_market_tenderloin_boundary_2_2
+chicago,sf,Community Area,community_area,Central Market/Tenderloin Boundary Polygon - Updated 2 2,central_market_tenderloin_boundary_polygon_updated_2_2
+chicago,sf,Community Area,community_area,HSOC Zones as of 2018-06-05 2 2,hsoc_zones_as_of_2018_06_05_2_2
+chicago,sf,Community Area,community_area,OWED Public Spaces 2 2,owed_public_spaces_2_2
+chicago,sf,Community Area,community_area,Neighborhoods 2,neighborhoods_2
+chicago,sf,FBI Code,federal_bureau_of_investigation_code_code,PdId,police_department_incident_id
+chicago,sf,FBI Code,federal_bureau_of_investigation_code_code,IncidntNum,incidntnum
+chicago,sf,FBI Code,federal_bureau_of_investigation_code_code,Incident Code,incident_code
+chicago,sf,FBI Code,federal_bureau_of_investigation_code_code,Category,category
+chicago,sf,FBI Code,federal_bureau_of_investigation_code_code,Descript,descript
+chicago,sf,FBI Code,federal_bureau_of_investigation_code_code,DayOfWeek,dayofweek
+chicago,sf,FBI Code,federal_bureau_of_investigation_code_code,Date,date
+chicago,sf,FBI Code,federal_bureau_of_investigation_code_code,Time,time
+chicago,sf,FBI Code,federal_bureau_of_investigation_code_code,PdDistrict,pddistrict
+chicago,sf,FBI Code,federal_bureau_of_investigation_code_code,Resolution,resolution
+chicago,sf,FBI Code,federal_bureau_of_investigation_code_code,Address,address
+chicago,sf,FBI Code,federal_bureau_of_investigation_code_code,X,x
+chicago,sf,FBI Code,federal_bureau_of_investigation_code_code,Y,y
+chicago,sf,FBI Code,federal_bureau_of_investigation_code_code,location,location
+chicago,sf,FBI Code,federal_bureau_of_investigation_code_code,SF Find Neighborhoods 2 2,sf_find_neighborhoods_2_2
+chicago,sf,FBI Code,federal_bureau_of_investigation_code_code,Current Police Districts 2 2,current_police_districts_2_2
+chicago,sf,FBI Code,federal_bureau_of_investigation_code_code,Current Supervisor Districts 2 2,current_supervisor_districts_2_2
+chicago,sf,FBI Code,federal_bureau_of_investigation_code_code,Analysis Neighborhoods 2 2,analysis_neighborhoods_2_2
+chicago,sf,FBI Code,federal_bureau_of_investigation_code_code,DELETE - Fire Prevention Districts 2 2,delete_fire_prevention_districts_2_2
+chicago,sf,FBI Code,federal_bureau_of_investigation_code_code,DELETE - Police Districts 2 2,delete_police_districts_2_2
+chicago,sf,FBI Code,federal_bureau_of_investigation_code_code,DELETE - Supervisor Districts 2 2,delete_supervisor_districts_2_2
+chicago,sf,FBI Code,federal_bureau_of_investigation_code_code,DELETE - Zip Codes 2 2,delete_zip_codes_2_2
+chicago,sf,FBI Code,federal_bureau_of_investigation_code_code,DELETE - Neighborhoods 2 2,delete_neighborhoods_2_2
+chicago,sf,FBI Code,federal_bureau_of_investigation_code_code,DELETE - 2017 Fix It Zones 2 2,delete_2017_fix_it_zones_2_2
+chicago,sf,FBI Code,federal_bureau_of_investigation_code_code,Civic Center Harm Reduction Project Boundary 2 2,civic_center_harm_reduction_project_boundary_2_2
+chicago,sf,FBI Code,federal_bureau_of_investigation_code_code,Fix It Zones as of 2017-11-06  2 2,fix_it_zones_as_of_2017_11_06_2_2
+chicago,sf,FBI Code,federal_bureau_of_investigation_code_code,DELETE - HSOC Zones 2 2,delete_hsoc_zones_2_2
+chicago,sf,FBI Code,federal_bureau_of_investigation_code_code,Fix It Zones as of 2018-02-07 2 2,fix_it_zones_as_of_2018_02_07_2_2
+chicago,sf,FBI Code,federal_bureau_of_investigation_code_code,"CBD, BID and GBD Boundaries as of 2017 2 2",cbd_bid_and_gbd_boundaries_as_of_2017_2_2
+chicago,sf,FBI Code,federal_bureau_of_investigation_code_code,"Areas of Vulnerability, 2016 2 2",areas_of_vulnerability_2016_2_2
+chicago,sf,FBI Code,federal_bureau_of_investigation_code_code,Central Market/Tenderloin Boundary 2 2,central_market_tenderloin_boundary_2_2
+chicago,sf,FBI Code,federal_bureau_of_investigation_code_code,Central Market/Tenderloin Boundary Polygon - Updated 2 2,central_market_tenderloin_boundary_polygon_updated_2_2
+chicago,sf,FBI Code,federal_bureau_of_investigation_code_code,HSOC Zones as of 2018-06-05 2 2,hsoc_zones_as_of_2018_06_05_2_2
+chicago,sf,FBI Code,federal_bureau_of_investigation_code_code,OWED Public Spaces 2 2,owed_public_spaces_2_2
+chicago,sf,FBI Code,federal_bureau_of_investigation_code_code,Neighborhoods 2,neighborhoods_2
+chicago,sf,X Coordinate,x_coordinate,PdId,police_department_incident_id
+chicago,sf,X Coordinate,x_coordinate,IncidntNum,incidntnum
+chicago,sf,X Coordinate,x_coordinate,Incident Code,incident_code
+chicago,sf,X Coordinate,x_coordinate,Category,category
+chicago,sf,X Coordinate,x_coordinate,Descript,descript
+chicago,sf,X Coordinate,x_coordinate,DayOfWeek,dayofweek
+chicago,sf,X Coordinate,x_coordinate,Date,date
+chicago,sf,X Coordinate,x_coordinate,Time,time
+chicago,sf,X Coordinate,x_coordinate,PdDistrict,pddistrict
+chicago,sf,X Coordinate,x_coordinate,Resolution,resolution
+chicago,sf,X Coordinate,x_coordinate,Address,address
+chicago,sf,X Coordinate,x_coordinate,X,x
+chicago,sf,X Coordinate,x_coordinate,Y,y
+chicago,sf,X Coordinate,x_coordinate,location,location
+chicago,sf,X Coordinate,x_coordinate,SF Find Neighborhoods 2 2,sf_find_neighborhoods_2_2
+chicago,sf,X Coordinate,x_coordinate,Current Police Districts 2 2,current_police_districts_2_2
+chicago,sf,X Coordinate,x_coordinate,Current Supervisor Districts 2 2,current_supervisor_districts_2_2
+chicago,sf,X Coordinate,x_coordinate,Analysis Neighborhoods 2 2,analysis_neighborhoods_2_2
+chicago,sf,X Coordinate,x_coordinate,DELETE - Fire Prevention Districts 2 2,delete_fire_prevention_districts_2_2
+chicago,sf,X Coordinate,x_coordinate,DELETE - Police Districts 2 2,delete_police_districts_2_2
+chicago,sf,X Coordinate,x_coordinate,DELETE - Supervisor Districts 2 2,delete_supervisor_districts_2_2
+chicago,sf,X Coordinate,x_coordinate,DELETE - Zip Codes 2 2,delete_zip_codes_2_2
+chicago,sf,X Coordinate,x_coordinate,DELETE - Neighborhoods 2 2,delete_neighborhoods_2_2
+chicago,sf,X Coordinate,x_coordinate,DELETE - 2017 Fix It Zones 2 2,delete_2017_fix_it_zones_2_2
+chicago,sf,X Coordinate,x_coordinate,Civic Center Harm Reduction Project Boundary 2 2,civic_center_harm_reduction_project_boundary_2_2
+chicago,sf,X Coordinate,x_coordinate,Fix It Zones as of 2017-11-06  2 2,fix_it_zones_as_of_2017_11_06_2_2
+chicago,sf,X Coordinate,x_coordinate,DELETE - HSOC Zones 2 2,delete_hsoc_zones_2_2
+chicago,sf,X Coordinate,x_coordinate,Fix It Zones as of 2018-02-07 2 2,fix_it_zones_as_of_2018_02_07_2_2
+chicago,sf,X Coordinate,x_coordinate,"CBD, BID and GBD Boundaries as of 2017 2 2",cbd_bid_and_gbd_boundaries_as_of_2017_2_2
+chicago,sf,X Coordinate,x_coordinate,"Areas of Vulnerability, 2016 2 2",areas_of_vulnerability_2016_2_2
+chicago,sf,X Coordinate,x_coordinate,Central Market/Tenderloin Boundary 2 2,central_market_tenderloin_boundary_2_2
+chicago,sf,X Coordinate,x_coordinate,Central Market/Tenderloin Boundary Polygon - Updated 2 2,central_market_tenderloin_boundary_polygon_updated_2_2
+chicago,sf,X Coordinate,x_coordinate,HSOC Zones as of 2018-06-05 2 2,hsoc_zones_as_of_2018_06_05_2_2
+chicago,sf,X Coordinate,x_coordinate,OWED Public Spaces 2 2,owed_public_spaces_2_2
+chicago,sf,X Coordinate,x_coordinate,Neighborhoods 2,neighborhoods_2
+chicago,sf,Y Coordinate,y_coordinate,PdId,police_department_incident_id
+chicago,sf,Y Coordinate,y_coordinate,IncidntNum,incidntnum
+chicago,sf,Y Coordinate,y_coordinate,Incident Code,incident_code
+chicago,sf,Y Coordinate,y_coordinate,Category,category
+chicago,sf,Y Coordinate,y_coordinate,Descript,descript
+chicago,sf,Y Coordinate,y_coordinate,DayOfWeek,dayofweek
+chicago,sf,Y Coordinate,y_coordinate,Date,date
+chicago,sf,Y Coordinate,y_coordinate,Time,time
+chicago,sf,Y Coordinate,y_coordinate,PdDistrict,pddistrict
+chicago,sf,Y Coordinate,y_coordinate,Resolution,resolution
+chicago,sf,Y Coordinate,y_coordinate,Address,address
+chicago,sf,Y Coordinate,y_coordinate,X,x
+chicago,sf,Y Coordinate,y_coordinate,Y,y
+chicago,sf,Y Coordinate,y_coordinate,location,location
+chicago,sf,Y Coordinate,y_coordinate,SF Find Neighborhoods 2 2,sf_find_neighborhoods_2_2
+chicago,sf,Y Coordinate,y_coordinate,Current Police Districts 2 2,current_police_districts_2_2
+chicago,sf,Y Coordinate,y_coordinate,Current Supervisor Districts 2 2,current_supervisor_districts_2_2
+chicago,sf,Y Coordinate,y_coordinate,Analysis Neighborhoods 2 2,analysis_neighborhoods_2_2
+chicago,sf,Y Coordinate,y_coordinate,DELETE - Fire Prevention Districts 2 2,delete_fire_prevention_districts_2_2
+chicago,sf,Y Coordinate,y_coordinate,DELETE - Police Districts 2 2,delete_police_districts_2_2
+chicago,sf,Y Coordinate,y_coordinate,DELETE - Supervisor Districts 2 2,delete_supervisor_districts_2_2
+chicago,sf,Y Coordinate,y_coordinate,DELETE - Zip Codes 2 2,delete_zip_codes_2_2
+chicago,sf,Y Coordinate,y_coordinate,DELETE - Neighborhoods 2 2,delete_neighborhoods_2_2
+chicago,sf,Y Coordinate,y_coordinate,DELETE - 2017 Fix It Zones 2 2,delete_2017_fix_it_zones_2_2
+chicago,sf,Y Coordinate,y_coordinate,Civic Center Harm Reduction Project Boundary 2 2,civic_center_harm_reduction_project_boundary_2_2
+chicago,sf,Y Coordinate,y_coordinate,Fix It Zones as of 2017-11-06  2 2,fix_it_zones_as_of_2017_11_06_2_2
+chicago,sf,Y Coordinate,y_coordinate,DELETE - HSOC Zones 2 2,delete_hsoc_zones_2_2
+chicago,sf,Y Coordinate,y_coordinate,Fix It Zones as of 2018-02-07 2 2,fix_it_zones_as_of_2018_02_07_2_2
+chicago,sf,Y Coordinate,y_coordinate,"CBD, BID and GBD Boundaries as of 2017 2 2",cbd_bid_and_gbd_boundaries_as_of_2017_2_2
+chicago,sf,Y Coordinate,y_coordinate,"Areas of Vulnerability, 2016 2 2",areas_of_vulnerability_2016_2_2
+chicago,sf,Y Coordinate,y_coordinate,Central Market/Tenderloin Boundary 2 2,central_market_tenderloin_boundary_2_2
+chicago,sf,Y Coordinate,y_coordinate,Central Market/Tenderloin Boundary Polygon - Updated 2 2,central_market_tenderloin_boundary_polygon_updated_2_2
+chicago,sf,Y Coordinate,y_coordinate,HSOC Zones as of 2018-06-05 2 2,hsoc_zones_as_of_2018_06_05_2_2
+chicago,sf,Y Coordinate,y_coordinate,OWED Public Spaces 2 2,owed_public_spaces_2_2
+chicago,sf,Y Coordinate,y_coordinate,Neighborhoods 2,neighborhoods_2
+chicago,sf,Year,year,PdId,police_department_incident_id
+chicago,sf,Year,year,IncidntNum,incidntnum
+chicago,sf,Year,year,Incident Code,incident_code
+chicago,sf,Year,year,Category,category
+chicago,sf,Year,year,Descript,descript
+chicago,sf,Year,year,DayOfWeek,dayofweek
+chicago,sf,Year,year,Date,date
+chicago,sf,Year,year,Time,time
+chicago,sf,Year,year,PdDistrict,pddistrict
+chicago,sf,Year,year,Resolution,resolution
+chicago,sf,Year,year,Address,address
+chicago,sf,Year,year,X,x
+chicago,sf,Year,year,Y,y
+chicago,sf,Year,year,location,location
+chicago,sf,Year,year,SF Find Neighborhoods 2 2,sf_find_neighborhoods_2_2
+chicago,sf,Year,year,Current Police Districts 2 2,current_police_districts_2_2
+chicago,sf,Year,year,Current Supervisor Districts 2 2,current_supervisor_districts_2_2
+chicago,sf,Year,year,Analysis Neighborhoods 2 2,analysis_neighborhoods_2_2
+chicago,sf,Year,year,DELETE - Fire Prevention Districts 2 2,delete_fire_prevention_districts_2_2
+chicago,sf,Year,year,DELETE - Police Districts 2 2,delete_police_districts_2_2
+chicago,sf,Year,year,DELETE - Supervisor Districts 2 2,delete_supervisor_districts_2_2
+chicago,sf,Year,year,DELETE - Zip Codes 2 2,delete_zip_codes_2_2
+chicago,sf,Year,year,DELETE - Neighborhoods 2 2,delete_neighborhoods_2_2
+chicago,sf,Year,year,DELETE - 2017 Fix It Zones 2 2,delete_2017_fix_it_zones_2_2
+chicago,sf,Year,year,Civic Center Harm Reduction Project Boundary 2 2,civic_center_harm_reduction_project_boundary_2_2
+chicago,sf,Year,year,Fix It Zones as of 2017-11-06  2 2,fix_it_zones_as_of_2017_11_06_2_2
+chicago,sf,Year,year,DELETE - HSOC Zones 2 2,delete_hsoc_zones_2_2
+chicago,sf,Year,year,Fix It Zones as of 2018-02-07 2 2,fix_it_zones_as_of_2018_02_07_2_2
+chicago,sf,Year,year,"CBD, BID and GBD Boundaries as of 2017 2 2",cbd_bid_and_gbd_boundaries_as_of_2017_2_2
+chicago,sf,Year,year,"Areas of Vulnerability, 2016 2 2",areas_of_vulnerability_2016_2_2
+chicago,sf,Year,year,Central Market/Tenderloin Boundary 2 2,central_market_tenderloin_boundary_2_2
+chicago,sf,Year,year,Central Market/Tenderloin Boundary Polygon - Updated 2 2,central_market_tenderloin_boundary_polygon_updated_2_2
+chicago,sf,Year,year,HSOC Zones as of 2018-06-05 2 2,hsoc_zones_as_of_2018_06_05_2_2
+chicago,sf,Year,year,OWED Public Spaces 2 2,owed_public_spaces_2_2
+chicago,sf,Year,year,Neighborhoods 2,neighborhoods_2
+chicago,sf,Updated On,updated_on,PdId,police_department_incident_id
+chicago,sf,Updated On,updated_on,IncidntNum,incidntnum
+chicago,sf,Updated On,updated_on,Incident Code,incident_code
+chicago,sf,Updated On,updated_on,Category,category
+chicago,sf,Updated On,updated_on,Descript,descript
+chicago,sf,Updated On,updated_on,DayOfWeek,dayofweek
+chicago,sf,Updated On,updated_on,Date,date
+chicago,sf,Updated On,updated_on,Time,time
+chicago,sf,Updated On,updated_on,PdDistrict,pddistrict
+chicago,sf,Updated On,updated_on,Resolution,resolution
+chicago,sf,Updated On,updated_on,Address,address
+chicago,sf,Updated On,updated_on,X,x
+chicago,sf,Updated On,updated_on,Y,y
+chicago,sf,Updated On,updated_on,location,location
+chicago,sf,Updated On,updated_on,SF Find Neighborhoods 2 2,sf_find_neighborhoods_2_2
+chicago,sf,Updated On,updated_on,Current Police Districts 2 2,current_police_districts_2_2
+chicago,sf,Updated On,updated_on,Current Supervisor Districts 2 2,current_supervisor_districts_2_2
+chicago,sf,Updated On,updated_on,Analysis Neighborhoods 2 2,analysis_neighborhoods_2_2
+chicago,sf,Updated On,updated_on,DELETE - Fire Prevention Districts 2 2,delete_fire_prevention_districts_2_2
+chicago,sf,Updated On,updated_on,DELETE - Police Districts 2 2,delete_police_districts_2_2
+chicago,sf,Updated On,updated_on,DELETE - Supervisor Districts 2 2,delete_supervisor_districts_2_2
+chicago,sf,Updated On,updated_on,DELETE - Zip Codes 2 2,delete_zip_codes_2_2
+chicago,sf,Updated On,updated_on,DELETE - Neighborhoods 2 2,delete_neighborhoods_2_2
+chicago,sf,Updated On,updated_on,DELETE - 2017 Fix It Zones 2 2,delete_2017_fix_it_zones_2_2
+chicago,sf,Updated On,updated_on,Civic Center Harm Reduction Project Boundary 2 2,civic_center_harm_reduction_project_boundary_2_2
+chicago,sf,Updated On,updated_on,Fix It Zones as of 2017-11-06  2 2,fix_it_zones_as_of_2017_11_06_2_2
+chicago,sf,Updated On,updated_on,DELETE - HSOC Zones 2 2,delete_hsoc_zones_2_2
+chicago,sf,Updated On,updated_on,Fix It Zones as of 2018-02-07 2 2,fix_it_zones_as_of_2018_02_07_2_2
+chicago,sf,Updated On,updated_on,"CBD, BID and GBD Boundaries as of 2017 2 2",cbd_bid_and_gbd_boundaries_as_of_2017_2_2
+chicago,sf,Updated On,updated_on,"Areas of Vulnerability, 2016 2 2",areas_of_vulnerability_2016_2_2
+chicago,sf,Updated On,updated_on,Central Market/Tenderloin Boundary 2 2,central_market_tenderloin_boundary_2_2
+chicago,sf,Updated On,updated_on,Central Market/Tenderloin Boundary Polygon - Updated 2 2,central_market_tenderloin_boundary_polygon_updated_2_2
+chicago,sf,Updated On,updated_on,HSOC Zones as of 2018-06-05 2 2,hsoc_zones_as_of_2018_06_05_2_2
+chicago,sf,Updated On,updated_on,OWED Public Spaces 2 2,owed_public_spaces_2_2
+chicago,sf,Updated On,updated_on,Neighborhoods 2,neighborhoods_2
+chicago,sf,Latitude,latitude,PdId,police_department_incident_id
+chicago,sf,Latitude,latitude,IncidntNum,incidntnum
+chicago,sf,Latitude,latitude,Incident Code,incident_code
+chicago,sf,Latitude,latitude,Category,category
+chicago,sf,Latitude,latitude,Descript,descript
+chicago,sf,Latitude,latitude,DayOfWeek,dayofweek
+chicago,sf,Latitude,latitude,Date,date
+chicago,sf,Latitude,latitude,Time,time
+chicago,sf,Latitude,latitude,PdDistrict,pddistrict
+chicago,sf,Latitude,latitude,Resolution,resolution
+chicago,sf,Latitude,latitude,Address,address
+chicago,sf,Latitude,latitude,X,x
+chicago,sf,Latitude,latitude,Y,y
+chicago,sf,Latitude,latitude,location,location
+chicago,sf,Latitude,latitude,SF Find Neighborhoods 2 2,sf_find_neighborhoods_2_2
+chicago,sf,Latitude,latitude,Current Police Districts 2 2,current_police_districts_2_2
+chicago,sf,Latitude,latitude,Current Supervisor Districts 2 2,current_supervisor_districts_2_2
+chicago,sf,Latitude,latitude,Analysis Neighborhoods 2 2,analysis_neighborhoods_2_2
+chicago,sf,Latitude,latitude,DELETE - Fire Prevention Districts 2 2,delete_fire_prevention_districts_2_2
+chicago,sf,Latitude,latitude,DELETE - Police Districts 2 2,delete_police_districts_2_2
+chicago,sf,Latitude,latitude,DELETE - Supervisor Districts 2 2,delete_supervisor_districts_2_2
+chicago,sf,Latitude,latitude,DELETE - Zip Codes 2 2,delete_zip_codes_2_2
+chicago,sf,Latitude,latitude,DELETE - Neighborhoods 2 2,delete_neighborhoods_2_2
+chicago,sf,Latitude,latitude,DELETE - 2017 Fix It Zones 2 2,delete_2017_fix_it_zones_2_2
+chicago,sf,Latitude,latitude,Civic Center Harm Reduction Project Boundary 2 2,civic_center_harm_reduction_project_boundary_2_2
+chicago,sf,Latitude,latitude,Fix It Zones as of 2017-11-06  2 2,fix_it_zones_as_of_2017_11_06_2_2
+chicago,sf,Latitude,latitude,DELETE - HSOC Zones 2 2,delete_hsoc_zones_2_2
+chicago,sf,Latitude,latitude,Fix It Zones as of 2018-02-07 2 2,fix_it_zones_as_of_2018_02_07_2_2
+chicago,sf,Latitude,latitude,"CBD, BID and GBD Boundaries as of 2017 2 2",cbd_bid_and_gbd_boundaries_as_of_2017_2_2
+chicago,sf,Latitude,latitude,"Areas of Vulnerability, 2016 2 2",areas_of_vulnerability_2016_2_2
+chicago,sf,Latitude,latitude,Central Market/Tenderloin Boundary 2 2,central_market_tenderloin_boundary_2_2
+chicago,sf,Latitude,latitude,Central Market/Tenderloin Boundary Polygon - Updated 2 2,central_market_tenderloin_boundary_polygon_updated_2_2
+chicago,sf,Latitude,latitude,HSOC Zones as of 2018-06-05 2 2,hsoc_zones_as_of_2018_06_05_2_2
+chicago,sf,Latitude,latitude,OWED Public Spaces 2 2,owed_public_spaces_2_2
+chicago,sf,Latitude,latitude,Neighborhoods 2,neighborhoods_2
+chicago,sf,Longitude,longitude,PdId,police_department_incident_id
+chicago,sf,Longitude,longitude,IncidntNum,incidntnum
+chicago,sf,Longitude,longitude,Incident Code,incident_code
+chicago,sf,Longitude,longitude,Category,category
+chicago,sf,Longitude,longitude,Descript,descript
+chicago,sf,Longitude,longitude,DayOfWeek,dayofweek
+chicago,sf,Longitude,longitude,Date,date
+chicago,sf,Longitude,longitude,Time,time
+chicago,sf,Longitude,longitude,PdDistrict,pddistrict
+chicago,sf,Longitude,longitude,Resolution,resolution
+chicago,sf,Longitude,longitude,Address,address
+chicago,sf,Longitude,longitude,X,x
+chicago,sf,Longitude,longitude,Y,y
+chicago,sf,Longitude,longitude,location,location
+chicago,sf,Longitude,longitude,SF Find Neighborhoods 2 2,sf_find_neighborhoods_2_2
+chicago,sf,Longitude,longitude,Current Police Districts 2 2,current_police_districts_2_2
+chicago,sf,Longitude,longitude,Current Supervisor Districts 2 2,current_supervisor_districts_2_2
+chicago,sf,Longitude,longitude,Analysis Neighborhoods 2 2,analysis_neighborhoods_2_2
+chicago,sf,Longitude,longitude,DELETE - Fire Prevention Districts 2 2,delete_fire_prevention_districts_2_2
+chicago,sf,Longitude,longitude,DELETE - Police Districts 2 2,delete_police_districts_2_2
+chicago,sf,Longitude,longitude,DELETE - Supervisor Districts 2 2,delete_supervisor_districts_2_2
+chicago,sf,Longitude,longitude,DELETE - Zip Codes 2 2,delete_zip_codes_2_2
+chicago,sf,Longitude,longitude,DELETE - Neighborhoods 2 2,delete_neighborhoods_2_2
+chicago,sf,Longitude,longitude,DELETE - 2017 Fix It Zones 2 2,delete_2017_fix_it_zones_2_2
+chicago,sf,Longitude,longitude,Civic Center Harm Reduction Project Boundary 2 2,civic_center_harm_reduction_project_boundary_2_2
+chicago,sf,Longitude,longitude,Fix It Zones as of 2017-11-06  2 2,fix_it_zones_as_of_2017_11_06_2_2
+chicago,sf,Longitude,longitude,DELETE - HSOC Zones 2 2,delete_hsoc_zones_2_2
+chicago,sf,Longitude,longitude,Fix It Zones as of 2018-02-07 2 2,fix_it_zones_as_of_2018_02_07_2_2
+chicago,sf,Longitude,longitude,"CBD, BID and GBD Boundaries as of 2017 2 2",cbd_bid_and_gbd_boundaries_as_of_2017_2_2
+chicago,sf,Longitude,longitude,"Areas of Vulnerability, 2016 2 2",areas_of_vulnerability_2016_2_2
+chicago,sf,Longitude,longitude,Central Market/Tenderloin Boundary 2 2,central_market_tenderloin_boundary_2_2
+chicago,sf,Longitude,longitude,Central Market/Tenderloin Boundary Polygon - Updated 2 2,central_market_tenderloin_boundary_polygon_updated_2_2
+chicago,sf,Longitude,longitude,HSOC Zones as of 2018-06-05 2 2,hsoc_zones_as_of_2018_06_05_2_2
+chicago,sf,Longitude,longitude,OWED Public Spaces 2 2,owed_public_spaces_2_2
+chicago,sf,Longitude,longitude,Neighborhoods 2,neighborhoods_2
+chicago,sf,Location,location,PdId,police_department_incident_id
+chicago,sf,Location,location,IncidntNum,incidntnum
+chicago,sf,Location,location,Incident Code,incident_code
+chicago,sf,Location,location,Category,category
+chicago,sf,Location,location,Descript,descript
+chicago,sf,Location,location,DayOfWeek,dayofweek
+chicago,sf,Location,location,Date,date
+chicago,sf,Location,location,Time,time
+chicago,sf,Location,location,PdDistrict,pddistrict
+chicago,sf,Location,location,Resolution,resolution
+chicago,sf,Location,location,Address,address
+chicago,sf,Location,location,X,x
+chicago,sf,Location,location,Y,y
+chicago,sf,Location,location,location,location
+chicago,sf,Location,location,SF Find Neighborhoods 2 2,sf_find_neighborhoods_2_2
+chicago,sf,Location,location,Current Police Districts 2 2,current_police_districts_2_2
+chicago,sf,Location,location,Current Supervisor Districts 2 2,current_supervisor_districts_2_2
+chicago,sf,Location,location,Analysis Neighborhoods 2 2,analysis_neighborhoods_2_2
+chicago,sf,Location,location,DELETE - Fire Prevention Districts 2 2,delete_fire_prevention_districts_2_2
+chicago,sf,Location,location,DELETE - Police Districts 2 2,delete_police_districts_2_2
+chicago,sf,Location,location,DELETE - Supervisor Districts 2 2,delete_supervisor_districts_2_2
+chicago,sf,Location,location,DELETE - Zip Codes 2 2,delete_zip_codes_2_2
+chicago,sf,Location,location,DELETE - Neighborhoods 2 2,delete_neighborhoods_2_2
+chicago,sf,Location,location,DELETE - 2017 Fix It Zones 2 2,delete_2017_fix_it_zones_2_2
+chicago,sf,Location,location,Civic Center Harm Reduction Project Boundary 2 2,civic_center_harm_reduction_project_boundary_2_2
+chicago,sf,Location,location,Fix It Zones as of 2017-11-06  2 2,fix_it_zones_as_of_2017_11_06_2_2
+chicago,sf,Location,location,DELETE - HSOC Zones 2 2,delete_hsoc_zones_2_2
+chicago,sf,Location,location,Fix It Zones as of 2018-02-07 2 2,fix_it_zones_as_of_2018_02_07_2_2
+chicago,sf,Location,location,"CBD, BID and GBD Boundaries as of 2017 2 2",cbd_bid_and_gbd_boundaries_as_of_2017_2_2
+chicago,sf,Location,location,"Areas of Vulnerability, 2016 2 2",areas_of_vulnerability_2016_2_2
+chicago,sf,Location,location,Central Market/Tenderloin Boundary 2 2,central_market_tenderloin_boundary_2_2
+chicago,sf,Location,location,Central Market/Tenderloin Boundary Polygon - Updated 2 2,central_market_tenderloin_boundary_polygon_updated_2_2
+chicago,sf,Location,location,HSOC Zones as of 2018-06-05 2 2,hsoc_zones_as_of_2018_06_05_2_2
+chicago,sf,Location,location,OWED Public Spaces 2 2,owed_public_spaces_2_2
+chicago,sf,Location,location,Neighborhoods 2,neighborhoods_2
+chicago,la,Unnamed: 0,unnamed_0,DR Number,dr_number
+chicago,la,Unnamed: 0,unnamed_0,Date Reported,date_reported
+chicago,la,Unnamed: 0,unnamed_0,Date Occurred,date_occurred
+chicago,la,Unnamed: 0,unnamed_0,Time Occurred,time_occurred
+chicago,la,Unnamed: 0,unnamed_0,Area ID,area_id
+chicago,la,Unnamed: 0,unnamed_0,Area Name,area_name
+chicago,la,Unnamed: 0,unnamed_0,Reporting District,reporting_district
+chicago,la,Unnamed: 0,unnamed_0,Crime Code,crime_code
+chicago,la,Unnamed: 0,unnamed_0,Crime Code Description,crime_code_description
+chicago,la,Unnamed: 0,unnamed_0,MO Codes,mo_codes
+chicago,la,Unnamed: 0,unnamed_0,Victim Age,victim_age
+chicago,la,Unnamed: 0,unnamed_0,Victim Sex,victim_sex
+chicago,la,Unnamed: 0,unnamed_0,Victim Descent,victim_descent
+chicago,la,Unnamed: 0,unnamed_0,Premise Code,premise_code
+chicago,la,Unnamed: 0,unnamed_0,Premise Description,premise_description
+chicago,la,Unnamed: 0,unnamed_0,Weapon Used Code,weapon_used_code
+chicago,la,Unnamed: 0,unnamed_0,Weapon Description,weapon_description
+chicago,la,Unnamed: 0,unnamed_0,Status Code,status_code
+chicago,la,Unnamed: 0,unnamed_0,Status Description,status_description
+chicago,la,Unnamed: 0,unnamed_0,Crime Code 1,crime_code_1
+chicago,la,Unnamed: 0,unnamed_0,Crime Code 2,crime_code_2
+chicago,la,Unnamed: 0,unnamed_0,Crime Code 3,crime_code_3
+chicago,la,Unnamed: 0,unnamed_0,Crime Code 4,crime_code_4
+chicago,la,Unnamed: 0,unnamed_0,Address,address
+chicago,la,Unnamed: 0,unnamed_0,Cross Street,cross_street
+chicago,la,Unnamed: 0,unnamed_0,Location ,location
+chicago,la,ID,id,DR Number,dr_number
+chicago,la,ID,id,Date Reported,date_reported
+chicago,la,ID,id,Date Occurred,date_occurred
+chicago,la,ID,id,Time Occurred,time_occurred
+chicago,la,ID,id,Area ID,area_id
+chicago,la,ID,id,Area Name,area_name
+chicago,la,ID,id,Reporting District,reporting_district
+chicago,la,ID,id,Crime Code,crime_code
+chicago,la,ID,id,Crime Code Description,crime_code_description
+chicago,la,ID,id,MO Codes,mo_codes
+chicago,la,ID,id,Victim Age,victim_age
+chicago,la,ID,id,Victim Sex,victim_sex
+chicago,la,ID,id,Victim Descent,victim_descent
+chicago,la,ID,id,Premise Code,premise_code
+chicago,la,ID,id,Premise Description,premise_description
+chicago,la,ID,id,Weapon Used Code,weapon_used_code
+chicago,la,ID,id,Weapon Description,weapon_description
+chicago,la,ID,id,Status Code,status_code
+chicago,la,ID,id,Status Description,status_description
+chicago,la,ID,id,Crime Code 1,crime_code_1
+chicago,la,ID,id,Crime Code 2,crime_code_2
+chicago,la,ID,id,Crime Code 3,crime_code_3
+chicago,la,ID,id,Crime Code 4,crime_code_4
+chicago,la,ID,id,Address,address
+chicago,la,ID,id,Cross Street,cross_street
+chicago,la,ID,id,Location ,location
+chicago,la,Case Number,case_number,DR Number,dr_number
+chicago,la,Case Number,case_number,Date Reported,date_reported
+chicago,la,Case Number,case_number,Date Occurred,date_occurred
+chicago,la,Case Number,case_number,Time Occurred,time_occurred
+chicago,la,Case Number,case_number,Area ID,area_id
+chicago,la,Case Number,case_number,Area Name,area_name
+chicago,la,Case Number,case_number,Reporting District,reporting_district
+chicago,la,Case Number,case_number,Crime Code,crime_code
+chicago,la,Case Number,case_number,Crime Code Description,crime_code_description
+chicago,la,Case Number,case_number,MO Codes,mo_codes
+chicago,la,Case Number,case_number,Victim Age,victim_age
+chicago,la,Case Number,case_number,Victim Sex,victim_sex
+chicago,la,Case Number,case_number,Victim Descent,victim_descent
+chicago,la,Case Number,case_number,Premise Code,premise_code
+chicago,la,Case Number,case_number,Premise Description,premise_description
+chicago,la,Case Number,case_number,Weapon Used Code,weapon_used_code
+chicago,la,Case Number,case_number,Weapon Description,weapon_description
+chicago,la,Case Number,case_number,Status Code,status_code
+chicago,la,Case Number,case_number,Status Description,status_description
+chicago,la,Case Number,case_number,Crime Code 1,crime_code_1
+chicago,la,Case Number,case_number,Crime Code 2,crime_code_2
+chicago,la,Case Number,case_number,Crime Code 3,crime_code_3
+chicago,la,Case Number,case_number,Crime Code 4,crime_code_4
+chicago,la,Case Number,case_number,Address,address
+chicago,la,Case Number,case_number,Cross Street,cross_street
+chicago,la,Case Number,case_number,Location ,location
+chicago,la,Date,date,DR Number,dr_number
+chicago,la,Date,date,Date Reported,date_reported
+chicago,la,Date,date,Date Occurred,date_occurred
+chicago,la,Date,date,Time Occurred,time_occurred
+chicago,la,Date,date,Area ID,area_id
+chicago,la,Date,date,Area Name,area_name
+chicago,la,Date,date,Reporting District,reporting_district
+chicago,la,Date,date,Crime Code,crime_code
+chicago,la,Date,date,Crime Code Description,crime_code_description
+chicago,la,Date,date,MO Codes,mo_codes
+chicago,la,Date,date,Victim Age,victim_age
+chicago,la,Date,date,Victim Sex,victim_sex
+chicago,la,Date,date,Victim Descent,victim_descent
+chicago,la,Date,date,Premise Code,premise_code
+chicago,la,Date,date,Premise Description,premise_description
+chicago,la,Date,date,Weapon Used Code,weapon_used_code
+chicago,la,Date,date,Weapon Description,weapon_description
+chicago,la,Date,date,Status Code,status_code
+chicago,la,Date,date,Status Description,status_description
+chicago,la,Date,date,Crime Code 1,crime_code_1
+chicago,la,Date,date,Crime Code 2,crime_code_2
+chicago,la,Date,date,Crime Code 3,crime_code_3
+chicago,la,Date,date,Crime Code 4,crime_code_4
+chicago,la,Date,date,Address,address
+chicago,la,Date,date,Cross Street,cross_street
+chicago,la,Date,date,Location ,location
+chicago,la,Block,block,DR Number,dr_number
+chicago,la,Block,block,Date Reported,date_reported
+chicago,la,Block,block,Date Occurred,date_occurred
+chicago,la,Block,block,Time Occurred,time_occurred
+chicago,la,Block,block,Area ID,area_id
+chicago,la,Block,block,Area Name,area_name
+chicago,la,Block,block,Reporting District,reporting_district
+chicago,la,Block,block,Crime Code,crime_code
+chicago,la,Block,block,Crime Code Description,crime_code_description
+chicago,la,Block,block,MO Codes,mo_codes
+chicago,la,Block,block,Victim Age,victim_age
+chicago,la,Block,block,Victim Sex,victim_sex
+chicago,la,Block,block,Victim Descent,victim_descent
+chicago,la,Block,block,Premise Code,premise_code
+chicago,la,Block,block,Premise Description,premise_description
+chicago,la,Block,block,Weapon Used Code,weapon_used_code
+chicago,la,Block,block,Weapon Description,weapon_description
+chicago,la,Block,block,Status Code,status_code
+chicago,la,Block,block,Status Description,status_description
+chicago,la,Block,block,Crime Code 1,crime_code_1
+chicago,la,Block,block,Crime Code 2,crime_code_2
+chicago,la,Block,block,Crime Code 3,crime_code_3
+chicago,la,Block,block,Crime Code 4,crime_code_4
+chicago,la,Block,block,Address,address
+chicago,la,Block,block,Cross Street,cross_street
+chicago,la,Block,block,Location ,location
+chicago,la,IUCR,illinois_uniform_crime_reporting_code,DR Number,dr_number
+chicago,la,IUCR,illinois_uniform_crime_reporting_code,Date Reported,date_reported
+chicago,la,IUCR,illinois_uniform_crime_reporting_code,Date Occurred,date_occurred
+chicago,la,IUCR,illinois_uniform_crime_reporting_code,Time Occurred,time_occurred
+chicago,la,IUCR,illinois_uniform_crime_reporting_code,Area ID,area_id
+chicago,la,IUCR,illinois_uniform_crime_reporting_code,Area Name,area_name
+chicago,la,IUCR,illinois_uniform_crime_reporting_code,Reporting District,reporting_district
+chicago,la,IUCR,illinois_uniform_crime_reporting_code,Crime Code,crime_code
+chicago,la,IUCR,illinois_uniform_crime_reporting_code,Crime Code Description,crime_code_description
+chicago,la,IUCR,illinois_uniform_crime_reporting_code,MO Codes,mo_codes
+chicago,la,IUCR,illinois_uniform_crime_reporting_code,Victim Age,victim_age
+chicago,la,IUCR,illinois_uniform_crime_reporting_code,Victim Sex,victim_sex
+chicago,la,IUCR,illinois_uniform_crime_reporting_code,Victim Descent,victim_descent
+chicago,la,IUCR,illinois_uniform_crime_reporting_code,Premise Code,premise_code
+chicago,la,IUCR,illinois_uniform_crime_reporting_code,Premise Description,premise_description
+chicago,la,IUCR,illinois_uniform_crime_reporting_code,Weapon Used Code,weapon_used_code
+chicago,la,IUCR,illinois_uniform_crime_reporting_code,Weapon Description,weapon_description
+chicago,la,IUCR,illinois_uniform_crime_reporting_code,Status Code,status_code
+chicago,la,IUCR,illinois_uniform_crime_reporting_code,Status Description,status_description
+chicago,la,IUCR,illinois_uniform_crime_reporting_code,Crime Code 1,crime_code_1
+chicago,la,IUCR,illinois_uniform_crime_reporting_code,Crime Code 2,crime_code_2
+chicago,la,IUCR,illinois_uniform_crime_reporting_code,Crime Code 3,crime_code_3
+chicago,la,IUCR,illinois_uniform_crime_reporting_code,Crime Code 4,crime_code_4
+chicago,la,IUCR,illinois_uniform_crime_reporting_code,Address,address
+chicago,la,IUCR,illinois_uniform_crime_reporting_code,Cross Street,cross_street
+chicago,la,IUCR,illinois_uniform_crime_reporting_code,Location ,location
+chicago,la,Primary Type,primary_type,DR Number,dr_number
+chicago,la,Primary Type,primary_type,Date Reported,date_reported
+chicago,la,Primary Type,primary_type,Date Occurred,date_occurred
+chicago,la,Primary Type,primary_type,Time Occurred,time_occurred
+chicago,la,Primary Type,primary_type,Area ID,area_id
+chicago,la,Primary Type,primary_type,Area Name,area_name
+chicago,la,Primary Type,primary_type,Reporting District,reporting_district
+chicago,la,Primary Type,primary_type,Crime Code,crime_code
+chicago,la,Primary Type,primary_type,Crime Code Description,crime_code_description
+chicago,la,Primary Type,primary_type,MO Codes,mo_codes
+chicago,la,Primary Type,primary_type,Victim Age,victim_age
+chicago,la,Primary Type,primary_type,Victim Sex,victim_sex
+chicago,la,Primary Type,primary_type,Victim Descent,victim_descent
+chicago,la,Primary Type,primary_type,Premise Code,premise_code
+chicago,la,Primary Type,primary_type,Premise Description,premise_description
+chicago,la,Primary Type,primary_type,Weapon Used Code,weapon_used_code
+chicago,la,Primary Type,primary_type,Weapon Description,weapon_description
+chicago,la,Primary Type,primary_type,Status Code,status_code
+chicago,la,Primary Type,primary_type,Status Description,status_description
+chicago,la,Primary Type,primary_type,Crime Code 1,crime_code_1
+chicago,la,Primary Type,primary_type,Crime Code 2,crime_code_2
+chicago,la,Primary Type,primary_type,Crime Code 3,crime_code_3
+chicago,la,Primary Type,primary_type,Crime Code 4,crime_code_4
+chicago,la,Primary Type,primary_type,Address,address
+chicago,la,Primary Type,primary_type,Cross Street,cross_street
+chicago,la,Primary Type,primary_type,Location ,location
+chicago,la,Description,description,DR Number,dr_number
+chicago,la,Description,description,Date Reported,date_reported
+chicago,la,Description,description,Date Occurred,date_occurred
+chicago,la,Description,description,Time Occurred,time_occurred
+chicago,la,Description,description,Area ID,area_id
+chicago,la,Description,description,Area Name,area_name
+chicago,la,Description,description,Reporting District,reporting_district
+chicago,la,Description,description,Crime Code,crime_code
+chicago,la,Description,description,Crime Code Description,crime_code_description
+chicago,la,Description,description,MO Codes,mo_codes
+chicago,la,Description,description,Victim Age,victim_age
+chicago,la,Description,description,Victim Sex,victim_sex
+chicago,la,Description,description,Victim Descent,victim_descent
+chicago,la,Description,description,Premise Code,premise_code
+chicago,la,Description,description,Premise Description,premise_description
+chicago,la,Description,description,Weapon Used Code,weapon_used_code
+chicago,la,Description,description,Weapon Description,weapon_description
+chicago,la,Description,description,Status Code,status_code
+chicago,la,Description,description,Status Description,status_description
+chicago,la,Description,description,Crime Code 1,crime_code_1
+chicago,la,Description,description,Crime Code 2,crime_code_2
+chicago,la,Description,description,Crime Code 3,crime_code_3
+chicago,la,Description,description,Crime Code 4,crime_code_4
+chicago,la,Description,description,Address,address
+chicago,la,Description,description,Cross Street,cross_street
+chicago,la,Description,description,Location ,location
+chicago,la,Location Description,location_description,DR Number,dr_number
+chicago,la,Location Description,location_description,Date Reported,date_reported
+chicago,la,Location Description,location_description,Date Occurred,date_occurred
+chicago,la,Location Description,location_description,Time Occurred,time_occurred
+chicago,la,Location Description,location_description,Area ID,area_id
+chicago,la,Location Description,location_description,Area Name,area_name
+chicago,la,Location Description,location_description,Reporting District,reporting_district
+chicago,la,Location Description,location_description,Crime Code,crime_code
+chicago,la,Location Description,location_description,Crime Code Description,crime_code_description
+chicago,la,Location Description,location_description,MO Codes,mo_codes
+chicago,la,Location Description,location_description,Victim Age,victim_age
+chicago,la,Location Description,location_description,Victim Sex,victim_sex
+chicago,la,Location Description,location_description,Victim Descent,victim_descent
+chicago,la,Location Description,location_description,Premise Code,premise_code
+chicago,la,Location Description,location_description,Premise Description,premise_description
+chicago,la,Location Description,location_description,Weapon Used Code,weapon_used_code
+chicago,la,Location Description,location_description,Weapon Description,weapon_description
+chicago,la,Location Description,location_description,Status Code,status_code
+chicago,la,Location Description,location_description,Status Description,status_description
+chicago,la,Location Description,location_description,Crime Code 1,crime_code_1
+chicago,la,Location Description,location_description,Crime Code 2,crime_code_2
+chicago,la,Location Description,location_description,Crime Code 3,crime_code_3
+chicago,la,Location Description,location_description,Crime Code 4,crime_code_4
+chicago,la,Location Description,location_description,Address,address
+chicago,la,Location Description,location_description,Cross Street,cross_street
+chicago,la,Location Description,location_description,Location ,location
+chicago,la,Arrest,arrest,DR Number,dr_number
+chicago,la,Arrest,arrest,Date Reported,date_reported
+chicago,la,Arrest,arrest,Date Occurred,date_occurred
+chicago,la,Arrest,arrest,Time Occurred,time_occurred
+chicago,la,Arrest,arrest,Area ID,area_id
+chicago,la,Arrest,arrest,Area Name,area_name
+chicago,la,Arrest,arrest,Reporting District,reporting_district
+chicago,la,Arrest,arrest,Crime Code,crime_code
+chicago,la,Arrest,arrest,Crime Code Description,crime_code_description
+chicago,la,Arrest,arrest,MO Codes,mo_codes
+chicago,la,Arrest,arrest,Victim Age,victim_age
+chicago,la,Arrest,arrest,Victim Sex,victim_sex
+chicago,la,Arrest,arrest,Victim Descent,victim_descent
+chicago,la,Arrest,arrest,Premise Code,premise_code
+chicago,la,Arrest,arrest,Premise Description,premise_description
+chicago,la,Arrest,arrest,Weapon Used Code,weapon_used_code
+chicago,la,Arrest,arrest,Weapon Description,weapon_description
+chicago,la,Arrest,arrest,Status Code,status_code
+chicago,la,Arrest,arrest,Status Description,status_description
+chicago,la,Arrest,arrest,Crime Code 1,crime_code_1
+chicago,la,Arrest,arrest,Crime Code 2,crime_code_2
+chicago,la,Arrest,arrest,Crime Code 3,crime_code_3
+chicago,la,Arrest,arrest,Crime Code 4,crime_code_4
+chicago,la,Arrest,arrest,Address,address
+chicago,la,Arrest,arrest,Cross Street,cross_street
+chicago,la,Arrest,arrest,Location ,location
+chicago,la,Domestic,domestic,DR Number,dr_number
+chicago,la,Domestic,domestic,Date Reported,date_reported
+chicago,la,Domestic,domestic,Date Occurred,date_occurred
+chicago,la,Domestic,domestic,Time Occurred,time_occurred
+chicago,la,Domestic,domestic,Area ID,area_id
+chicago,la,Domestic,domestic,Area Name,area_name
+chicago,la,Domestic,domestic,Reporting District,reporting_district
+chicago,la,Domestic,domestic,Crime Code,crime_code
+chicago,la,Domestic,domestic,Crime Code Description,crime_code_description
+chicago,la,Domestic,domestic,MO Codes,mo_codes
+chicago,la,Domestic,domestic,Victim Age,victim_age
+chicago,la,Domestic,domestic,Victim Sex,victim_sex
+chicago,la,Domestic,domestic,Victim Descent,victim_descent
+chicago,la,Domestic,domestic,Premise Code,premise_code
+chicago,la,Domestic,domestic,Premise Description,premise_description
+chicago,la,Domestic,domestic,Weapon Used Code,weapon_used_code
+chicago,la,Domestic,domestic,Weapon Description,weapon_description
+chicago,la,Domestic,domestic,Status Code,status_code
+chicago,la,Domestic,domestic,Status Description,status_description
+chicago,la,Domestic,domestic,Crime Code 1,crime_code_1
+chicago,la,Domestic,domestic,Crime Code 2,crime_code_2
+chicago,la,Domestic,domestic,Crime Code 3,crime_code_3
+chicago,la,Domestic,domestic,Crime Code 4,crime_code_4
+chicago,la,Domestic,domestic,Address,address
+chicago,la,Domestic,domestic,Cross Street,cross_street
+chicago,la,Domestic,domestic,Location ,location
+chicago,la,Beat,police_beat_area,DR Number,dr_number
+chicago,la,Beat,police_beat_area,Date Reported,date_reported
+chicago,la,Beat,police_beat_area,Date Occurred,date_occurred
+chicago,la,Beat,police_beat_area,Time Occurred,time_occurred
+chicago,la,Beat,police_beat_area,Area ID,area_id
+chicago,la,Beat,police_beat_area,Area Name,area_name
+chicago,la,Beat,police_beat_area,Reporting District,reporting_district
+chicago,la,Beat,police_beat_area,Crime Code,crime_code
+chicago,la,Beat,police_beat_area,Crime Code Description,crime_code_description
+chicago,la,Beat,police_beat_area,MO Codes,mo_codes
+chicago,la,Beat,police_beat_area,Victim Age,victim_age
+chicago,la,Beat,police_beat_area,Victim Sex,victim_sex
+chicago,la,Beat,police_beat_area,Victim Descent,victim_descent
+chicago,la,Beat,police_beat_area,Premise Code,premise_code
+chicago,la,Beat,police_beat_area,Premise Description,premise_description
+chicago,la,Beat,police_beat_area,Weapon Used Code,weapon_used_code
+chicago,la,Beat,police_beat_area,Weapon Description,weapon_description
+chicago,la,Beat,police_beat_area,Status Code,status_code
+chicago,la,Beat,police_beat_area,Status Description,status_description
+chicago,la,Beat,police_beat_area,Crime Code 1,crime_code_1
+chicago,la,Beat,police_beat_area,Crime Code 2,crime_code_2
+chicago,la,Beat,police_beat_area,Crime Code 3,crime_code_3
+chicago,la,Beat,police_beat_area,Crime Code 4,crime_code_4
+chicago,la,Beat,police_beat_area,Address,address
+chicago,la,Beat,police_beat_area,Cross Street,cross_street
+chicago,la,Beat,police_beat_area,Location ,location
+chicago,la,District,district,DR Number,dr_number
+chicago,la,District,district,Date Reported,date_reported
+chicago,la,District,district,Date Occurred,date_occurred
+chicago,la,District,district,Time Occurred,time_occurred
+chicago,la,District,district,Area ID,area_id
+chicago,la,District,district,Area Name,area_name
+chicago,la,District,district,Reporting District,reporting_district
+chicago,la,District,district,Crime Code,crime_code
+chicago,la,District,district,Crime Code Description,crime_code_description
+chicago,la,District,district,MO Codes,mo_codes
+chicago,la,District,district,Victim Age,victim_age
+chicago,la,District,district,Victim Sex,victim_sex
+chicago,la,District,district,Victim Descent,victim_descent
+chicago,la,District,district,Premise Code,premise_code
+chicago,la,District,district,Premise Description,premise_description
+chicago,la,District,district,Weapon Used Code,weapon_used_code
+chicago,la,District,district,Weapon Description,weapon_description
+chicago,la,District,district,Status Code,status_code
+chicago,la,District,district,Status Description,status_description
+chicago,la,District,district,Crime Code 1,crime_code_1
+chicago,la,District,district,Crime Code 2,crime_code_2
+chicago,la,District,district,Crime Code 3,crime_code_3
+chicago,la,District,district,Crime Code 4,crime_code_4
+chicago,la,District,district,Address,address
+chicago,la,District,district,Cross Street,cross_street
+chicago,la,District,district,Location ,location
+chicago,la,Ward,ward,DR Number,dr_number
+chicago,la,Ward,ward,Date Reported,date_reported
+chicago,la,Ward,ward,Date Occurred,date_occurred
+chicago,la,Ward,ward,Time Occurred,time_occurred
+chicago,la,Ward,ward,Area ID,area_id
+chicago,la,Ward,ward,Area Name,area_name
+chicago,la,Ward,ward,Reporting District,reporting_district
+chicago,la,Ward,ward,Crime Code,crime_code
+chicago,la,Ward,ward,Crime Code Description,crime_code_description
+chicago,la,Ward,ward,MO Codes,mo_codes
+chicago,la,Ward,ward,Victim Age,victim_age
+chicago,la,Ward,ward,Victim Sex,victim_sex
+chicago,la,Ward,ward,Victim Descent,victim_descent
+chicago,la,Ward,ward,Premise Code,premise_code
+chicago,la,Ward,ward,Premise Description,premise_description
+chicago,la,Ward,ward,Weapon Used Code,weapon_used_code
+chicago,la,Ward,ward,Weapon Description,weapon_description
+chicago,la,Ward,ward,Status Code,status_code
+chicago,la,Ward,ward,Status Description,status_description
+chicago,la,Ward,ward,Crime Code 1,crime_code_1
+chicago,la,Ward,ward,Crime Code 2,crime_code_2
+chicago,la,Ward,ward,Crime Code 3,crime_code_3
+chicago,la,Ward,ward,Crime Code 4,crime_code_4
+chicago,la,Ward,ward,Address,address
+chicago,la,Ward,ward,Cross Street,cross_street
+chicago,la,Ward,ward,Location ,location
+chicago,la,Community Area,community_area,DR Number,dr_number
+chicago,la,Community Area,community_area,Date Reported,date_reported
+chicago,la,Community Area,community_area,Date Occurred,date_occurred
+chicago,la,Community Area,community_area,Time Occurred,time_occurred
+chicago,la,Community Area,community_area,Area ID,area_id
+chicago,la,Community Area,community_area,Area Name,area_name
+chicago,la,Community Area,community_area,Reporting District,reporting_district
+chicago,la,Community Area,community_area,Crime Code,crime_code
+chicago,la,Community Area,community_area,Crime Code Description,crime_code_description
+chicago,la,Community Area,community_area,MO Codes,mo_codes
+chicago,la,Community Area,community_area,Victim Age,victim_age
+chicago,la,Community Area,community_area,Victim Sex,victim_sex
+chicago,la,Community Area,community_area,Victim Descent,victim_descent
+chicago,la,Community Area,community_area,Premise Code,premise_code
+chicago,la,Community Area,community_area,Premise Description,premise_description
+chicago,la,Community Area,community_area,Weapon Used Code,weapon_used_code
+chicago,la,Community Area,community_area,Weapon Description,weapon_description
+chicago,la,Community Area,community_area,Status Code,status_code
+chicago,la,Community Area,community_area,Status Description,status_description
+chicago,la,Community Area,community_area,Crime Code 1,crime_code_1
+chicago,la,Community Area,community_area,Crime Code 2,crime_code_2
+chicago,la,Community Area,community_area,Crime Code 3,crime_code_3
+chicago,la,Community Area,community_area,Crime Code 4,crime_code_4
+chicago,la,Community Area,community_area,Address,address
+chicago,la,Community Area,community_area,Cross Street,cross_street
+chicago,la,Community Area,community_area,Location ,location
+chicago,la,FBI Code,federal_bureau_of_investigation_code_code,DR Number,dr_number
+chicago,la,FBI Code,federal_bureau_of_investigation_code_code,Date Reported,date_reported
+chicago,la,FBI Code,federal_bureau_of_investigation_code_code,Date Occurred,date_occurred
+chicago,la,FBI Code,federal_bureau_of_investigation_code_code,Time Occurred,time_occurred
+chicago,la,FBI Code,federal_bureau_of_investigation_code_code,Area ID,area_id
+chicago,la,FBI Code,federal_bureau_of_investigation_code_code,Area Name,area_name
+chicago,la,FBI Code,federal_bureau_of_investigation_code_code,Reporting District,reporting_district
+chicago,la,FBI Code,federal_bureau_of_investigation_code_code,Crime Code,crime_code
+chicago,la,FBI Code,federal_bureau_of_investigation_code_code,Crime Code Description,crime_code_description
+chicago,la,FBI Code,federal_bureau_of_investigation_code_code,MO Codes,mo_codes
+chicago,la,FBI Code,federal_bureau_of_investigation_code_code,Victim Age,victim_age
+chicago,la,FBI Code,federal_bureau_of_investigation_code_code,Victim Sex,victim_sex
+chicago,la,FBI Code,federal_bureau_of_investigation_code_code,Victim Descent,victim_descent
+chicago,la,FBI Code,federal_bureau_of_investigation_code_code,Premise Code,premise_code
+chicago,la,FBI Code,federal_bureau_of_investigation_code_code,Premise Description,premise_description
+chicago,la,FBI Code,federal_bureau_of_investigation_code_code,Weapon Used Code,weapon_used_code
+chicago,la,FBI Code,federal_bureau_of_investigation_code_code,Weapon Description,weapon_description
+chicago,la,FBI Code,federal_bureau_of_investigation_code_code,Status Code,status_code
+chicago,la,FBI Code,federal_bureau_of_investigation_code_code,Status Description,status_description
+chicago,la,FBI Code,federal_bureau_of_investigation_code_code,Crime Code 1,crime_code_1
+chicago,la,FBI Code,federal_bureau_of_investigation_code_code,Crime Code 2,crime_code_2
+chicago,la,FBI Code,federal_bureau_of_investigation_code_code,Crime Code 3,crime_code_3
+chicago,la,FBI Code,federal_bureau_of_investigation_code_code,Crime Code 4,crime_code_4
+chicago,la,FBI Code,federal_bureau_of_investigation_code_code,Address,address
+chicago,la,FBI Code,federal_bureau_of_investigation_code_code,Cross Street,cross_street
+chicago,la,FBI Code,federal_bureau_of_investigation_code_code,Location ,location
+chicago,la,X Coordinate,x_coordinate,DR Number,dr_number
+chicago,la,X Coordinate,x_coordinate,Date Reported,date_reported
+chicago,la,X Coordinate,x_coordinate,Date Occurred,date_occurred
+chicago,la,X Coordinate,x_coordinate,Time Occurred,time_occurred
+chicago,la,X Coordinate,x_coordinate,Area ID,area_id
+chicago,la,X Coordinate,x_coordinate,Area Name,area_name
+chicago,la,X Coordinate,x_coordinate,Reporting District,reporting_district
+chicago,la,X Coordinate,x_coordinate,Crime Code,crime_code
+chicago,la,X Coordinate,x_coordinate,Crime Code Description,crime_code_description
+chicago,la,X Coordinate,x_coordinate,MO Codes,mo_codes
+chicago,la,X Coordinate,x_coordinate,Victim Age,victim_age
+chicago,la,X Coordinate,x_coordinate,Victim Sex,victim_sex
+chicago,la,X Coordinate,x_coordinate,Victim Descent,victim_descent
+chicago,la,X Coordinate,x_coordinate,Premise Code,premise_code
+chicago,la,X Coordinate,x_coordinate,Premise Description,premise_description
+chicago,la,X Coordinate,x_coordinate,Weapon Used Code,weapon_used_code
+chicago,la,X Coordinate,x_coordinate,Weapon Description,weapon_description
+chicago,la,X Coordinate,x_coordinate,Status Code,status_code
+chicago,la,X Coordinate,x_coordinate,Status Description,status_description
+chicago,la,X Coordinate,x_coordinate,Crime Code 1,crime_code_1
+chicago,la,X Coordinate,x_coordinate,Crime Code 2,crime_code_2
+chicago,la,X Coordinate,x_coordinate,Crime Code 3,crime_code_3
+chicago,la,X Coordinate,x_coordinate,Crime Code 4,crime_code_4
+chicago,la,X Coordinate,x_coordinate,Address,address
+chicago,la,X Coordinate,x_coordinate,Cross Street,cross_street
+chicago,la,X Coordinate,x_coordinate,Location ,location
+chicago,la,Y Coordinate,y_coordinate,DR Number,dr_number
+chicago,la,Y Coordinate,y_coordinate,Date Reported,date_reported
+chicago,la,Y Coordinate,y_coordinate,Date Occurred,date_occurred
+chicago,la,Y Coordinate,y_coordinate,Time Occurred,time_occurred
+chicago,la,Y Coordinate,y_coordinate,Area ID,area_id
+chicago,la,Y Coordinate,y_coordinate,Area Name,area_name
+chicago,la,Y Coordinate,y_coordinate,Reporting District,reporting_district
+chicago,la,Y Coordinate,y_coordinate,Crime Code,crime_code
+chicago,la,Y Coordinate,y_coordinate,Crime Code Description,crime_code_description
+chicago,la,Y Coordinate,y_coordinate,MO Codes,mo_codes
+chicago,la,Y Coordinate,y_coordinate,Victim Age,victim_age
+chicago,la,Y Coordinate,y_coordinate,Victim Sex,victim_sex
+chicago,la,Y Coordinate,y_coordinate,Victim Descent,victim_descent
+chicago,la,Y Coordinate,y_coordinate,Premise Code,premise_code
+chicago,la,Y Coordinate,y_coordinate,Premise Description,premise_description
+chicago,la,Y Coordinate,y_coordinate,Weapon Used Code,weapon_used_code
+chicago,la,Y Coordinate,y_coordinate,Weapon Description,weapon_description
+chicago,la,Y Coordinate,y_coordinate,Status Code,status_code
+chicago,la,Y Coordinate,y_coordinate,Status Description,status_description
+chicago,la,Y Coordinate,y_coordinate,Crime Code 1,crime_code_1
+chicago,la,Y Coordinate,y_coordinate,Crime Code 2,crime_code_2
+chicago,la,Y Coordinate,y_coordinate,Crime Code 3,crime_code_3
+chicago,la,Y Coordinate,y_coordinate,Crime Code 4,crime_code_4
+chicago,la,Y Coordinate,y_coordinate,Address,address
+chicago,la,Y Coordinate,y_coordinate,Cross Street,cross_street
+chicago,la,Y Coordinate,y_coordinate,Location ,location
+chicago,la,Year,year,DR Number,dr_number
+chicago,la,Year,year,Date Reported,date_reported
+chicago,la,Year,year,Date Occurred,date_occurred
+chicago,la,Year,year,Time Occurred,time_occurred
+chicago,la,Year,year,Area ID,area_id
+chicago,la,Year,year,Area Name,area_name
+chicago,la,Year,year,Reporting District,reporting_district
+chicago,la,Year,year,Crime Code,crime_code
+chicago,la,Year,year,Crime Code Description,crime_code_description
+chicago,la,Year,year,MO Codes,mo_codes
+chicago,la,Year,year,Victim Age,victim_age
+chicago,la,Year,year,Victim Sex,victim_sex
+chicago,la,Year,year,Victim Descent,victim_descent
+chicago,la,Year,year,Premise Code,premise_code
+chicago,la,Year,year,Premise Description,premise_description
+chicago,la,Year,year,Weapon Used Code,weapon_used_code
+chicago,la,Year,year,Weapon Description,weapon_description
+chicago,la,Year,year,Status Code,status_code
+chicago,la,Year,year,Status Description,status_description
+chicago,la,Year,year,Crime Code 1,crime_code_1
+chicago,la,Year,year,Crime Code 2,crime_code_2
+chicago,la,Year,year,Crime Code 3,crime_code_3
+chicago,la,Year,year,Crime Code 4,crime_code_4
+chicago,la,Year,year,Address,address
+chicago,la,Year,year,Cross Street,cross_street
+chicago,la,Year,year,Location ,location
+chicago,la,Updated On,updated_on,DR Number,dr_number
+chicago,la,Updated On,updated_on,Date Reported,date_reported
+chicago,la,Updated On,updated_on,Date Occurred,date_occurred
+chicago,la,Updated On,updated_on,Time Occurred,time_occurred
+chicago,la,Updated On,updated_on,Area ID,area_id
+chicago,la,Updated On,updated_on,Area Name,area_name
+chicago,la,Updated On,updated_on,Reporting District,reporting_district
+chicago,la,Updated On,updated_on,Crime Code,crime_code
+chicago,la,Updated On,updated_on,Crime Code Description,crime_code_description
+chicago,la,Updated On,updated_on,MO Codes,mo_codes
+chicago,la,Updated On,updated_on,Victim Age,victim_age
+chicago,la,Updated On,updated_on,Victim Sex,victim_sex
+chicago,la,Updated On,updated_on,Victim Descent,victim_descent
+chicago,la,Updated On,updated_on,Premise Code,premise_code
+chicago,la,Updated On,updated_on,Premise Description,premise_description
+chicago,la,Updated On,updated_on,Weapon Used Code,weapon_used_code
+chicago,la,Updated On,updated_on,Weapon Description,weapon_description
+chicago,la,Updated On,updated_on,Status Code,status_code
+chicago,la,Updated On,updated_on,Status Description,status_description
+chicago,la,Updated On,updated_on,Crime Code 1,crime_code_1
+chicago,la,Updated On,updated_on,Crime Code 2,crime_code_2
+chicago,la,Updated On,updated_on,Crime Code 3,crime_code_3
+chicago,la,Updated On,updated_on,Crime Code 4,crime_code_4
+chicago,la,Updated On,updated_on,Address,address
+chicago,la,Updated On,updated_on,Cross Street,cross_street
+chicago,la,Updated On,updated_on,Location ,location
+chicago,la,Latitude,latitude,DR Number,dr_number
+chicago,la,Latitude,latitude,Date Reported,date_reported
+chicago,la,Latitude,latitude,Date Occurred,date_occurred
+chicago,la,Latitude,latitude,Time Occurred,time_occurred
+chicago,la,Latitude,latitude,Area ID,area_id
+chicago,la,Latitude,latitude,Area Name,area_name
+chicago,la,Latitude,latitude,Reporting District,reporting_district
+chicago,la,Latitude,latitude,Crime Code,crime_code
+chicago,la,Latitude,latitude,Crime Code Description,crime_code_description
+chicago,la,Latitude,latitude,MO Codes,mo_codes
+chicago,la,Latitude,latitude,Victim Age,victim_age
+chicago,la,Latitude,latitude,Victim Sex,victim_sex
+chicago,la,Latitude,latitude,Victim Descent,victim_descent
+chicago,la,Latitude,latitude,Premise Code,premise_code
+chicago,la,Latitude,latitude,Premise Description,premise_description
+chicago,la,Latitude,latitude,Weapon Used Code,weapon_used_code
+chicago,la,Latitude,latitude,Weapon Description,weapon_description
+chicago,la,Latitude,latitude,Status Code,status_code
+chicago,la,Latitude,latitude,Status Description,status_description
+chicago,la,Latitude,latitude,Crime Code 1,crime_code_1
+chicago,la,Latitude,latitude,Crime Code 2,crime_code_2
+chicago,la,Latitude,latitude,Crime Code 3,crime_code_3
+chicago,la,Latitude,latitude,Crime Code 4,crime_code_4
+chicago,la,Latitude,latitude,Address,address
+chicago,la,Latitude,latitude,Cross Street,cross_street
+chicago,la,Latitude,latitude,Location ,location
+chicago,la,Longitude,longitude,DR Number,dr_number
+chicago,la,Longitude,longitude,Date Reported,date_reported
+chicago,la,Longitude,longitude,Date Occurred,date_occurred
+chicago,la,Longitude,longitude,Time Occurred,time_occurred
+chicago,la,Longitude,longitude,Area ID,area_id
+chicago,la,Longitude,longitude,Area Name,area_name
+chicago,la,Longitude,longitude,Reporting District,reporting_district
+chicago,la,Longitude,longitude,Crime Code,crime_code
+chicago,la,Longitude,longitude,Crime Code Description,crime_code_description
+chicago,la,Longitude,longitude,MO Codes,mo_codes
+chicago,la,Longitude,longitude,Victim Age,victim_age
+chicago,la,Longitude,longitude,Victim Sex,victim_sex
+chicago,la,Longitude,longitude,Victim Descent,victim_descent
+chicago,la,Longitude,longitude,Premise Code,premise_code
+chicago,la,Longitude,longitude,Premise Description,premise_description
+chicago,la,Longitude,longitude,Weapon Used Code,weapon_used_code
+chicago,la,Longitude,longitude,Weapon Description,weapon_description
+chicago,la,Longitude,longitude,Status Code,status_code
+chicago,la,Longitude,longitude,Status Description,status_description
+chicago,la,Longitude,longitude,Crime Code 1,crime_code_1
+chicago,la,Longitude,longitude,Crime Code 2,crime_code_2
+chicago,la,Longitude,longitude,Crime Code 3,crime_code_3
+chicago,la,Longitude,longitude,Crime Code 4,crime_code_4
+chicago,la,Longitude,longitude,Address,address
+chicago,la,Longitude,longitude,Cross Street,cross_street
+chicago,la,Longitude,longitude,Location ,location
+chicago,la,Location,location,DR Number,dr_number
+chicago,la,Location,location,Date Reported,date_reported
+chicago,la,Location,location,Date Occurred,date_occurred
+chicago,la,Location,location,Time Occurred,time_occurred
+chicago,la,Location,location,Area ID,area_id
+chicago,la,Location,location,Area Name,area_name
+chicago,la,Location,location,Reporting District,reporting_district
+chicago,la,Location,location,Crime Code,crime_code
+chicago,la,Location,location,Crime Code Description,crime_code_description
+chicago,la,Location,location,MO Codes,mo_codes
+chicago,la,Location,location,Victim Age,victim_age
+chicago,la,Location,location,Victim Sex,victim_sex
+chicago,la,Location,location,Victim Descent,victim_descent
+chicago,la,Location,location,Premise Code,premise_code
+chicago,la,Location,location,Premise Description,premise_description
+chicago,la,Location,location,Weapon Used Code,weapon_used_code
+chicago,la,Location,location,Weapon Description,weapon_description
+chicago,la,Location,location,Status Code,status_code
+chicago,la,Location,location,Status Description,status_description
+chicago,la,Location,location,Crime Code 1,crime_code_1
+chicago,la,Location,location,Crime Code 2,crime_code_2
+chicago,la,Location,location,Crime Code 3,crime_code_3
+chicago,la,Location,location,Crime Code 4,crime_code_4
+chicago,la,Location,location,Address,address
+chicago,la,Location,location,Cross Street,cross_street
+chicago,la,Location,location,Location ,location
+sf,la,PdId,police_department_incident_id,DR Number,dr_number
+sf,la,PdId,police_department_incident_id,Date Reported,date_reported
+sf,la,PdId,police_department_incident_id,Date Occurred,date_occurred
+sf,la,PdId,police_department_incident_id,Time Occurred,time_occurred
+sf,la,PdId,police_department_incident_id,Area ID,area_id
+sf,la,PdId,police_department_incident_id,Area Name,area_name
+sf,la,PdId,police_department_incident_id,Reporting District,reporting_district
+sf,la,PdId,police_department_incident_id,Crime Code,crime_code
+sf,la,PdId,police_department_incident_id,Crime Code Description,crime_code_description
+sf,la,PdId,police_department_incident_id,MO Codes,mo_codes
+sf,la,PdId,police_department_incident_id,Victim Age,victim_age
+sf,la,PdId,police_department_incident_id,Victim Sex,victim_sex
+sf,la,PdId,police_department_incident_id,Victim Descent,victim_descent
+sf,la,PdId,police_department_incident_id,Premise Code,premise_code
+sf,la,PdId,police_department_incident_id,Premise Description,premise_description
+sf,la,PdId,police_department_incident_id,Weapon Used Code,weapon_used_code
+sf,la,PdId,police_department_incident_id,Weapon Description,weapon_description
+sf,la,PdId,police_department_incident_id,Status Code,status_code
+sf,la,PdId,police_department_incident_id,Status Description,status_description
+sf,la,PdId,police_department_incident_id,Crime Code 1,crime_code_1
+sf,la,PdId,police_department_incident_id,Crime Code 2,crime_code_2
+sf,la,PdId,police_department_incident_id,Crime Code 3,crime_code_3
+sf,la,PdId,police_department_incident_id,Crime Code 4,crime_code_4
+sf,la,PdId,police_department_incident_id,Address,address
+sf,la,PdId,police_department_incident_id,Cross Street,cross_street
+sf,la,PdId,police_department_incident_id,Location ,location
+sf,la,IncidntNum,incidntnum,DR Number,dr_number
+sf,la,IncidntNum,incidntnum,Date Reported,date_reported
+sf,la,IncidntNum,incidntnum,Date Occurred,date_occurred
+sf,la,IncidntNum,incidntnum,Time Occurred,time_occurred
+sf,la,IncidntNum,incidntnum,Area ID,area_id
+sf,la,IncidntNum,incidntnum,Area Name,area_name
+sf,la,IncidntNum,incidntnum,Reporting District,reporting_district
+sf,la,IncidntNum,incidntnum,Crime Code,crime_code
+sf,la,IncidntNum,incidntnum,Crime Code Description,crime_code_description
+sf,la,IncidntNum,incidntnum,MO Codes,mo_codes
+sf,la,IncidntNum,incidntnum,Victim Age,victim_age
+sf,la,IncidntNum,incidntnum,Victim Sex,victim_sex
+sf,la,IncidntNum,incidntnum,Victim Descent,victim_descent
+sf,la,IncidntNum,incidntnum,Premise Code,premise_code
+sf,la,IncidntNum,incidntnum,Premise Description,premise_description
+sf,la,IncidntNum,incidntnum,Weapon Used Code,weapon_used_code
+sf,la,IncidntNum,incidntnum,Weapon Description,weapon_description
+sf,la,IncidntNum,incidntnum,Status Code,status_code
+sf,la,IncidntNum,incidntnum,Status Description,status_description
+sf,la,IncidntNum,incidntnum,Crime Code 1,crime_code_1
+sf,la,IncidntNum,incidntnum,Crime Code 2,crime_code_2
+sf,la,IncidntNum,incidntnum,Crime Code 3,crime_code_3
+sf,la,IncidntNum,incidntnum,Crime Code 4,crime_code_4
+sf,la,IncidntNum,incidntnum,Address,address
+sf,la,IncidntNum,incidntnum,Cross Street,cross_street
+sf,la,IncidntNum,incidntnum,Location ,location
+sf,la,Incident Code,incident_code,DR Number,dr_number
+sf,la,Incident Code,incident_code,Date Reported,date_reported
+sf,la,Incident Code,incident_code,Date Occurred,date_occurred
+sf,la,Incident Code,incident_code,Time Occurred,time_occurred
+sf,la,Incident Code,incident_code,Area ID,area_id
+sf,la,Incident Code,incident_code,Area Name,area_name
+sf,la,Incident Code,incident_code,Reporting District,reporting_district
+sf,la,Incident Code,incident_code,Crime Code,crime_code
+sf,la,Incident Code,incident_code,Crime Code Description,crime_code_description
+sf,la,Incident Code,incident_code,MO Codes,mo_codes
+sf,la,Incident Code,incident_code,Victim Age,victim_age
+sf,la,Incident Code,incident_code,Victim Sex,victim_sex
+sf,la,Incident Code,incident_code,Victim Descent,victim_descent
+sf,la,Incident Code,incident_code,Premise Code,premise_code
+sf,la,Incident Code,incident_code,Premise Description,premise_description
+sf,la,Incident Code,incident_code,Weapon Used Code,weapon_used_code
+sf,la,Incident Code,incident_code,Weapon Description,weapon_description
+sf,la,Incident Code,incident_code,Status Code,status_code
+sf,la,Incident Code,incident_code,Status Description,status_description
+sf,la,Incident Code,incident_code,Crime Code 1,crime_code_1
+sf,la,Incident Code,incident_code,Crime Code 2,crime_code_2
+sf,la,Incident Code,incident_code,Crime Code 3,crime_code_3
+sf,la,Incident Code,incident_code,Crime Code 4,crime_code_4
+sf,la,Incident Code,incident_code,Address,address
+sf,la,Incident Code,incident_code,Cross Street,cross_street
+sf,la,Incident Code,incident_code,Location ,location
+sf,la,Category,category,DR Number,dr_number
+sf,la,Category,category,Date Reported,date_reported
+sf,la,Category,category,Date Occurred,date_occurred
+sf,la,Category,category,Time Occurred,time_occurred
+sf,la,Category,category,Area ID,area_id
+sf,la,Category,category,Area Name,area_name
+sf,la,Category,category,Reporting District,reporting_district
+sf,la,Category,category,Crime Code,crime_code
+sf,la,Category,category,Crime Code Description,crime_code_description
+sf,la,Category,category,MO Codes,mo_codes
+sf,la,Category,category,Victim Age,victim_age
+sf,la,Category,category,Victim Sex,victim_sex
+sf,la,Category,category,Victim Descent,victim_descent
+sf,la,Category,category,Premise Code,premise_code
+sf,la,Category,category,Premise Description,premise_description
+sf,la,Category,category,Weapon Used Code,weapon_used_code
+sf,la,Category,category,Weapon Description,weapon_description
+sf,la,Category,category,Status Code,status_code
+sf,la,Category,category,Status Description,status_description
+sf,la,Category,category,Crime Code 1,crime_code_1
+sf,la,Category,category,Crime Code 2,crime_code_2
+sf,la,Category,category,Crime Code 3,crime_code_3
+sf,la,Category,category,Crime Code 4,crime_code_4
+sf,la,Category,category,Address,address
+sf,la,Category,category,Cross Street,cross_street
+sf,la,Category,category,Location ,location
+sf,la,Descript,descript,DR Number,dr_number
+sf,la,Descript,descript,Date Reported,date_reported
+sf,la,Descript,descript,Date Occurred,date_occurred
+sf,la,Descript,descript,Time Occurred,time_occurred
+sf,la,Descript,descript,Area ID,area_id
+sf,la,Descript,descript,Area Name,area_name
+sf,la,Descript,descript,Reporting District,reporting_district
+sf,la,Descript,descript,Crime Code,crime_code
+sf,la,Descript,descript,Crime Code Description,crime_code_description
+sf,la,Descript,descript,MO Codes,mo_codes
+sf,la,Descript,descript,Victim Age,victim_age
+sf,la,Descript,descript,Victim Sex,victim_sex
+sf,la,Descript,descript,Victim Descent,victim_descent
+sf,la,Descript,descript,Premise Code,premise_code
+sf,la,Descript,descript,Premise Description,premise_description
+sf,la,Descript,descript,Weapon Used Code,weapon_used_code
+sf,la,Descript,descript,Weapon Description,weapon_description
+sf,la,Descript,descript,Status Code,status_code
+sf,la,Descript,descript,Status Description,status_description
+sf,la,Descript,descript,Crime Code 1,crime_code_1
+sf,la,Descript,descript,Crime Code 2,crime_code_2
+sf,la,Descript,descript,Crime Code 3,crime_code_3
+sf,la,Descript,descript,Crime Code 4,crime_code_4
+sf,la,Descript,descript,Address,address
+sf,la,Descript,descript,Cross Street,cross_street
+sf,la,Descript,descript,Location ,location
+sf,la,DayOfWeek,dayofweek,DR Number,dr_number
+sf,la,DayOfWeek,dayofweek,Date Reported,date_reported
+sf,la,DayOfWeek,dayofweek,Date Occurred,date_occurred
+sf,la,DayOfWeek,dayofweek,Time Occurred,time_occurred
+sf,la,DayOfWeek,dayofweek,Area ID,area_id
+sf,la,DayOfWeek,dayofweek,Area Name,area_name
+sf,la,DayOfWeek,dayofweek,Reporting District,reporting_district
+sf,la,DayOfWeek,dayofweek,Crime Code,crime_code
+sf,la,DayOfWeek,dayofweek,Crime Code Description,crime_code_description
+sf,la,DayOfWeek,dayofweek,MO Codes,mo_codes
+sf,la,DayOfWeek,dayofweek,Victim Age,victim_age
+sf,la,DayOfWeek,dayofweek,Victim Sex,victim_sex
+sf,la,DayOfWeek,dayofweek,Victim Descent,victim_descent
+sf,la,DayOfWeek,dayofweek,Premise Code,premise_code
+sf,la,DayOfWeek,dayofweek,Premise Description,premise_description
+sf,la,DayOfWeek,dayofweek,Weapon Used Code,weapon_used_code
+sf,la,DayOfWeek,dayofweek,Weapon Description,weapon_description
+sf,la,DayOfWeek,dayofweek,Status Code,status_code
+sf,la,DayOfWeek,dayofweek,Status Description,status_description
+sf,la,DayOfWeek,dayofweek,Crime Code 1,crime_code_1
+sf,la,DayOfWeek,dayofweek,Crime Code 2,crime_code_2
+sf,la,DayOfWeek,dayofweek,Crime Code 3,crime_code_3
+sf,la,DayOfWeek,dayofweek,Crime Code 4,crime_code_4
+sf,la,DayOfWeek,dayofweek,Address,address
+sf,la,DayOfWeek,dayofweek,Cross Street,cross_street
+sf,la,DayOfWeek,dayofweek,Location ,location
+sf,la,Date,date,DR Number,dr_number
+sf,la,Date,date,Date Reported,date_reported
+sf,la,Date,date,Date Occurred,date_occurred
+sf,la,Date,date,Time Occurred,time_occurred
+sf,la,Date,date,Area ID,area_id
+sf,la,Date,date,Area Name,area_name
+sf,la,Date,date,Reporting District,reporting_district
+sf,la,Date,date,Crime Code,crime_code
+sf,la,Date,date,Crime Code Description,crime_code_description
+sf,la,Date,date,MO Codes,mo_codes
+sf,la,Date,date,Victim Age,victim_age
+sf,la,Date,date,Victim Sex,victim_sex
+sf,la,Date,date,Victim Descent,victim_descent
+sf,la,Date,date,Premise Code,premise_code
+sf,la,Date,date,Premise Description,premise_description
+sf,la,Date,date,Weapon Used Code,weapon_used_code
+sf,la,Date,date,Weapon Description,weapon_description
+sf,la,Date,date,Status Code,status_code
+sf,la,Date,date,Status Description,status_description
+sf,la,Date,date,Crime Code 1,crime_code_1
+sf,la,Date,date,Crime Code 2,crime_code_2
+sf,la,Date,date,Crime Code 3,crime_code_3
+sf,la,Date,date,Crime Code 4,crime_code_4
+sf,la,Date,date,Address,address
+sf,la,Date,date,Cross Street,cross_street
+sf,la,Date,date,Location ,location
+sf,la,Time,time,DR Number,dr_number
+sf,la,Time,time,Date Reported,date_reported
+sf,la,Time,time,Date Occurred,date_occurred
+sf,la,Time,time,Time Occurred,time_occurred
+sf,la,Time,time,Area ID,area_id
+sf,la,Time,time,Area Name,area_name
+sf,la,Time,time,Reporting District,reporting_district
+sf,la,Time,time,Crime Code,crime_code
+sf,la,Time,time,Crime Code Description,crime_code_description
+sf,la,Time,time,MO Codes,mo_codes
+sf,la,Time,time,Victim Age,victim_age
+sf,la,Time,time,Victim Sex,victim_sex
+sf,la,Time,time,Victim Descent,victim_descent
+sf,la,Time,time,Premise Code,premise_code
+sf,la,Time,time,Premise Description,premise_description
+sf,la,Time,time,Weapon Used Code,weapon_used_code
+sf,la,Time,time,Weapon Description,weapon_description
+sf,la,Time,time,Status Code,status_code
+sf,la,Time,time,Status Description,status_description
+sf,la,Time,time,Crime Code 1,crime_code_1
+sf,la,Time,time,Crime Code 2,crime_code_2
+sf,la,Time,time,Crime Code 3,crime_code_3
+sf,la,Time,time,Crime Code 4,crime_code_4
+sf,la,Time,time,Address,address
+sf,la,Time,time,Cross Street,cross_street
+sf,la,Time,time,Location ,location
+sf,la,PdDistrict,pddistrict,DR Number,dr_number
+sf,la,PdDistrict,pddistrict,Date Reported,date_reported
+sf,la,PdDistrict,pddistrict,Date Occurred,date_occurred
+sf,la,PdDistrict,pddistrict,Time Occurred,time_occurred
+sf,la,PdDistrict,pddistrict,Area ID,area_id
+sf,la,PdDistrict,pddistrict,Area Name,area_name
+sf,la,PdDistrict,pddistrict,Reporting District,reporting_district
+sf,la,PdDistrict,pddistrict,Crime Code,crime_code
+sf,la,PdDistrict,pddistrict,Crime Code Description,crime_code_description
+sf,la,PdDistrict,pddistrict,MO Codes,mo_codes
+sf,la,PdDistrict,pddistrict,Victim Age,victim_age
+sf,la,PdDistrict,pddistrict,Victim Sex,victim_sex
+sf,la,PdDistrict,pddistrict,Victim Descent,victim_descent
+sf,la,PdDistrict,pddistrict,Premise Code,premise_code
+sf,la,PdDistrict,pddistrict,Premise Description,premise_description
+sf,la,PdDistrict,pddistrict,Weapon Used Code,weapon_used_code
+sf,la,PdDistrict,pddistrict,Weapon Description,weapon_description
+sf,la,PdDistrict,pddistrict,Status Code,status_code
+sf,la,PdDistrict,pddistrict,Status Description,status_description
+sf,la,PdDistrict,pddistrict,Crime Code 1,crime_code_1
+sf,la,PdDistrict,pddistrict,Crime Code 2,crime_code_2
+sf,la,PdDistrict,pddistrict,Crime Code 3,crime_code_3
+sf,la,PdDistrict,pddistrict,Crime Code 4,crime_code_4
+sf,la,PdDistrict,pddistrict,Address,address
+sf,la,PdDistrict,pddistrict,Cross Street,cross_street
+sf,la,PdDistrict,pddistrict,Location ,location
+sf,la,Resolution,resolution,DR Number,dr_number
+sf,la,Resolution,resolution,Date Reported,date_reported
+sf,la,Resolution,resolution,Date Occurred,date_occurred
+sf,la,Resolution,resolution,Time Occurred,time_occurred
+sf,la,Resolution,resolution,Area ID,area_id
+sf,la,Resolution,resolution,Area Name,area_name
+sf,la,Resolution,resolution,Reporting District,reporting_district
+sf,la,Resolution,resolution,Crime Code,crime_code
+sf,la,Resolution,resolution,Crime Code Description,crime_code_description
+sf,la,Resolution,resolution,MO Codes,mo_codes
+sf,la,Resolution,resolution,Victim Age,victim_age
+sf,la,Resolution,resolution,Victim Sex,victim_sex
+sf,la,Resolution,resolution,Victim Descent,victim_descent
+sf,la,Resolution,resolution,Premise Code,premise_code
+sf,la,Resolution,resolution,Premise Description,premise_description
+sf,la,Resolution,resolution,Weapon Used Code,weapon_used_code
+sf,la,Resolution,resolution,Weapon Description,weapon_description
+sf,la,Resolution,resolution,Status Code,status_code
+sf,la,Resolution,resolution,Status Description,status_description
+sf,la,Resolution,resolution,Crime Code 1,crime_code_1
+sf,la,Resolution,resolution,Crime Code 2,crime_code_2
+sf,la,Resolution,resolution,Crime Code 3,crime_code_3
+sf,la,Resolution,resolution,Crime Code 4,crime_code_4
+sf,la,Resolution,resolution,Address,address
+sf,la,Resolution,resolution,Cross Street,cross_street
+sf,la,Resolution,resolution,Location ,location
+sf,la,Address,address,DR Number,dr_number
+sf,la,Address,address,Date Reported,date_reported
+sf,la,Address,address,Date Occurred,date_occurred
+sf,la,Address,address,Time Occurred,time_occurred
+sf,la,Address,address,Area ID,area_id
+sf,la,Address,address,Area Name,area_name
+sf,la,Address,address,Reporting District,reporting_district
+sf,la,Address,address,Crime Code,crime_code
+sf,la,Address,address,Crime Code Description,crime_code_description
+sf,la,Address,address,MO Codes,mo_codes
+sf,la,Address,address,Victim Age,victim_age
+sf,la,Address,address,Victim Sex,victim_sex
+sf,la,Address,address,Victim Descent,victim_descent
+sf,la,Address,address,Premise Code,premise_code
+sf,la,Address,address,Premise Description,premise_description
+sf,la,Address,address,Weapon Used Code,weapon_used_code
+sf,la,Address,address,Weapon Description,weapon_description
+sf,la,Address,address,Status Code,status_code
+sf,la,Address,address,Status Description,status_description
+sf,la,Address,address,Crime Code 1,crime_code_1
+sf,la,Address,address,Crime Code 2,crime_code_2
+sf,la,Address,address,Crime Code 3,crime_code_3
+sf,la,Address,address,Crime Code 4,crime_code_4
+sf,la,Address,address,Address,address
+sf,la,Address,address,Cross Street,cross_street
+sf,la,Address,address,Location ,location
+sf,la,X,x,DR Number,dr_number
+sf,la,X,x,Date Reported,date_reported
+sf,la,X,x,Date Occurred,date_occurred
+sf,la,X,x,Time Occurred,time_occurred
+sf,la,X,x,Area ID,area_id
+sf,la,X,x,Area Name,area_name
+sf,la,X,x,Reporting District,reporting_district
+sf,la,X,x,Crime Code,crime_code
+sf,la,X,x,Crime Code Description,crime_code_description
+sf,la,X,x,MO Codes,mo_codes
+sf,la,X,x,Victim Age,victim_age
+sf,la,X,x,Victim Sex,victim_sex
+sf,la,X,x,Victim Descent,victim_descent
+sf,la,X,x,Premise Code,premise_code
+sf,la,X,x,Premise Description,premise_description
+sf,la,X,x,Weapon Used Code,weapon_used_code
+sf,la,X,x,Weapon Description,weapon_description
+sf,la,X,x,Status Code,status_code
+sf,la,X,x,Status Description,status_description
+sf,la,X,x,Crime Code 1,crime_code_1
+sf,la,X,x,Crime Code 2,crime_code_2
+sf,la,X,x,Crime Code 3,crime_code_3
+sf,la,X,x,Crime Code 4,crime_code_4
+sf,la,X,x,Address,address
+sf,la,X,x,Cross Street,cross_street
+sf,la,X,x,Location ,location
+sf,la,Y,y,DR Number,dr_number
+sf,la,Y,y,Date Reported,date_reported
+sf,la,Y,y,Date Occurred,date_occurred
+sf,la,Y,y,Time Occurred,time_occurred
+sf,la,Y,y,Area ID,area_id
+sf,la,Y,y,Area Name,area_name
+sf,la,Y,y,Reporting District,reporting_district
+sf,la,Y,y,Crime Code,crime_code
+sf,la,Y,y,Crime Code Description,crime_code_description
+sf,la,Y,y,MO Codes,mo_codes
+sf,la,Y,y,Victim Age,victim_age
+sf,la,Y,y,Victim Sex,victim_sex
+sf,la,Y,y,Victim Descent,victim_descent
+sf,la,Y,y,Premise Code,premise_code
+sf,la,Y,y,Premise Description,premise_description
+sf,la,Y,y,Weapon Used Code,weapon_used_code
+sf,la,Y,y,Weapon Description,weapon_description
+sf,la,Y,y,Status Code,status_code
+sf,la,Y,y,Status Description,status_description
+sf,la,Y,y,Crime Code 1,crime_code_1
+sf,la,Y,y,Crime Code 2,crime_code_2
+sf,la,Y,y,Crime Code 3,crime_code_3
+sf,la,Y,y,Crime Code 4,crime_code_4
+sf,la,Y,y,Address,address
+sf,la,Y,y,Cross Street,cross_street
+sf,la,Y,y,Location ,location
+sf,la,location,location,DR Number,dr_number
+sf,la,location,location,Date Reported,date_reported
+sf,la,location,location,Date Occurred,date_occurred
+sf,la,location,location,Time Occurred,time_occurred
+sf,la,location,location,Area ID,area_id
+sf,la,location,location,Area Name,area_name
+sf,la,location,location,Reporting District,reporting_district
+sf,la,location,location,Crime Code,crime_code
+sf,la,location,location,Crime Code Description,crime_code_description
+sf,la,location,location,MO Codes,mo_codes
+sf,la,location,location,Victim Age,victim_age
+sf,la,location,location,Victim Sex,victim_sex
+sf,la,location,location,Victim Descent,victim_descent
+sf,la,location,location,Premise Code,premise_code
+sf,la,location,location,Premise Description,premise_description
+sf,la,location,location,Weapon Used Code,weapon_used_code
+sf,la,location,location,Weapon Description,weapon_description
+sf,la,location,location,Status Code,status_code
+sf,la,location,location,Status Description,status_description
+sf,la,location,location,Crime Code 1,crime_code_1
+sf,la,location,location,Crime Code 2,crime_code_2
+sf,la,location,location,Crime Code 3,crime_code_3
+sf,la,location,location,Crime Code 4,crime_code_4
+sf,la,location,location,Address,address
+sf,la,location,location,Cross Street,cross_street
+sf,la,location,location,Location ,location
+sf,la,SF Find Neighborhoods 2 2,sf_find_neighborhoods_2_2,DR Number,dr_number
+sf,la,SF Find Neighborhoods 2 2,sf_find_neighborhoods_2_2,Date Reported,date_reported
+sf,la,SF Find Neighborhoods 2 2,sf_find_neighborhoods_2_2,Date Occurred,date_occurred
+sf,la,SF Find Neighborhoods 2 2,sf_find_neighborhoods_2_2,Time Occurred,time_occurred
+sf,la,SF Find Neighborhoods 2 2,sf_find_neighborhoods_2_2,Area ID,area_id
+sf,la,SF Find Neighborhoods 2 2,sf_find_neighborhoods_2_2,Area Name,area_name
+sf,la,SF Find Neighborhoods 2 2,sf_find_neighborhoods_2_2,Reporting District,reporting_district
+sf,la,SF Find Neighborhoods 2 2,sf_find_neighborhoods_2_2,Crime Code,crime_code
+sf,la,SF Find Neighborhoods 2 2,sf_find_neighborhoods_2_2,Crime Code Description,crime_code_description
+sf,la,SF Find Neighborhoods 2 2,sf_find_neighborhoods_2_2,MO Codes,mo_codes
+sf,la,SF Find Neighborhoods 2 2,sf_find_neighborhoods_2_2,Victim Age,victim_age
+sf,la,SF Find Neighborhoods 2 2,sf_find_neighborhoods_2_2,Victim Sex,victim_sex
+sf,la,SF Find Neighborhoods 2 2,sf_find_neighborhoods_2_2,Victim Descent,victim_descent
+sf,la,SF Find Neighborhoods 2 2,sf_find_neighborhoods_2_2,Premise Code,premise_code
+sf,la,SF Find Neighborhoods 2 2,sf_find_neighborhoods_2_2,Premise Description,premise_description
+sf,la,SF Find Neighborhoods 2 2,sf_find_neighborhoods_2_2,Weapon Used Code,weapon_used_code
+sf,la,SF Find Neighborhoods 2 2,sf_find_neighborhoods_2_2,Weapon Description,weapon_description
+sf,la,SF Find Neighborhoods 2 2,sf_find_neighborhoods_2_2,Status Code,status_code
+sf,la,SF Find Neighborhoods 2 2,sf_find_neighborhoods_2_2,Status Description,status_description
+sf,la,SF Find Neighborhoods 2 2,sf_find_neighborhoods_2_2,Crime Code 1,crime_code_1
+sf,la,SF Find Neighborhoods 2 2,sf_find_neighborhoods_2_2,Crime Code 2,crime_code_2
+sf,la,SF Find Neighborhoods 2 2,sf_find_neighborhoods_2_2,Crime Code 3,crime_code_3
+sf,la,SF Find Neighborhoods 2 2,sf_find_neighborhoods_2_2,Crime Code 4,crime_code_4
+sf,la,SF Find Neighborhoods 2 2,sf_find_neighborhoods_2_2,Address,address
+sf,la,SF Find Neighborhoods 2 2,sf_find_neighborhoods_2_2,Cross Street,cross_street
+sf,la,SF Find Neighborhoods 2 2,sf_find_neighborhoods_2_2,Location ,location
+sf,la,Current Police Districts 2 2,current_police_districts_2_2,DR Number,dr_number
+sf,la,Current Police Districts 2 2,current_police_districts_2_2,Date Reported,date_reported
+sf,la,Current Police Districts 2 2,current_police_districts_2_2,Date Occurred,date_occurred
+sf,la,Current Police Districts 2 2,current_police_districts_2_2,Time Occurred,time_occurred
+sf,la,Current Police Districts 2 2,current_police_districts_2_2,Area ID,area_id
+sf,la,Current Police Districts 2 2,current_police_districts_2_2,Area Name,area_name
+sf,la,Current Police Districts 2 2,current_police_districts_2_2,Reporting District,reporting_district
+sf,la,Current Police Districts 2 2,current_police_districts_2_2,Crime Code,crime_code
+sf,la,Current Police Districts 2 2,current_police_districts_2_2,Crime Code Description,crime_code_description
+sf,la,Current Police Districts 2 2,current_police_districts_2_2,MO Codes,mo_codes
+sf,la,Current Police Districts 2 2,current_police_districts_2_2,Victim Age,victim_age
+sf,la,Current Police Districts 2 2,current_police_districts_2_2,Victim Sex,victim_sex
+sf,la,Current Police Districts 2 2,current_police_districts_2_2,Victim Descent,victim_descent
+sf,la,Current Police Districts 2 2,current_police_districts_2_2,Premise Code,premise_code
+sf,la,Current Police Districts 2 2,current_police_districts_2_2,Premise Description,premise_description
+sf,la,Current Police Districts 2 2,current_police_districts_2_2,Weapon Used Code,weapon_used_code
+sf,la,Current Police Districts 2 2,current_police_districts_2_2,Weapon Description,weapon_description
+sf,la,Current Police Districts 2 2,current_police_districts_2_2,Status Code,status_code
+sf,la,Current Police Districts 2 2,current_police_districts_2_2,Status Description,status_description
+sf,la,Current Police Districts 2 2,current_police_districts_2_2,Crime Code 1,crime_code_1
+sf,la,Current Police Districts 2 2,current_police_districts_2_2,Crime Code 2,crime_code_2
+sf,la,Current Police Districts 2 2,current_police_districts_2_2,Crime Code 3,crime_code_3
+sf,la,Current Police Districts 2 2,current_police_districts_2_2,Crime Code 4,crime_code_4
+sf,la,Current Police Districts 2 2,current_police_districts_2_2,Address,address
+sf,la,Current Police Districts 2 2,current_police_districts_2_2,Cross Street,cross_street
+sf,la,Current Police Districts 2 2,current_police_districts_2_2,Location ,location
+sf,la,Current Supervisor Districts 2 2,current_supervisor_districts_2_2,DR Number,dr_number
+sf,la,Current Supervisor Districts 2 2,current_supervisor_districts_2_2,Date Reported,date_reported
+sf,la,Current Supervisor Districts 2 2,current_supervisor_districts_2_2,Date Occurred,date_occurred
+sf,la,Current Supervisor Districts 2 2,current_supervisor_districts_2_2,Time Occurred,time_occurred
+sf,la,Current Supervisor Districts 2 2,current_supervisor_districts_2_2,Area ID,area_id
+sf,la,Current Supervisor Districts 2 2,current_supervisor_districts_2_2,Area Name,area_name
+sf,la,Current Supervisor Districts 2 2,current_supervisor_districts_2_2,Reporting District,reporting_district
+sf,la,Current Supervisor Districts 2 2,current_supervisor_districts_2_2,Crime Code,crime_code
+sf,la,Current Supervisor Districts 2 2,current_supervisor_districts_2_2,Crime Code Description,crime_code_description
+sf,la,Current Supervisor Districts 2 2,current_supervisor_districts_2_2,MO Codes,mo_codes
+sf,la,Current Supervisor Districts 2 2,current_supervisor_districts_2_2,Victim Age,victim_age
+sf,la,Current Supervisor Districts 2 2,current_supervisor_districts_2_2,Victim Sex,victim_sex
+sf,la,Current Supervisor Districts 2 2,current_supervisor_districts_2_2,Victim Descent,victim_descent
+sf,la,Current Supervisor Districts 2 2,current_supervisor_districts_2_2,Premise Code,premise_code
+sf,la,Current Supervisor Districts 2 2,current_supervisor_districts_2_2,Premise Description,premise_description
+sf,la,Current Supervisor Districts 2 2,current_supervisor_districts_2_2,Weapon Used Code,weapon_used_code
+sf,la,Current Supervisor Districts 2 2,current_supervisor_districts_2_2,Weapon Description,weapon_description
+sf,la,Current Supervisor Districts 2 2,current_supervisor_districts_2_2,Status Code,status_code
+sf,la,Current Supervisor Districts 2 2,current_supervisor_districts_2_2,Status Description,status_description
+sf,la,Current Supervisor Districts 2 2,current_supervisor_districts_2_2,Crime Code 1,crime_code_1
+sf,la,Current Supervisor Districts 2 2,current_supervisor_districts_2_2,Crime Code 2,crime_code_2
+sf,la,Current Supervisor Districts 2 2,current_supervisor_districts_2_2,Crime Code 3,crime_code_3
+sf,la,Current Supervisor Districts 2 2,current_supervisor_districts_2_2,Crime Code 4,crime_code_4
+sf,la,Current Supervisor Districts 2 2,current_supervisor_districts_2_2,Address,address
+sf,la,Current Supervisor Districts 2 2,current_supervisor_districts_2_2,Cross Street,cross_street
+sf,la,Current Supervisor Districts 2 2,current_supervisor_districts_2_2,Location ,location
+sf,la,Analysis Neighborhoods 2 2,analysis_neighborhoods_2_2,DR Number,dr_number
+sf,la,Analysis Neighborhoods 2 2,analysis_neighborhoods_2_2,Date Reported,date_reported
+sf,la,Analysis Neighborhoods 2 2,analysis_neighborhoods_2_2,Date Occurred,date_occurred
+sf,la,Analysis Neighborhoods 2 2,analysis_neighborhoods_2_2,Time Occurred,time_occurred
+sf,la,Analysis Neighborhoods 2 2,analysis_neighborhoods_2_2,Area ID,area_id
+sf,la,Analysis Neighborhoods 2 2,analysis_neighborhoods_2_2,Area Name,area_name
+sf,la,Analysis Neighborhoods 2 2,analysis_neighborhoods_2_2,Reporting District,reporting_district
+sf,la,Analysis Neighborhoods 2 2,analysis_neighborhoods_2_2,Crime Code,crime_code
+sf,la,Analysis Neighborhoods 2 2,analysis_neighborhoods_2_2,Crime Code Description,crime_code_description
+sf,la,Analysis Neighborhoods 2 2,analysis_neighborhoods_2_2,MO Codes,mo_codes
+sf,la,Analysis Neighborhoods 2 2,analysis_neighborhoods_2_2,Victim Age,victim_age
+sf,la,Analysis Neighborhoods 2 2,analysis_neighborhoods_2_2,Victim Sex,victim_sex
+sf,la,Analysis Neighborhoods 2 2,analysis_neighborhoods_2_2,Victim Descent,victim_descent
+sf,la,Analysis Neighborhoods 2 2,analysis_neighborhoods_2_2,Premise Code,premise_code
+sf,la,Analysis Neighborhoods 2 2,analysis_neighborhoods_2_2,Premise Description,premise_description
+sf,la,Analysis Neighborhoods 2 2,analysis_neighborhoods_2_2,Weapon Used Code,weapon_used_code
+sf,la,Analysis Neighborhoods 2 2,analysis_neighborhoods_2_2,Weapon Description,weapon_description
+sf,la,Analysis Neighborhoods 2 2,analysis_neighborhoods_2_2,Status Code,status_code
+sf,la,Analysis Neighborhoods 2 2,analysis_neighborhoods_2_2,Status Description,status_description
+sf,la,Analysis Neighborhoods 2 2,analysis_neighborhoods_2_2,Crime Code 1,crime_code_1
+sf,la,Analysis Neighborhoods 2 2,analysis_neighborhoods_2_2,Crime Code 2,crime_code_2
+sf,la,Analysis Neighborhoods 2 2,analysis_neighborhoods_2_2,Crime Code 3,crime_code_3
+sf,la,Analysis Neighborhoods 2 2,analysis_neighborhoods_2_2,Crime Code 4,crime_code_4
+sf,la,Analysis Neighborhoods 2 2,analysis_neighborhoods_2_2,Address,address
+sf,la,Analysis Neighborhoods 2 2,analysis_neighborhoods_2_2,Cross Street,cross_street
+sf,la,Analysis Neighborhoods 2 2,analysis_neighborhoods_2_2,Location ,location
+sf,la,DELETE - Fire Prevention Districts 2 2,delete_fire_prevention_districts_2_2,DR Number,dr_number
+sf,la,DELETE - Fire Prevention Districts 2 2,delete_fire_prevention_districts_2_2,Date Reported,date_reported
+sf,la,DELETE - Fire Prevention Districts 2 2,delete_fire_prevention_districts_2_2,Date Occurred,date_occurred
+sf,la,DELETE - Fire Prevention Districts 2 2,delete_fire_prevention_districts_2_2,Time Occurred,time_occurred
+sf,la,DELETE - Fire Prevention Districts 2 2,delete_fire_prevention_districts_2_2,Area ID,area_id
+sf,la,DELETE - Fire Prevention Districts 2 2,delete_fire_prevention_districts_2_2,Area Name,area_name
+sf,la,DELETE - Fire Prevention Districts 2 2,delete_fire_prevention_districts_2_2,Reporting District,reporting_district
+sf,la,DELETE - Fire Prevention Districts 2 2,delete_fire_prevention_districts_2_2,Crime Code,crime_code
+sf,la,DELETE - Fire Prevention Districts 2 2,delete_fire_prevention_districts_2_2,Crime Code Description,crime_code_description
+sf,la,DELETE - Fire Prevention Districts 2 2,delete_fire_prevention_districts_2_2,MO Codes,mo_codes
+sf,la,DELETE - Fire Prevention Districts 2 2,delete_fire_prevention_districts_2_2,Victim Age,victim_age
+sf,la,DELETE - Fire Prevention Districts 2 2,delete_fire_prevention_districts_2_2,Victim Sex,victim_sex
+sf,la,DELETE - Fire Prevention Districts 2 2,delete_fire_prevention_districts_2_2,Victim Descent,victim_descent
+sf,la,DELETE - Fire Prevention Districts 2 2,delete_fire_prevention_districts_2_2,Premise Code,premise_code
+sf,la,DELETE - Fire Prevention Districts 2 2,delete_fire_prevention_districts_2_2,Premise Description,premise_description
+sf,la,DELETE - Fire Prevention Districts 2 2,delete_fire_prevention_districts_2_2,Weapon Used Code,weapon_used_code
+sf,la,DELETE - Fire Prevention Districts 2 2,delete_fire_prevention_districts_2_2,Weapon Description,weapon_description
+sf,la,DELETE - Fire Prevention Districts 2 2,delete_fire_prevention_districts_2_2,Status Code,status_code
+sf,la,DELETE - Fire Prevention Districts 2 2,delete_fire_prevention_districts_2_2,Status Description,status_description
+sf,la,DELETE - Fire Prevention Districts 2 2,delete_fire_prevention_districts_2_2,Crime Code 1,crime_code_1
+sf,la,DELETE - Fire Prevention Districts 2 2,delete_fire_prevention_districts_2_2,Crime Code 2,crime_code_2
+sf,la,DELETE - Fire Prevention Districts 2 2,delete_fire_prevention_districts_2_2,Crime Code 3,crime_code_3
+sf,la,DELETE - Fire Prevention Districts 2 2,delete_fire_prevention_districts_2_2,Crime Code 4,crime_code_4
+sf,la,DELETE - Fire Prevention Districts 2 2,delete_fire_prevention_districts_2_2,Address,address
+sf,la,DELETE - Fire Prevention Districts 2 2,delete_fire_prevention_districts_2_2,Cross Street,cross_street
+sf,la,DELETE - Fire Prevention Districts 2 2,delete_fire_prevention_districts_2_2,Location ,location
+sf,la,DELETE - Police Districts 2 2,delete_police_districts_2_2,DR Number,dr_number
+sf,la,DELETE - Police Districts 2 2,delete_police_districts_2_2,Date Reported,date_reported
+sf,la,DELETE - Police Districts 2 2,delete_police_districts_2_2,Date Occurred,date_occurred
+sf,la,DELETE - Police Districts 2 2,delete_police_districts_2_2,Time Occurred,time_occurred
+sf,la,DELETE - Police Districts 2 2,delete_police_districts_2_2,Area ID,area_id
+sf,la,DELETE - Police Districts 2 2,delete_police_districts_2_2,Area Name,area_name
+sf,la,DELETE - Police Districts 2 2,delete_police_districts_2_2,Reporting District,reporting_district
+sf,la,DELETE - Police Districts 2 2,delete_police_districts_2_2,Crime Code,crime_code
+sf,la,DELETE - Police Districts 2 2,delete_police_districts_2_2,Crime Code Description,crime_code_description
+sf,la,DELETE - Police Districts 2 2,delete_police_districts_2_2,MO Codes,mo_codes
+sf,la,DELETE - Police Districts 2 2,delete_police_districts_2_2,Victim Age,victim_age
+sf,la,DELETE - Police Districts 2 2,delete_police_districts_2_2,Victim Sex,victim_sex
+sf,la,DELETE - Police Districts 2 2,delete_police_districts_2_2,Victim Descent,victim_descent
+sf,la,DELETE - Police Districts 2 2,delete_police_districts_2_2,Premise Code,premise_code
+sf,la,DELETE - Police Districts 2 2,delete_police_districts_2_2,Premise Description,premise_description
+sf,la,DELETE - Police Districts 2 2,delete_police_districts_2_2,Weapon Used Code,weapon_used_code
+sf,la,DELETE - Police Districts 2 2,delete_police_districts_2_2,Weapon Description,weapon_description
+sf,la,DELETE - Police Districts 2 2,delete_police_districts_2_2,Status Code,status_code
+sf,la,DELETE - Police Districts 2 2,delete_police_districts_2_2,Status Description,status_description
+sf,la,DELETE - Police Districts 2 2,delete_police_districts_2_2,Crime Code 1,crime_code_1
+sf,la,DELETE - Police Districts 2 2,delete_police_districts_2_2,Crime Code 2,crime_code_2
+sf,la,DELETE - Police Districts 2 2,delete_police_districts_2_2,Crime Code 3,crime_code_3
+sf,la,DELETE - Police Districts 2 2,delete_police_districts_2_2,Crime Code 4,crime_code_4
+sf,la,DELETE - Police Districts 2 2,delete_police_districts_2_2,Address,address
+sf,la,DELETE - Police Districts 2 2,delete_police_districts_2_2,Cross Street,cross_street
+sf,la,DELETE - Police Districts 2 2,delete_police_districts_2_2,Location ,location
+sf,la,DELETE - Supervisor Districts 2 2,delete_supervisor_districts_2_2,DR Number,dr_number
+sf,la,DELETE - Supervisor Districts 2 2,delete_supervisor_districts_2_2,Date Reported,date_reported
+sf,la,DELETE - Supervisor Districts 2 2,delete_supervisor_districts_2_2,Date Occurred,date_occurred
+sf,la,DELETE - Supervisor Districts 2 2,delete_supervisor_districts_2_2,Time Occurred,time_occurred
+sf,la,DELETE - Supervisor Districts 2 2,delete_supervisor_districts_2_2,Area ID,area_id
+sf,la,DELETE - Supervisor Districts 2 2,delete_supervisor_districts_2_2,Area Name,area_name
+sf,la,DELETE - Supervisor Districts 2 2,delete_supervisor_districts_2_2,Reporting District,reporting_district
+sf,la,DELETE - Supervisor Districts 2 2,delete_supervisor_districts_2_2,Crime Code,crime_code
+sf,la,DELETE - Supervisor Districts 2 2,delete_supervisor_districts_2_2,Crime Code Description,crime_code_description
+sf,la,DELETE - Supervisor Districts 2 2,delete_supervisor_districts_2_2,MO Codes,mo_codes
+sf,la,DELETE - Supervisor Districts 2 2,delete_supervisor_districts_2_2,Victim Age,victim_age
+sf,la,DELETE - Supervisor Districts 2 2,delete_supervisor_districts_2_2,Victim Sex,victim_sex
+sf,la,DELETE - Supervisor Districts 2 2,delete_supervisor_districts_2_2,Victim Descent,victim_descent
+sf,la,DELETE - Supervisor Districts 2 2,delete_supervisor_districts_2_2,Premise Code,premise_code
+sf,la,DELETE - Supervisor Districts 2 2,delete_supervisor_districts_2_2,Premise Description,premise_description
+sf,la,DELETE - Supervisor Districts 2 2,delete_supervisor_districts_2_2,Weapon Used Code,weapon_used_code
+sf,la,DELETE - Supervisor Districts 2 2,delete_supervisor_districts_2_2,Weapon Description,weapon_description
+sf,la,DELETE - Supervisor Districts 2 2,delete_supervisor_districts_2_2,Status Code,status_code
+sf,la,DELETE - Supervisor Districts 2 2,delete_supervisor_districts_2_2,Status Description,status_description
+sf,la,DELETE - Supervisor Districts 2 2,delete_supervisor_districts_2_2,Crime Code 1,crime_code_1
+sf,la,DELETE - Supervisor Districts 2 2,delete_supervisor_districts_2_2,Crime Code 2,crime_code_2
+sf,la,DELETE - Supervisor Districts 2 2,delete_supervisor_districts_2_2,Crime Code 3,crime_code_3
+sf,la,DELETE - Supervisor Districts 2 2,delete_supervisor_districts_2_2,Crime Code 4,crime_code_4
+sf,la,DELETE - Supervisor Districts 2 2,delete_supervisor_districts_2_2,Address,address
+sf,la,DELETE - Supervisor Districts 2 2,delete_supervisor_districts_2_2,Cross Street,cross_street
+sf,la,DELETE - Supervisor Districts 2 2,delete_supervisor_districts_2_2,Location ,location
+sf,la,DELETE - Zip Codes 2 2,delete_zip_codes_2_2,DR Number,dr_number
+sf,la,DELETE - Zip Codes 2 2,delete_zip_codes_2_2,Date Reported,date_reported
+sf,la,DELETE - Zip Codes 2 2,delete_zip_codes_2_2,Date Occurred,date_occurred
+sf,la,DELETE - Zip Codes 2 2,delete_zip_codes_2_2,Time Occurred,time_occurred
+sf,la,DELETE - Zip Codes 2 2,delete_zip_codes_2_2,Area ID,area_id
+sf,la,DELETE - Zip Codes 2 2,delete_zip_codes_2_2,Area Name,area_name
+sf,la,DELETE - Zip Codes 2 2,delete_zip_codes_2_2,Reporting District,reporting_district
+sf,la,DELETE - Zip Codes 2 2,delete_zip_codes_2_2,Crime Code,crime_code
+sf,la,DELETE - Zip Codes 2 2,delete_zip_codes_2_2,Crime Code Description,crime_code_description
+sf,la,DELETE - Zip Codes 2 2,delete_zip_codes_2_2,MO Codes,mo_codes
+sf,la,DELETE - Zip Codes 2 2,delete_zip_codes_2_2,Victim Age,victim_age
+sf,la,DELETE - Zip Codes 2 2,delete_zip_codes_2_2,Victim Sex,victim_sex
+sf,la,DELETE - Zip Codes 2 2,delete_zip_codes_2_2,Victim Descent,victim_descent
+sf,la,DELETE - Zip Codes 2 2,delete_zip_codes_2_2,Premise Code,premise_code
+sf,la,DELETE - Zip Codes 2 2,delete_zip_codes_2_2,Premise Description,premise_description
+sf,la,DELETE - Zip Codes 2 2,delete_zip_codes_2_2,Weapon Used Code,weapon_used_code
+sf,la,DELETE - Zip Codes 2 2,delete_zip_codes_2_2,Weapon Description,weapon_description
+sf,la,DELETE - Zip Codes 2 2,delete_zip_codes_2_2,Status Code,status_code
+sf,la,DELETE - Zip Codes 2 2,delete_zip_codes_2_2,Status Description,status_description
+sf,la,DELETE - Zip Codes 2 2,delete_zip_codes_2_2,Crime Code 1,crime_code_1
+sf,la,DELETE - Zip Codes 2 2,delete_zip_codes_2_2,Crime Code 2,crime_code_2
+sf,la,DELETE - Zip Codes 2 2,delete_zip_codes_2_2,Crime Code 3,crime_code_3
+sf,la,DELETE - Zip Codes 2 2,delete_zip_codes_2_2,Crime Code 4,crime_code_4
+sf,la,DELETE - Zip Codes 2 2,delete_zip_codes_2_2,Address,address
+sf,la,DELETE - Zip Codes 2 2,delete_zip_codes_2_2,Cross Street,cross_street
+sf,la,DELETE - Zip Codes 2 2,delete_zip_codes_2_2,Location ,location
+sf,la,DELETE - Neighborhoods 2 2,delete_neighborhoods_2_2,DR Number,dr_number
+sf,la,DELETE - Neighborhoods 2 2,delete_neighborhoods_2_2,Date Reported,date_reported
+sf,la,DELETE - Neighborhoods 2 2,delete_neighborhoods_2_2,Date Occurred,date_occurred
+sf,la,DELETE - Neighborhoods 2 2,delete_neighborhoods_2_2,Time Occurred,time_occurred
+sf,la,DELETE - Neighborhoods 2 2,delete_neighborhoods_2_2,Area ID,area_id
+sf,la,DELETE - Neighborhoods 2 2,delete_neighborhoods_2_2,Area Name,area_name
+sf,la,DELETE - Neighborhoods 2 2,delete_neighborhoods_2_2,Reporting District,reporting_district
+sf,la,DELETE - Neighborhoods 2 2,delete_neighborhoods_2_2,Crime Code,crime_code
+sf,la,DELETE - Neighborhoods 2 2,delete_neighborhoods_2_2,Crime Code Description,crime_code_description
+sf,la,DELETE - Neighborhoods 2 2,delete_neighborhoods_2_2,MO Codes,mo_codes
+sf,la,DELETE - Neighborhoods 2 2,delete_neighborhoods_2_2,Victim Age,victim_age
+sf,la,DELETE - Neighborhoods 2 2,delete_neighborhoods_2_2,Victim Sex,victim_sex
+sf,la,DELETE - Neighborhoods 2 2,delete_neighborhoods_2_2,Victim Descent,victim_descent
+sf,la,DELETE - Neighborhoods 2 2,delete_neighborhoods_2_2,Premise Code,premise_code
+sf,la,DELETE - Neighborhoods 2 2,delete_neighborhoods_2_2,Premise Description,premise_description
+sf,la,DELETE - Neighborhoods 2 2,delete_neighborhoods_2_2,Weapon Used Code,weapon_used_code
+sf,la,DELETE - Neighborhoods 2 2,delete_neighborhoods_2_2,Weapon Description,weapon_description
+sf,la,DELETE - Neighborhoods 2 2,delete_neighborhoods_2_2,Status Code,status_code
+sf,la,DELETE - Neighborhoods 2 2,delete_neighborhoods_2_2,Status Description,status_description
+sf,la,DELETE - Neighborhoods 2 2,delete_neighborhoods_2_2,Crime Code 1,crime_code_1
+sf,la,DELETE - Neighborhoods 2 2,delete_neighborhoods_2_2,Crime Code 2,crime_code_2
+sf,la,DELETE - Neighborhoods 2 2,delete_neighborhoods_2_2,Crime Code 3,crime_code_3
+sf,la,DELETE - Neighborhoods 2 2,delete_neighborhoods_2_2,Crime Code 4,crime_code_4
+sf,la,DELETE - Neighborhoods 2 2,delete_neighborhoods_2_2,Address,address
+sf,la,DELETE - Neighborhoods 2 2,delete_neighborhoods_2_2,Cross Street,cross_street
+sf,la,DELETE - Neighborhoods 2 2,delete_neighborhoods_2_2,Location ,location
+sf,la,DELETE - 2017 Fix It Zones 2 2,delete_2017_fix_it_zones_2_2,DR Number,dr_number
+sf,la,DELETE - 2017 Fix It Zones 2 2,delete_2017_fix_it_zones_2_2,Date Reported,date_reported
+sf,la,DELETE - 2017 Fix It Zones 2 2,delete_2017_fix_it_zones_2_2,Date Occurred,date_occurred
+sf,la,DELETE - 2017 Fix It Zones 2 2,delete_2017_fix_it_zones_2_2,Time Occurred,time_occurred
+sf,la,DELETE - 2017 Fix It Zones 2 2,delete_2017_fix_it_zones_2_2,Area ID,area_id
+sf,la,DELETE - 2017 Fix It Zones 2 2,delete_2017_fix_it_zones_2_2,Area Name,area_name
+sf,la,DELETE - 2017 Fix It Zones 2 2,delete_2017_fix_it_zones_2_2,Reporting District,reporting_district
+sf,la,DELETE - 2017 Fix It Zones 2 2,delete_2017_fix_it_zones_2_2,Crime Code,crime_code
+sf,la,DELETE - 2017 Fix It Zones 2 2,delete_2017_fix_it_zones_2_2,Crime Code Description,crime_code_description
+sf,la,DELETE - 2017 Fix It Zones 2 2,delete_2017_fix_it_zones_2_2,MO Codes,mo_codes
+sf,la,DELETE - 2017 Fix It Zones 2 2,delete_2017_fix_it_zones_2_2,Victim Age,victim_age
+sf,la,DELETE - 2017 Fix It Zones 2 2,delete_2017_fix_it_zones_2_2,Victim Sex,victim_sex
+sf,la,DELETE - 2017 Fix It Zones 2 2,delete_2017_fix_it_zones_2_2,Victim Descent,victim_descent
+sf,la,DELETE - 2017 Fix It Zones 2 2,delete_2017_fix_it_zones_2_2,Premise Code,premise_code
+sf,la,DELETE - 2017 Fix It Zones 2 2,delete_2017_fix_it_zones_2_2,Premise Description,premise_description
+sf,la,DELETE - 2017 Fix It Zones 2 2,delete_2017_fix_it_zones_2_2,Weapon Used Code,weapon_used_code
+sf,la,DELETE - 2017 Fix It Zones 2 2,delete_2017_fix_it_zones_2_2,Weapon Description,weapon_description
+sf,la,DELETE - 2017 Fix It Zones 2 2,delete_2017_fix_it_zones_2_2,Status Code,status_code
+sf,la,DELETE - 2017 Fix It Zones 2 2,delete_2017_fix_it_zones_2_2,Status Description,status_description
+sf,la,DELETE - 2017 Fix It Zones 2 2,delete_2017_fix_it_zones_2_2,Crime Code 1,crime_code_1
+sf,la,DELETE - 2017 Fix It Zones 2 2,delete_2017_fix_it_zones_2_2,Crime Code 2,crime_code_2
+sf,la,DELETE - 2017 Fix It Zones 2 2,delete_2017_fix_it_zones_2_2,Crime Code 3,crime_code_3
+sf,la,DELETE - 2017 Fix It Zones 2 2,delete_2017_fix_it_zones_2_2,Crime Code 4,crime_code_4
+sf,la,DELETE - 2017 Fix It Zones 2 2,delete_2017_fix_it_zones_2_2,Address,address
+sf,la,DELETE - 2017 Fix It Zones 2 2,delete_2017_fix_it_zones_2_2,Cross Street,cross_street
+sf,la,DELETE - 2017 Fix It Zones 2 2,delete_2017_fix_it_zones_2_2,Location ,location
+sf,la,Civic Center Harm Reduction Project Boundary 2 2,civic_center_harm_reduction_project_boundary_2_2,DR Number,dr_number
+sf,la,Civic Center Harm Reduction Project Boundary 2 2,civic_center_harm_reduction_project_boundary_2_2,Date Reported,date_reported
+sf,la,Civic Center Harm Reduction Project Boundary 2 2,civic_center_harm_reduction_project_boundary_2_2,Date Occurred,date_occurred
+sf,la,Civic Center Harm Reduction Project Boundary 2 2,civic_center_harm_reduction_project_boundary_2_2,Time Occurred,time_occurred
+sf,la,Civic Center Harm Reduction Project Boundary 2 2,civic_center_harm_reduction_project_boundary_2_2,Area ID,area_id
+sf,la,Civic Center Harm Reduction Project Boundary 2 2,civic_center_harm_reduction_project_boundary_2_2,Area Name,area_name
+sf,la,Civic Center Harm Reduction Project Boundary 2 2,civic_center_harm_reduction_project_boundary_2_2,Reporting District,reporting_district
+sf,la,Civic Center Harm Reduction Project Boundary 2 2,civic_center_harm_reduction_project_boundary_2_2,Crime Code,crime_code
+sf,la,Civic Center Harm Reduction Project Boundary 2 2,civic_center_harm_reduction_project_boundary_2_2,Crime Code Description,crime_code_description
+sf,la,Civic Center Harm Reduction Project Boundary 2 2,civic_center_harm_reduction_project_boundary_2_2,MO Codes,mo_codes
+sf,la,Civic Center Harm Reduction Project Boundary 2 2,civic_center_harm_reduction_project_boundary_2_2,Victim Age,victim_age
+sf,la,Civic Center Harm Reduction Project Boundary 2 2,civic_center_harm_reduction_project_boundary_2_2,Victim Sex,victim_sex
+sf,la,Civic Center Harm Reduction Project Boundary 2 2,civic_center_harm_reduction_project_boundary_2_2,Victim Descent,victim_descent
+sf,la,Civic Center Harm Reduction Project Boundary 2 2,civic_center_harm_reduction_project_boundary_2_2,Premise Code,premise_code
+sf,la,Civic Center Harm Reduction Project Boundary 2 2,civic_center_harm_reduction_project_boundary_2_2,Premise Description,premise_description
+sf,la,Civic Center Harm Reduction Project Boundary 2 2,civic_center_harm_reduction_project_boundary_2_2,Weapon Used Code,weapon_used_code
+sf,la,Civic Center Harm Reduction Project Boundary 2 2,civic_center_harm_reduction_project_boundary_2_2,Weapon Description,weapon_description
+sf,la,Civic Center Harm Reduction Project Boundary 2 2,civic_center_harm_reduction_project_boundary_2_2,Status Code,status_code
+sf,la,Civic Center Harm Reduction Project Boundary 2 2,civic_center_harm_reduction_project_boundary_2_2,Status Description,status_description
+sf,la,Civic Center Harm Reduction Project Boundary 2 2,civic_center_harm_reduction_project_boundary_2_2,Crime Code 1,crime_code_1
+sf,la,Civic Center Harm Reduction Project Boundary 2 2,civic_center_harm_reduction_project_boundary_2_2,Crime Code 2,crime_code_2
+sf,la,Civic Center Harm Reduction Project Boundary 2 2,civic_center_harm_reduction_project_boundary_2_2,Crime Code 3,crime_code_3
+sf,la,Civic Center Harm Reduction Project Boundary 2 2,civic_center_harm_reduction_project_boundary_2_2,Crime Code 4,crime_code_4
+sf,la,Civic Center Harm Reduction Project Boundary 2 2,civic_center_harm_reduction_project_boundary_2_2,Address,address
+sf,la,Civic Center Harm Reduction Project Boundary 2 2,civic_center_harm_reduction_project_boundary_2_2,Cross Street,cross_street
+sf,la,Civic Center Harm Reduction Project Boundary 2 2,civic_center_harm_reduction_project_boundary_2_2,Location ,location
+sf,la,Fix It Zones as of 2017-11-06  2 2,fix_it_zones_as_of_2017_11_06_2_2,DR Number,dr_number
+sf,la,Fix It Zones as of 2017-11-06  2 2,fix_it_zones_as_of_2017_11_06_2_2,Date Reported,date_reported
+sf,la,Fix It Zones as of 2017-11-06  2 2,fix_it_zones_as_of_2017_11_06_2_2,Date Occurred,date_occurred
+sf,la,Fix It Zones as of 2017-11-06  2 2,fix_it_zones_as_of_2017_11_06_2_2,Time Occurred,time_occurred
+sf,la,Fix It Zones as of 2017-11-06  2 2,fix_it_zones_as_of_2017_11_06_2_2,Area ID,area_id
+sf,la,Fix It Zones as of 2017-11-06  2 2,fix_it_zones_as_of_2017_11_06_2_2,Area Name,area_name
+sf,la,Fix It Zones as of 2017-11-06  2 2,fix_it_zones_as_of_2017_11_06_2_2,Reporting District,reporting_district
+sf,la,Fix It Zones as of 2017-11-06  2 2,fix_it_zones_as_of_2017_11_06_2_2,Crime Code,crime_code
+sf,la,Fix It Zones as of 2017-11-06  2 2,fix_it_zones_as_of_2017_11_06_2_2,Crime Code Description,crime_code_description
+sf,la,Fix It Zones as of 2017-11-06  2 2,fix_it_zones_as_of_2017_11_06_2_2,MO Codes,mo_codes
+sf,la,Fix It Zones as of 2017-11-06  2 2,fix_it_zones_as_of_2017_11_06_2_2,Victim Age,victim_age
+sf,la,Fix It Zones as of 2017-11-06  2 2,fix_it_zones_as_of_2017_11_06_2_2,Victim Sex,victim_sex
+sf,la,Fix It Zones as of 2017-11-06  2 2,fix_it_zones_as_of_2017_11_06_2_2,Victim Descent,victim_descent
+sf,la,Fix It Zones as of 2017-11-06  2 2,fix_it_zones_as_of_2017_11_06_2_2,Premise Code,premise_code
+sf,la,Fix It Zones as of 2017-11-06  2 2,fix_it_zones_as_of_2017_11_06_2_2,Premise Description,premise_description
+sf,la,Fix It Zones as of 2017-11-06  2 2,fix_it_zones_as_of_2017_11_06_2_2,Weapon Used Code,weapon_used_code
+sf,la,Fix It Zones as of 2017-11-06  2 2,fix_it_zones_as_of_2017_11_06_2_2,Weapon Description,weapon_description
+sf,la,Fix It Zones as of 2017-11-06  2 2,fix_it_zones_as_of_2017_11_06_2_2,Status Code,status_code
+sf,la,Fix It Zones as of 2017-11-06  2 2,fix_it_zones_as_of_2017_11_06_2_2,Status Description,status_description
+sf,la,Fix It Zones as of 2017-11-06  2 2,fix_it_zones_as_of_2017_11_06_2_2,Crime Code 1,crime_code_1
+sf,la,Fix It Zones as of 2017-11-06  2 2,fix_it_zones_as_of_2017_11_06_2_2,Crime Code 2,crime_code_2
+sf,la,Fix It Zones as of 2017-11-06  2 2,fix_it_zones_as_of_2017_11_06_2_2,Crime Code 3,crime_code_3
+sf,la,Fix It Zones as of 2017-11-06  2 2,fix_it_zones_as_of_2017_11_06_2_2,Crime Code 4,crime_code_4
+sf,la,Fix It Zones as of 2017-11-06  2 2,fix_it_zones_as_of_2017_11_06_2_2,Address,address
+sf,la,Fix It Zones as of 2017-11-06  2 2,fix_it_zones_as_of_2017_11_06_2_2,Cross Street,cross_street
+sf,la,Fix It Zones as of 2017-11-06  2 2,fix_it_zones_as_of_2017_11_06_2_2,Location ,location
+sf,la,DELETE - HSOC Zones 2 2,delete_hsoc_zones_2_2,DR Number,dr_number
+sf,la,DELETE - HSOC Zones 2 2,delete_hsoc_zones_2_2,Date Reported,date_reported
+sf,la,DELETE - HSOC Zones 2 2,delete_hsoc_zones_2_2,Date Occurred,date_occurred
+sf,la,DELETE - HSOC Zones 2 2,delete_hsoc_zones_2_2,Time Occurred,time_occurred
+sf,la,DELETE - HSOC Zones 2 2,delete_hsoc_zones_2_2,Area ID,area_id
+sf,la,DELETE - HSOC Zones 2 2,delete_hsoc_zones_2_2,Area Name,area_name
+sf,la,DELETE - HSOC Zones 2 2,delete_hsoc_zones_2_2,Reporting District,reporting_district
+sf,la,DELETE - HSOC Zones 2 2,delete_hsoc_zones_2_2,Crime Code,crime_code
+sf,la,DELETE - HSOC Zones 2 2,delete_hsoc_zones_2_2,Crime Code Description,crime_code_description
+sf,la,DELETE - HSOC Zones 2 2,delete_hsoc_zones_2_2,MO Codes,mo_codes
+sf,la,DELETE - HSOC Zones 2 2,delete_hsoc_zones_2_2,Victim Age,victim_age
+sf,la,DELETE - HSOC Zones 2 2,delete_hsoc_zones_2_2,Victim Sex,victim_sex
+sf,la,DELETE - HSOC Zones 2 2,delete_hsoc_zones_2_2,Victim Descent,victim_descent
+sf,la,DELETE - HSOC Zones 2 2,delete_hsoc_zones_2_2,Premise Code,premise_code
+sf,la,DELETE - HSOC Zones 2 2,delete_hsoc_zones_2_2,Premise Description,premise_description
+sf,la,DELETE - HSOC Zones 2 2,delete_hsoc_zones_2_2,Weapon Used Code,weapon_used_code
+sf,la,DELETE - HSOC Zones 2 2,delete_hsoc_zones_2_2,Weapon Description,weapon_description
+sf,la,DELETE - HSOC Zones 2 2,delete_hsoc_zones_2_2,Status Code,status_code
+sf,la,DELETE - HSOC Zones 2 2,delete_hsoc_zones_2_2,Status Description,status_description
+sf,la,DELETE - HSOC Zones 2 2,delete_hsoc_zones_2_2,Crime Code 1,crime_code_1
+sf,la,DELETE - HSOC Zones 2 2,delete_hsoc_zones_2_2,Crime Code 2,crime_code_2
+sf,la,DELETE - HSOC Zones 2 2,delete_hsoc_zones_2_2,Crime Code 3,crime_code_3
+sf,la,DELETE - HSOC Zones 2 2,delete_hsoc_zones_2_2,Crime Code 4,crime_code_4
+sf,la,DELETE - HSOC Zones 2 2,delete_hsoc_zones_2_2,Address,address
+sf,la,DELETE - HSOC Zones 2 2,delete_hsoc_zones_2_2,Cross Street,cross_street
+sf,la,DELETE - HSOC Zones 2 2,delete_hsoc_zones_2_2,Location ,location
+sf,la,Fix It Zones as of 2018-02-07 2 2,fix_it_zones_as_of_2018_02_07_2_2,DR Number,dr_number
+sf,la,Fix It Zones as of 2018-02-07 2 2,fix_it_zones_as_of_2018_02_07_2_2,Date Reported,date_reported
+sf,la,Fix It Zones as of 2018-02-07 2 2,fix_it_zones_as_of_2018_02_07_2_2,Date Occurred,date_occurred
+sf,la,Fix It Zones as of 2018-02-07 2 2,fix_it_zones_as_of_2018_02_07_2_2,Time Occurred,time_occurred
+sf,la,Fix It Zones as of 2018-02-07 2 2,fix_it_zones_as_of_2018_02_07_2_2,Area ID,area_id
+sf,la,Fix It Zones as of 2018-02-07 2 2,fix_it_zones_as_of_2018_02_07_2_2,Area Name,area_name
+sf,la,Fix It Zones as of 2018-02-07 2 2,fix_it_zones_as_of_2018_02_07_2_2,Reporting District,reporting_district
+sf,la,Fix It Zones as of 2018-02-07 2 2,fix_it_zones_as_of_2018_02_07_2_2,Crime Code,crime_code
+sf,la,Fix It Zones as of 2018-02-07 2 2,fix_it_zones_as_of_2018_02_07_2_2,Crime Code Description,crime_code_description
+sf,la,Fix It Zones as of 2018-02-07 2 2,fix_it_zones_as_of_2018_02_07_2_2,MO Codes,mo_codes
+sf,la,Fix It Zones as of 2018-02-07 2 2,fix_it_zones_as_of_2018_02_07_2_2,Victim Age,victim_age
+sf,la,Fix It Zones as of 2018-02-07 2 2,fix_it_zones_as_of_2018_02_07_2_2,Victim Sex,victim_sex
+sf,la,Fix It Zones as of 2018-02-07 2 2,fix_it_zones_as_of_2018_02_07_2_2,Victim Descent,victim_descent
+sf,la,Fix It Zones as of 2018-02-07 2 2,fix_it_zones_as_of_2018_02_07_2_2,Premise Code,premise_code
+sf,la,Fix It Zones as of 2018-02-07 2 2,fix_it_zones_as_of_2018_02_07_2_2,Premise Description,premise_description
+sf,la,Fix It Zones as of 2018-02-07 2 2,fix_it_zones_as_of_2018_02_07_2_2,Weapon Used Code,weapon_used_code
+sf,la,Fix It Zones as of 2018-02-07 2 2,fix_it_zones_as_of_2018_02_07_2_2,Weapon Description,weapon_description
+sf,la,Fix It Zones as of 2018-02-07 2 2,fix_it_zones_as_of_2018_02_07_2_2,Status Code,status_code
+sf,la,Fix It Zones as of 2018-02-07 2 2,fix_it_zones_as_of_2018_02_07_2_2,Status Description,status_description
+sf,la,Fix It Zones as of 2018-02-07 2 2,fix_it_zones_as_of_2018_02_07_2_2,Crime Code 1,crime_code_1
+sf,la,Fix It Zones as of 2018-02-07 2 2,fix_it_zones_as_of_2018_02_07_2_2,Crime Code 2,crime_code_2
+sf,la,Fix It Zones as of 2018-02-07 2 2,fix_it_zones_as_of_2018_02_07_2_2,Crime Code 3,crime_code_3
+sf,la,Fix It Zones as of 2018-02-07 2 2,fix_it_zones_as_of_2018_02_07_2_2,Crime Code 4,crime_code_4
+sf,la,Fix It Zones as of 2018-02-07 2 2,fix_it_zones_as_of_2018_02_07_2_2,Address,address
+sf,la,Fix It Zones as of 2018-02-07 2 2,fix_it_zones_as_of_2018_02_07_2_2,Cross Street,cross_street
+sf,la,Fix It Zones as of 2018-02-07 2 2,fix_it_zones_as_of_2018_02_07_2_2,Location ,location
+sf,la,"CBD, BID and GBD Boundaries as of 2017 2 2",cbd_bid_and_gbd_boundaries_as_of_2017_2_2,DR Number,dr_number
+sf,la,"CBD, BID and GBD Boundaries as of 2017 2 2",cbd_bid_and_gbd_boundaries_as_of_2017_2_2,Date Reported,date_reported
+sf,la,"CBD, BID and GBD Boundaries as of 2017 2 2",cbd_bid_and_gbd_boundaries_as_of_2017_2_2,Date Occurred,date_occurred
+sf,la,"CBD, BID and GBD Boundaries as of 2017 2 2",cbd_bid_and_gbd_boundaries_as_of_2017_2_2,Time Occurred,time_occurred
+sf,la,"CBD, BID and GBD Boundaries as of 2017 2 2",cbd_bid_and_gbd_boundaries_as_of_2017_2_2,Area ID,area_id
+sf,la,"CBD, BID and GBD Boundaries as of 2017 2 2",cbd_bid_and_gbd_boundaries_as_of_2017_2_2,Area Name,area_name
+sf,la,"CBD, BID and GBD Boundaries as of 2017 2 2",cbd_bid_and_gbd_boundaries_as_of_2017_2_2,Reporting District,reporting_district
+sf,la,"CBD, BID and GBD Boundaries as of 2017 2 2",cbd_bid_and_gbd_boundaries_as_of_2017_2_2,Crime Code,crime_code
+sf,la,"CBD, BID and GBD Boundaries as of 2017 2 2",cbd_bid_and_gbd_boundaries_as_of_2017_2_2,Crime Code Description,crime_code_description
+sf,la,"CBD, BID and GBD Boundaries as of 2017 2 2",cbd_bid_and_gbd_boundaries_as_of_2017_2_2,MO Codes,mo_codes
+sf,la,"CBD, BID and GBD Boundaries as of 2017 2 2",cbd_bid_and_gbd_boundaries_as_of_2017_2_2,Victim Age,victim_age
+sf,la,"CBD, BID and GBD Boundaries as of 2017 2 2",cbd_bid_and_gbd_boundaries_as_of_2017_2_2,Victim Sex,victim_sex
+sf,la,"CBD, BID and GBD Boundaries as of 2017 2 2",cbd_bid_and_gbd_boundaries_as_of_2017_2_2,Victim Descent,victim_descent
+sf,la,"CBD, BID and GBD Boundaries as of 2017 2 2",cbd_bid_and_gbd_boundaries_as_of_2017_2_2,Premise Code,premise_code
+sf,la,"CBD, BID and GBD Boundaries as of 2017 2 2",cbd_bid_and_gbd_boundaries_as_of_2017_2_2,Premise Description,premise_description
+sf,la,"CBD, BID and GBD Boundaries as of 2017 2 2",cbd_bid_and_gbd_boundaries_as_of_2017_2_2,Weapon Used Code,weapon_used_code
+sf,la,"CBD, BID and GBD Boundaries as of 2017 2 2",cbd_bid_and_gbd_boundaries_as_of_2017_2_2,Weapon Description,weapon_description
+sf,la,"CBD, BID and GBD Boundaries as of 2017 2 2",cbd_bid_and_gbd_boundaries_as_of_2017_2_2,Status Code,status_code
+sf,la,"CBD, BID and GBD Boundaries as of 2017 2 2",cbd_bid_and_gbd_boundaries_as_of_2017_2_2,Status Description,status_description
+sf,la,"CBD, BID and GBD Boundaries as of 2017 2 2",cbd_bid_and_gbd_boundaries_as_of_2017_2_2,Crime Code 1,crime_code_1
+sf,la,"CBD, BID and GBD Boundaries as of 2017 2 2",cbd_bid_and_gbd_boundaries_as_of_2017_2_2,Crime Code 2,crime_code_2
+sf,la,"CBD, BID and GBD Boundaries as of 2017 2 2",cbd_bid_and_gbd_boundaries_as_of_2017_2_2,Crime Code 3,crime_code_3
+sf,la,"CBD, BID and GBD Boundaries as of 2017 2 2",cbd_bid_and_gbd_boundaries_as_of_2017_2_2,Crime Code 4,crime_code_4
+sf,la,"CBD, BID and GBD Boundaries as of 2017 2 2",cbd_bid_and_gbd_boundaries_as_of_2017_2_2,Address,address
+sf,la,"CBD, BID and GBD Boundaries as of 2017 2 2",cbd_bid_and_gbd_boundaries_as_of_2017_2_2,Cross Street,cross_street
+sf,la,"CBD, BID and GBD Boundaries as of 2017 2 2",cbd_bid_and_gbd_boundaries_as_of_2017_2_2,Location ,location
+sf,la,"Areas of Vulnerability, 2016 2 2",areas_of_vulnerability_2016_2_2,DR Number,dr_number
+sf,la,"Areas of Vulnerability, 2016 2 2",areas_of_vulnerability_2016_2_2,Date Reported,date_reported
+sf,la,"Areas of Vulnerability, 2016 2 2",areas_of_vulnerability_2016_2_2,Date Occurred,date_occurred
+sf,la,"Areas of Vulnerability, 2016 2 2",areas_of_vulnerability_2016_2_2,Time Occurred,time_occurred
+sf,la,"Areas of Vulnerability, 2016 2 2",areas_of_vulnerability_2016_2_2,Area ID,area_id
+sf,la,"Areas of Vulnerability, 2016 2 2",areas_of_vulnerability_2016_2_2,Area Name,area_name
+sf,la,"Areas of Vulnerability, 2016 2 2",areas_of_vulnerability_2016_2_2,Reporting District,reporting_district
+sf,la,"Areas of Vulnerability, 2016 2 2",areas_of_vulnerability_2016_2_2,Crime Code,crime_code
+sf,la,"Areas of Vulnerability, 2016 2 2",areas_of_vulnerability_2016_2_2,Crime Code Description,crime_code_description
+sf,la,"Areas of Vulnerability, 2016 2 2",areas_of_vulnerability_2016_2_2,MO Codes,mo_codes
+sf,la,"Areas of Vulnerability, 2016 2 2",areas_of_vulnerability_2016_2_2,Victim Age,victim_age
+sf,la,"Areas of Vulnerability, 2016 2 2",areas_of_vulnerability_2016_2_2,Victim Sex,victim_sex
+sf,la,"Areas of Vulnerability, 2016 2 2",areas_of_vulnerability_2016_2_2,Victim Descent,victim_descent
+sf,la,"Areas of Vulnerability, 2016 2 2",areas_of_vulnerability_2016_2_2,Premise Code,premise_code
+sf,la,"Areas of Vulnerability, 2016 2 2",areas_of_vulnerability_2016_2_2,Premise Description,premise_description
+sf,la,"Areas of Vulnerability, 2016 2 2",areas_of_vulnerability_2016_2_2,Weapon Used Code,weapon_used_code
+sf,la,"Areas of Vulnerability, 2016 2 2",areas_of_vulnerability_2016_2_2,Weapon Description,weapon_description
+sf,la,"Areas of Vulnerability, 2016 2 2",areas_of_vulnerability_2016_2_2,Status Code,status_code
+sf,la,"Areas of Vulnerability, 2016 2 2",areas_of_vulnerability_2016_2_2,Status Description,status_description
+sf,la,"Areas of Vulnerability, 2016 2 2",areas_of_vulnerability_2016_2_2,Crime Code 1,crime_code_1
+sf,la,"Areas of Vulnerability, 2016 2 2",areas_of_vulnerability_2016_2_2,Crime Code 2,crime_code_2
+sf,la,"Areas of Vulnerability, 2016 2 2",areas_of_vulnerability_2016_2_2,Crime Code 3,crime_code_3
+sf,la,"Areas of Vulnerability, 2016 2 2",areas_of_vulnerability_2016_2_2,Crime Code 4,crime_code_4
+sf,la,"Areas of Vulnerability, 2016 2 2",areas_of_vulnerability_2016_2_2,Address,address
+sf,la,"Areas of Vulnerability, 2016 2 2",areas_of_vulnerability_2016_2_2,Cross Street,cross_street
+sf,la,"Areas of Vulnerability, 2016 2 2",areas_of_vulnerability_2016_2_2,Location ,location
+sf,la,Central Market/Tenderloin Boundary 2 2,central_market_tenderloin_boundary_2_2,DR Number,dr_number
+sf,la,Central Market/Tenderloin Boundary 2 2,central_market_tenderloin_boundary_2_2,Date Reported,date_reported
+sf,la,Central Market/Tenderloin Boundary 2 2,central_market_tenderloin_boundary_2_2,Date Occurred,date_occurred
+sf,la,Central Market/Tenderloin Boundary 2 2,central_market_tenderloin_boundary_2_2,Time Occurred,time_occurred
+sf,la,Central Market/Tenderloin Boundary 2 2,central_market_tenderloin_boundary_2_2,Area ID,area_id
+sf,la,Central Market/Tenderloin Boundary 2 2,central_market_tenderloin_boundary_2_2,Area Name,area_name
+sf,la,Central Market/Tenderloin Boundary 2 2,central_market_tenderloin_boundary_2_2,Reporting District,reporting_district
+sf,la,Central Market/Tenderloin Boundary 2 2,central_market_tenderloin_boundary_2_2,Crime Code,crime_code
+sf,la,Central Market/Tenderloin Boundary 2 2,central_market_tenderloin_boundary_2_2,Crime Code Description,crime_code_description
+sf,la,Central Market/Tenderloin Boundary 2 2,central_market_tenderloin_boundary_2_2,MO Codes,mo_codes
+sf,la,Central Market/Tenderloin Boundary 2 2,central_market_tenderloin_boundary_2_2,Victim Age,victim_age
+sf,la,Central Market/Tenderloin Boundary 2 2,central_market_tenderloin_boundary_2_2,Victim Sex,victim_sex
+sf,la,Central Market/Tenderloin Boundary 2 2,central_market_tenderloin_boundary_2_2,Victim Descent,victim_descent
+sf,la,Central Market/Tenderloin Boundary 2 2,central_market_tenderloin_boundary_2_2,Premise Code,premise_code
+sf,la,Central Market/Tenderloin Boundary 2 2,central_market_tenderloin_boundary_2_2,Premise Description,premise_description
+sf,la,Central Market/Tenderloin Boundary 2 2,central_market_tenderloin_boundary_2_2,Weapon Used Code,weapon_used_code
+sf,la,Central Market/Tenderloin Boundary 2 2,central_market_tenderloin_boundary_2_2,Weapon Description,weapon_description
+sf,la,Central Market/Tenderloin Boundary 2 2,central_market_tenderloin_boundary_2_2,Status Code,status_code
+sf,la,Central Market/Tenderloin Boundary 2 2,central_market_tenderloin_boundary_2_2,Status Description,status_description
+sf,la,Central Market/Tenderloin Boundary 2 2,central_market_tenderloin_boundary_2_2,Crime Code 1,crime_code_1
+sf,la,Central Market/Tenderloin Boundary 2 2,central_market_tenderloin_boundary_2_2,Crime Code 2,crime_code_2
+sf,la,Central Market/Tenderloin Boundary 2 2,central_market_tenderloin_boundary_2_2,Crime Code 3,crime_code_3
+sf,la,Central Market/Tenderloin Boundary 2 2,central_market_tenderloin_boundary_2_2,Crime Code 4,crime_code_4
+sf,la,Central Market/Tenderloin Boundary 2 2,central_market_tenderloin_boundary_2_2,Address,address
+sf,la,Central Market/Tenderloin Boundary 2 2,central_market_tenderloin_boundary_2_2,Cross Street,cross_street
+sf,la,Central Market/Tenderloin Boundary 2 2,central_market_tenderloin_boundary_2_2,Location ,location
+sf,la,Central Market/Tenderloin Boundary Polygon - Updated 2 2,central_market_tenderloin_boundary_polygon_updated_2_2,DR Number,dr_number
+sf,la,Central Market/Tenderloin Boundary Polygon - Updated 2 2,central_market_tenderloin_boundary_polygon_updated_2_2,Date Reported,date_reported
+sf,la,Central Market/Tenderloin Boundary Polygon - Updated 2 2,central_market_tenderloin_boundary_polygon_updated_2_2,Date Occurred,date_occurred
+sf,la,Central Market/Tenderloin Boundary Polygon - Updated 2 2,central_market_tenderloin_boundary_polygon_updated_2_2,Time Occurred,time_occurred
+sf,la,Central Market/Tenderloin Boundary Polygon - Updated 2 2,central_market_tenderloin_boundary_polygon_updated_2_2,Area ID,area_id
+sf,la,Central Market/Tenderloin Boundary Polygon - Updated 2 2,central_market_tenderloin_boundary_polygon_updated_2_2,Area Name,area_name
+sf,la,Central Market/Tenderloin Boundary Polygon - Updated 2 2,central_market_tenderloin_boundary_polygon_updated_2_2,Reporting District,reporting_district
+sf,la,Central Market/Tenderloin Boundary Polygon - Updated 2 2,central_market_tenderloin_boundary_polygon_updated_2_2,Crime Code,crime_code
+sf,la,Central Market/Tenderloin Boundary Polygon - Updated 2 2,central_market_tenderloin_boundary_polygon_updated_2_2,Crime Code Description,crime_code_description
+sf,la,Central Market/Tenderloin Boundary Polygon - Updated 2 2,central_market_tenderloin_boundary_polygon_updated_2_2,MO Codes,mo_codes
+sf,la,Central Market/Tenderloin Boundary Polygon - Updated 2 2,central_market_tenderloin_boundary_polygon_updated_2_2,Victim Age,victim_age
+sf,la,Central Market/Tenderloin Boundary Polygon - Updated 2 2,central_market_tenderloin_boundary_polygon_updated_2_2,Victim Sex,victim_sex
+sf,la,Central Market/Tenderloin Boundary Polygon - Updated 2 2,central_market_tenderloin_boundary_polygon_updated_2_2,Victim Descent,victim_descent
+sf,la,Central Market/Tenderloin Boundary Polygon - Updated 2 2,central_market_tenderloin_boundary_polygon_updated_2_2,Premise Code,premise_code
+sf,la,Central Market/Tenderloin Boundary Polygon - Updated 2 2,central_market_tenderloin_boundary_polygon_updated_2_2,Premise Description,premise_description
+sf,la,Central Market/Tenderloin Boundary Polygon - Updated 2 2,central_market_tenderloin_boundary_polygon_updated_2_2,Weapon Used Code,weapon_used_code
+sf,la,Central Market/Tenderloin Boundary Polygon - Updated 2 2,central_market_tenderloin_boundary_polygon_updated_2_2,Weapon Description,weapon_description
+sf,la,Central Market/Tenderloin Boundary Polygon - Updated 2 2,central_market_tenderloin_boundary_polygon_updated_2_2,Status Code,status_code
+sf,la,Central Market/Tenderloin Boundary Polygon - Updated 2 2,central_market_tenderloin_boundary_polygon_updated_2_2,Status Description,status_description
+sf,la,Central Market/Tenderloin Boundary Polygon - Updated 2 2,central_market_tenderloin_boundary_polygon_updated_2_2,Crime Code 1,crime_code_1
+sf,la,Central Market/Tenderloin Boundary Polygon - Updated 2 2,central_market_tenderloin_boundary_polygon_updated_2_2,Crime Code 2,crime_code_2
+sf,la,Central Market/Tenderloin Boundary Polygon - Updated 2 2,central_market_tenderloin_boundary_polygon_updated_2_2,Crime Code 3,crime_code_3
+sf,la,Central Market/Tenderloin Boundary Polygon - Updated 2 2,central_market_tenderloin_boundary_polygon_updated_2_2,Crime Code 4,crime_code_4
+sf,la,Central Market/Tenderloin Boundary Polygon - Updated 2 2,central_market_tenderloin_boundary_polygon_updated_2_2,Address,address
+sf,la,Central Market/Tenderloin Boundary Polygon - Updated 2 2,central_market_tenderloin_boundary_polygon_updated_2_2,Cross Street,cross_street
+sf,la,Central Market/Tenderloin Boundary Polygon - Updated 2 2,central_market_tenderloin_boundary_polygon_updated_2_2,Location ,location
+sf,la,HSOC Zones as of 2018-06-05 2 2,hsoc_zones_as_of_2018_06_05_2_2,DR Number,dr_number
+sf,la,HSOC Zones as of 2018-06-05 2 2,hsoc_zones_as_of_2018_06_05_2_2,Date Reported,date_reported
+sf,la,HSOC Zones as of 2018-06-05 2 2,hsoc_zones_as_of_2018_06_05_2_2,Date Occurred,date_occurred
+sf,la,HSOC Zones as of 2018-06-05 2 2,hsoc_zones_as_of_2018_06_05_2_2,Time Occurred,time_occurred
+sf,la,HSOC Zones as of 2018-06-05 2 2,hsoc_zones_as_of_2018_06_05_2_2,Area ID,area_id
+sf,la,HSOC Zones as of 2018-06-05 2 2,hsoc_zones_as_of_2018_06_05_2_2,Area Name,area_name
+sf,la,HSOC Zones as of 2018-06-05 2 2,hsoc_zones_as_of_2018_06_05_2_2,Reporting District,reporting_district
+sf,la,HSOC Zones as of 2018-06-05 2 2,hsoc_zones_as_of_2018_06_05_2_2,Crime Code,crime_code
+sf,la,HSOC Zones as of 2018-06-05 2 2,hsoc_zones_as_of_2018_06_05_2_2,Crime Code Description,crime_code_description
+sf,la,HSOC Zones as of 2018-06-05 2 2,hsoc_zones_as_of_2018_06_05_2_2,MO Codes,mo_codes
+sf,la,HSOC Zones as of 2018-06-05 2 2,hsoc_zones_as_of_2018_06_05_2_2,Victim Age,victim_age
+sf,la,HSOC Zones as of 2018-06-05 2 2,hsoc_zones_as_of_2018_06_05_2_2,Victim Sex,victim_sex
+sf,la,HSOC Zones as of 2018-06-05 2 2,hsoc_zones_as_of_2018_06_05_2_2,Victim Descent,victim_descent
+sf,la,HSOC Zones as of 2018-06-05 2 2,hsoc_zones_as_of_2018_06_05_2_2,Premise Code,premise_code
+sf,la,HSOC Zones as of 2018-06-05 2 2,hsoc_zones_as_of_2018_06_05_2_2,Premise Description,premise_description
+sf,la,HSOC Zones as of 2018-06-05 2 2,hsoc_zones_as_of_2018_06_05_2_2,Weapon Used Code,weapon_used_code
+sf,la,HSOC Zones as of 2018-06-05 2 2,hsoc_zones_as_of_2018_06_05_2_2,Weapon Description,weapon_description
+sf,la,HSOC Zones as of 2018-06-05 2 2,hsoc_zones_as_of_2018_06_05_2_2,Status Code,status_code
+sf,la,HSOC Zones as of 2018-06-05 2 2,hsoc_zones_as_of_2018_06_05_2_2,Status Description,status_description
+sf,la,HSOC Zones as of 2018-06-05 2 2,hsoc_zones_as_of_2018_06_05_2_2,Crime Code 1,crime_code_1
+sf,la,HSOC Zones as of 2018-06-05 2 2,hsoc_zones_as_of_2018_06_05_2_2,Crime Code 2,crime_code_2
+sf,la,HSOC Zones as of 2018-06-05 2 2,hsoc_zones_as_of_2018_06_05_2_2,Crime Code 3,crime_code_3
+sf,la,HSOC Zones as of 2018-06-05 2 2,hsoc_zones_as_of_2018_06_05_2_2,Crime Code 4,crime_code_4
+sf,la,HSOC Zones as of 2018-06-05 2 2,hsoc_zones_as_of_2018_06_05_2_2,Address,address
+sf,la,HSOC Zones as of 2018-06-05 2 2,hsoc_zones_as_of_2018_06_05_2_2,Cross Street,cross_street
+sf,la,HSOC Zones as of 2018-06-05 2 2,hsoc_zones_as_of_2018_06_05_2_2,Location ,location
+sf,la,OWED Public Spaces 2 2,owed_public_spaces_2_2,DR Number,dr_number
+sf,la,OWED Public Spaces 2 2,owed_public_spaces_2_2,Date Reported,date_reported
+sf,la,OWED Public Spaces 2 2,owed_public_spaces_2_2,Date Occurred,date_occurred
+sf,la,OWED Public Spaces 2 2,owed_public_spaces_2_2,Time Occurred,time_occurred
+sf,la,OWED Public Spaces 2 2,owed_public_spaces_2_2,Area ID,area_id
+sf,la,OWED Public Spaces 2 2,owed_public_spaces_2_2,Area Name,area_name
+sf,la,OWED Public Spaces 2 2,owed_public_spaces_2_2,Reporting District,reporting_district
+sf,la,OWED Public Spaces 2 2,owed_public_spaces_2_2,Crime Code,crime_code
+sf,la,OWED Public Spaces 2 2,owed_public_spaces_2_2,Crime Code Description,crime_code_description
+sf,la,OWED Public Spaces 2 2,owed_public_spaces_2_2,MO Codes,mo_codes
+sf,la,OWED Public Spaces 2 2,owed_public_spaces_2_2,Victim Age,victim_age
+sf,la,OWED Public Spaces 2 2,owed_public_spaces_2_2,Victim Sex,victim_sex
+sf,la,OWED Public Spaces 2 2,owed_public_spaces_2_2,Victim Descent,victim_descent
+sf,la,OWED Public Spaces 2 2,owed_public_spaces_2_2,Premise Code,premise_code
+sf,la,OWED Public Spaces 2 2,owed_public_spaces_2_2,Premise Description,premise_description
+sf,la,OWED Public Spaces 2 2,owed_public_spaces_2_2,Weapon Used Code,weapon_used_code
+sf,la,OWED Public Spaces 2 2,owed_public_spaces_2_2,Weapon Description,weapon_description
+sf,la,OWED Public Spaces 2 2,owed_public_spaces_2_2,Status Code,status_code
+sf,la,OWED Public Spaces 2 2,owed_public_spaces_2_2,Status Description,status_description
+sf,la,OWED Public Spaces 2 2,owed_public_spaces_2_2,Crime Code 1,crime_code_1
+sf,la,OWED Public Spaces 2 2,owed_public_spaces_2_2,Crime Code 2,crime_code_2
+sf,la,OWED Public Spaces 2 2,owed_public_spaces_2_2,Crime Code 3,crime_code_3
+sf,la,OWED Public Spaces 2 2,owed_public_spaces_2_2,Crime Code 4,crime_code_4
+sf,la,OWED Public Spaces 2 2,owed_public_spaces_2_2,Address,address
+sf,la,OWED Public Spaces 2 2,owed_public_spaces_2_2,Cross Street,cross_street
+sf,la,OWED Public Spaces 2 2,owed_public_spaces_2_2,Location ,location
+sf,la,Neighborhoods 2,neighborhoods_2,DR Number,dr_number
+sf,la,Neighborhoods 2,neighborhoods_2,Date Reported,date_reported
+sf,la,Neighborhoods 2,neighborhoods_2,Date Occurred,date_occurred
+sf,la,Neighborhoods 2,neighborhoods_2,Time Occurred,time_occurred
+sf,la,Neighborhoods 2,neighborhoods_2,Area ID,area_id
+sf,la,Neighborhoods 2,neighborhoods_2,Area Name,area_name
+sf,la,Neighborhoods 2,neighborhoods_2,Reporting District,reporting_district
+sf,la,Neighborhoods 2,neighborhoods_2,Crime Code,crime_code
+sf,la,Neighborhoods 2,neighborhoods_2,Crime Code Description,crime_code_description
+sf,la,Neighborhoods 2,neighborhoods_2,MO Codes,mo_codes
+sf,la,Neighborhoods 2,neighborhoods_2,Victim Age,victim_age
+sf,la,Neighborhoods 2,neighborhoods_2,Victim Sex,victim_sex
+sf,la,Neighborhoods 2,neighborhoods_2,Victim Descent,victim_descent
+sf,la,Neighborhoods 2,neighborhoods_2,Premise Code,premise_code
+sf,la,Neighborhoods 2,neighborhoods_2,Premise Description,premise_description
+sf,la,Neighborhoods 2,neighborhoods_2,Weapon Used Code,weapon_used_code
+sf,la,Neighborhoods 2,neighborhoods_2,Weapon Description,weapon_description
+sf,la,Neighborhoods 2,neighborhoods_2,Status Code,status_code
+sf,la,Neighborhoods 2,neighborhoods_2,Status Description,status_description
+sf,la,Neighborhoods 2,neighborhoods_2,Crime Code 1,crime_code_1
+sf,la,Neighborhoods 2,neighborhoods_2,Crime Code 2,crime_code_2
+sf,la,Neighborhoods 2,neighborhoods_2,Crime Code 3,crime_code_3
+sf,la,Neighborhoods 2,neighborhoods_2,Crime Code 4,crime_code_4
+sf,la,Neighborhoods 2,neighborhoods_2,Address,address
+sf,la,Neighborhoods 2,neighborhoods_2,Cross Street,cross_street
+sf,la,Neighborhoods 2,neighborhoods_2,Location ,location

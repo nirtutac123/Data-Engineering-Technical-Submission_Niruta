@@ -1,0 +1,24 @@
+dataset_key,city,original_column_name,normalized_column_name,expanded_column_name,inferred_dtype,has_metadata_description,metadata_description,flag_ambiguous_or_abbrev,abbreviation_rules_applied
+chicago,Chicago,Unnamed: 0,unnamed_0,unnamed_0,int64,False,,True,no_change
+chicago,Chicago,ID,id,id,int64,False,,True,no_change
+chicago,Chicago,Case Number,case_number,case_number,object,False,,False,no_change
+chicago,Chicago,Date,date,date,object,False,,False,no_change
+chicago,Chicago,Block,block,block,object,False,,False,no_change
+chicago,Chicago,IUCR,iucr,illinois_uniform_crime_reporting_code,object,False,,True,iucr
+chicago,Chicago,Primary Type,primary_type,primary_type,object,False,,False,no_change
+chicago,Chicago,Description,description,description,object,False,,False,no_change
+chicago,Chicago,Location Description,location_description,location_description,object,False,,False,no_change
+chicago,Chicago,Arrest,arrest,arrest,bool,False,,False,no_change
+chicago,Chicago,Domestic,domestic,domestic,bool,False,,False,no_change
+chicago,Chicago,Beat,beat,police_beat_area,int64,False,,False,beat
+chicago,Chicago,District,district,district,float64,False,,False,no_change
+chicago,Chicago,Ward,ward,ward,float64,False,,False,no_change
+chicago,Chicago,Community Area,community_area,community_area,float64,False,,False,no_change
+chicago,Chicago,FBI Code,fbi_code,federal_bureau_of_investigation_code_code,object,False,,False,fbi
+chicago,Chicago,X Coordinate,x_coordinate,x_coordinate,float64,False,,False,no_change
+chicago,Chicago,Y Coordinate,y_coordinate,y_coordinate,float64,False,,False,no_change
+chicago,Chicago,Year,year,year,int64,False,,False,no_change
+chicago,Chicago,Updated On,updated_on,updated_on,object,False,,False,no_change
+chicago,Chicago,Latitude,latitude,latitude,float64,False,,False,no_change
+chicago,Chicago,Longitude,longitude,longitude,float64,False,,False,no_change
+chicago,Chicago,Location,location,location,object,False,,False,no_change

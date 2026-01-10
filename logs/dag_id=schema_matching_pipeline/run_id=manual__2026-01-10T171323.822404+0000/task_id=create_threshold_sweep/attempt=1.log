@@ -1,0 +1,16 @@
+[2026-01-10T17:15:25.632+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: schema_matching_pipeline.create_threshold_sweep manual__2026-01-10T17:13:23.822404+00:00 [queued]>
+[2026-01-10T17:15:25.643+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: schema_matching_pipeline.create_threshold_sweep manual__2026-01-10T17:13:23.822404+00:00 [queued]>
+[2026-01-10T17:15:25.644+0000] {taskinstance.py:2171} INFO - Starting attempt 1 of 2
+[2026-01-10T17:15:25.670+0000] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): create_threshold_sweep> on 2026-01-10 17:13:23.822404+00:00
+[2026-01-10T17:15:25.678+0000] {standard_task_runner.py:60} INFO - Started process 472 to run task
+[2026-01-10T17:15:25.684+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'schema_matching_pipeline', 'create_threshold_sweep', 'manual__2026-01-10T17:13:23.822404+00:00', '--job-id', '140', '--raw', '--subdir', 'DAGS_FOLDER/schema_matching_dag.py', '--cfg-path', '/tmp/tmph8ng2ml5']
+[2026-01-10T17:15:25.689+0000] {standard_task_runner.py:88} INFO - Job 140: Subtask create_threshold_sweep
+[2026-01-10T17:15:25.785+0000] {task_command.py:423} INFO - Running <TaskInstance: schema_matching_pipeline.create_threshold_sweep manual__2026-01-10T17:13:23.822404+00:00 [running]> on host 3d5bf5b10dcc
+[2026-01-10T17:15:25.888+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-engineer' AIRFLOW_CTX_DAG_ID='schema_matching_pipeline' AIRFLOW_CTX_TASK_ID='create_threshold_sweep' AIRFLOW_CTX_EXECUTION_DATE='2026-01-10T17:13:23.822404+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-01-10T17:13:23.822404+00:00'
+[2026-01-10T17:15:26.948+0000] {logging_mixin.py:188} INFO - [OK] Saved: tables/threshold_sweep_metrics.csv
+[INFO] Rows: 27 (methods=3 x thresholds=9)
+[2026-01-10T17:15:26.949+0000] {logging_mixin.py:188} INFO - ✓ Threshold sweep analysis completed
+[2026-01-10T17:15:26.949+0000] {python.py:201} INFO - Done. Returned value was: None
+[2026-01-10T17:15:26.961+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=schema_matching_pipeline, task_id=create_threshold_sweep, execution_date=20260110T171323, start_date=20260110T171525, end_date=20260110T171526
+[2026-01-10T17:15:27.011+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-01-10T17:15:27.053+0000] {taskinstance.py:3281} INFO - 5 downstream tasks scheduled from follow-on schedule check

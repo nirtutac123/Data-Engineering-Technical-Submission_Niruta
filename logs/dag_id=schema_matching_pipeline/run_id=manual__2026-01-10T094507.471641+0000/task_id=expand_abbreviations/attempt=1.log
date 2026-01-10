@@ -1,0 +1,47 @@
+[2026-01-10T09:46:33.873+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: schema_matching_pipeline.expand_abbreviations manual__2026-01-10T09:45:07.471641+00:00 [queued]>
+[2026-01-10T09:46:33.889+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: schema_matching_pipeline.expand_abbreviations manual__2026-01-10T09:45:07.471641+00:00 [queued]>
+[2026-01-10T09:46:33.890+0000] {taskinstance.py:2171} INFO - Starting attempt 1 of 2
+[2026-01-10T09:46:33.916+0000] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): expand_abbreviations> on 2026-01-10 09:45:07.471641+00:00
+[2026-01-10T09:46:33.925+0000] {standard_task_runner.py:60} INFO - Started process 1879 to run task
+[2026-01-10T09:46:33.930+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'schema_matching_pipeline', 'expand_abbreviations', 'manual__2026-01-10T09:45:07.471641+00:00', '--job-id', '36', '--raw', '--subdir', 'DAGS_FOLDER/schema_matching_dag.py', '--cfg-path', '/tmp/tmpya8tqirs']
+[2026-01-10T09:46:33.936+0000] {standard_task_runner.py:88} INFO - Job 36: Subtask expand_abbreviations
+[2026-01-10T09:46:34.082+0000] {task_command.py:423} INFO - Running <TaskInstance: schema_matching_pipeline.expand_abbreviations manual__2026-01-10T09:45:07.471641+00:00 [running]> on host 205f0f24a8e9
+[2026-01-10T09:46:34.220+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-engineer' AIRFLOW_CTX_DAG_ID='schema_matching_pipeline' AIRFLOW_CTX_TASK_ID='expand_abbreviations' AIRFLOW_CTX_EXECUTION_DATE='2026-01-10T09:45:07.471641+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-01-10T09:45:07.471641+00:00'
+[2026-01-10T09:46:34.223+0000] {logging_mixin.py:188} INFO - Expanding abbreviations for chicago...
+[2026-01-10T09:46:35.628+0000] {logging_mixin.py:188} INFO - [OK] Abbreviation-expanded schema saved: data/sample/chicago_schema_expanded.csv
+[INFO] Columns expanded: 3
+[2026-01-10T09:46:35.628+0000] {logging_mixin.py:188} INFO - Expanding abbreviations for sf...
+[2026-01-10T09:46:35.951+0000] {local_task_job_runner.py:121} ERROR - Received SIGTERM. Terminating subprocesses
+[2026-01-10T09:46:36.067+0000] {process_utils.py:131} INFO - Sending 15 to group 1879. PIDs of all processes in the group: [1889, 1879]
+[2026-01-10T09:46:36.068+0000] {process_utils.py:86} INFO - Sending the signal 15 to group 1879
+[2026-01-10T09:46:36.077+0000] {taskinstance.py:2451} ERROR - Received SIGTERM. Terminating subprocesses.
+[2026-01-10T09:46:36.155+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=1889, status='terminated', started='09:46:34') (1889) terminated with exit code None
+[2026-01-10T09:46:36.302+0000] {taskinstance.py:2699} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/schema_matching_dag.py", line 127, in expand_abbreviations
+    result = subprocess.run(
+             ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/subprocess.py", line 1209, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/subprocess.py", line 2108, in _communicate
+    ready = selector.select(timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 2453, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
